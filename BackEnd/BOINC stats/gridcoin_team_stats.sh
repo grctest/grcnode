@@ -14,7 +14,6 @@ wget "http://csgrid.org/csg/team_email_list.php?teamid=154&xml=1" -O /json/Stats
 wget "http://burp.renderfarming.net/team_email_list.php?teamid=1285&xml=1" -O /json/Stats/TeamStats/BURP.xml
 wget "http://yafu.myfirewall.org/yafu/team_email_list.php?teamid=260&xml=1" -O /json/Stats/TeamStats/YAFU.xml
 wget "http://findah.ucd.ie/team_email_list.php?teamid=2198&xml=1" -O /json/Stats/TeamStats/FIND.xml
-wget "http://climateapps2.oerc.ox.ac.uk/cpdnboinc/team_email_list.php?teamid=10427&xml=1" -O /json/Stats/TeamStats/ClimatePrediction.xml
 wget "http://www.cosmologyathome.org/team_email_list.php?teamid=3637&xml=1" -O /json/Stats/TeamStats/Cosmology.xml
 wget "http://www.enigmaathome.net/team_email_list.php?teamid=2937&xml=1" -O /json/Stats/TeamStats/Enigma.xml
 wget "http://boinc.gorlaeus.net/team_email_list.php?teamid=1629&xml=1" -O /json/Stats/TeamStats/LeidenClassic.xml
