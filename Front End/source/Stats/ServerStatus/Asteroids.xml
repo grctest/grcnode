@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<server_status>
+<daemon_status>
+  <daemon>
+        <host>asteroidsathome.net</host>
+        <command>Download server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>asteroidsathome.net</host>
+        <command>Upload server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>project1</host>
+        <command>
+        feeder</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>project1</host>
+        <command>
+        transitioner</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>project1</host>
+        <command>
+        transitioner</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>project1</host>
+        <command>
+        file_deleter</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>project1</host>
+        <command>
+        period_search_validator (period_search)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>project1</host>
+        <command>
+        period_search_validator (period_search)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>project1</host>
+        <command>
+        period_search_validator (period_search)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>project1</host>
+        <command>
+        period_search_validator (period_search)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>project1</host>
+        <command>
+        period_search_assimilator (period_search)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>project1</host>
+        <command>
+        period_search_assimilator (period_search)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>project1</host>
+        <command>
+        db_purge</command>
+        <status>running</status>
+    </daemon>
+</daemon_status>
+<database_file_states>
+   <results_ready_to_send>902629</results_ready_to_send>
+   <results_in_progress>253989</results_in_progress>
+   <workunits_waiting_for_validation>2</workunits_waiting_for_validation>
+   <workunits_waiting_for_assimilation>3</workunits_waiting_for_assimilation>
+   <workunits_waiting_for_deletion>2</workunits_waiting_for_deletion>
+   <results_waiting_for_deletion>5</results_waiting_for_deletion>
+   <transitioner_backlog_hours>0.0011111111111111</transitioner_backlog_hours>
+   <users_with_recent_credit>16860</users_with_recent_credit>
+   <users_with_credit>68272</users_with_credit>
+   <users_registered_in_past_24_hours>370</users_registered_in_past_24_hours>
+   <hosts_with_recent_credit>24587</hosts_with_recent_credit>
+   <hosts_with_credit>115858</hosts_with_credit>
+   <hosts_registered_in_past_24_hours>445</hosts_registered_in_past_24_hours>
+   <current_floating_point_speed>230940.52340155</current_floating_point_speed>
+<tasks_by_app>
+<app>
+   <id>3</id>
+   <name>period_search</name>
+   <unsent>902629</unsent>
+   <in_progress>253989</in_progress>
+   <avg_runtime>3.0600</avg_runtime>
+   <min_runtime>0.0200</min_runtime>
+   <max_runtime>217.8900</max_runtime>
+   <users>5369</users>
+</app>
+</tasks_by_app>
+</database_file_states>
+</server_status>

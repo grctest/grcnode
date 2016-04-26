@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<server_status>
+<daemon_status>
+  <daemon>
+        <host>escatter11.fullerton.edu</host>
+        <command>Download server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11.fullerton.edu</host>
+        <command>Upload server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11</host>
+        <command>
+        feeder</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11</host>
+        <command>
+        transitioner</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11</host>
+        <command>
+        validator2_d (lasieved)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11</host>
+        <command>
+        validator2_e (lasievee)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11</host>
+        <command>
+        validator2_f (lasievef)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11</host>
+        <command>
+        validator2_5f (lasieve5f)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11</host>
+        <command>
+        assimilator_d (lasieved
+)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11</host>
+        <command>
+        assimilator_e (lasievee
+)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11</host>
+        <command>
+        assimilator_f (lasievef
+)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11</host>
+        <command>
+        assimilator_5f (lasieve5f
+)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11</host>
+        <command>
+        file_deleter</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>escatter11</host>
+        <command> db_purge</command>
+        <status>running</status>
+    </daemon>
+</daemon_status>
+<database_file_states>
+   <results_ready_to_send>134308</results_ready_to_send>
+   <results_in_progress>27477</results_in_progress>
+   <workunits_waiting_for_validation>5</workunits_waiting_for_validation>
+   <workunits_waiting_for_assimilation>2</workunits_waiting_for_assimilation>
+   <workunits_waiting_for_deletion>0</workunits_waiting_for_deletion>
+   <results_waiting_for_deletion>0</results_waiting_for_deletion>
+   <transitioner_backlog_hours>0.00055555555555556</transitioner_backlog_hours>
+   <users_with_recent_credit>1339</users_with_recent_credit>
+   <users_with_credit>10774</users_with_credit>
+   <users_registered_in_past_24_hours>205</users_registered_in_past_24_hours>
+   <hosts_with_recent_credit>66630</hosts_with_recent_credit>
+   <hosts_with_credit>2146560</hosts_with_credit>
+   <hosts_registered_in_past_24_hours>2742</hosts_registered_in_past_24_hours>
+   <current_floating_point_speed>14964.756592991</current_floating_point_speed>
+<tasks_by_app>
+<app>
+   <id>6</id>
+   <name>lasieved</name>
+   <unsent>4211</unsent>
+   <in_progress>2877</in_progress>
+   <avg_runtime>1.1300</avg_runtime>
+   <min_runtime>0.0700</min_runtime>
+   <max_runtime>12.0000</max_runtime>
+   <users>313</users>
+</app>
+<app>
+   <id>7</id>
+   <name>lasievee</name>
+   <unsent>17241</unsent>
+   <in_progress>3201</in_progress>
+   <avg_runtime>1.1100</avg_runtime>
+   <min_runtime>0.0700</min_runtime>
+   <max_runtime>13.1200</max_runtime>
+   <users>294</users>
+</app>
+<app>
+   <id>9</id>
+   <name>lasieve5f</name>
+   <unsent>112856</unsent>
+   <in_progress>21399</in_progress>
+   <avg_runtime>1.3700</avg_runtime>
+   <min_runtime>0.0800</min_runtime>
+   <max_runtime>22.0200</max_runtime>
+   <users>388</users>
+</app>
+</tasks_by_app>
+</database_file_states>
+</server_status>

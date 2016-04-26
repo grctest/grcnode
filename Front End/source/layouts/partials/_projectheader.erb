@@ -1,0 +1,34 @@
+	<div class="row" style="padding:15px; text-align:center;">
+		<div class="col-xs-12">
+			<h2><%= project_name %></h2>
+			<a href="/Projects/<%= page_link %>/<%= page_link %>.html" class="btn btn-success btn-large"><i class="icon-white icon-tint"></i> Project Rain</a>
+			<a href="/Projects/<%= page_link %>/<%= page_link %>-details.html" class="btn btn-info btn-large"><i class="icon-white icon-list-alt"></i> Project Details</a><br/>
+			<a href="../../index.html" class="btn">Back to Index</a>
+		</div>
+		<div class="col-xs-12 col-sm-4" style="padding:15px; text-align:center;">
+			<div class="col-xs-12">
+				<h4>Server Status XML</h4>
+			</div>
+			<div class="col-xs-12">
+				<a id="ServerStatus_URL" href="/Stats/ServerStatus/<%= project_url %>.xml"><%= project_name %></a><br/>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-4" style="padding:15px; text-align:center;">
+			<div class="col-xs-12">
+				<h4>Neural Network Report</h4>
+			</div>
+			<div class="col-xs-12">
+				<a id="NNR_URL" href="/Stats/Reports/NNReport.json">JSON Report</a><br/>
+				<a id="NNR_URL2" href="/Stats/Reports/DailyNeuralMagnitudeReport.csv">CSV Report</a><br/>
+				<a id="NNR_URL" href="/Stats/Reports/MassExport.dat">NN DAT Export</a><br/>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-4" style="padding:15px; text-align:center;">
+			<div class="col-xs-12">
+				<h4>Team Stats XML</h4>
+			</div>
+			<div class="col-xs-12">
+				<a id="Teamstats_URL" href="/Stats/TeamStats/<%= project_url %>.xml"><%= project_name %></a><br/>
+			</div>
+		</div>
+	</div>

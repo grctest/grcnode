@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<server_status>
+<daemon_status>
+  <daemon>
+        <host>mindmodeling.org</host>
+        <command>Download server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>mindmodeling.org</host>
+        <command>Upload server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>wsu-mm</host>
+        <command>mm_feeder</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>wsu-mm</host>
+        <command>file_deleter</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>wsu-mm</host>
+        <command>mm_transitioner</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>wsu-mm</host>
+        <command>mm_assimilator</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>wsu-mm</host>
+        <command>mm_validator</command>
+        <status>running</status>
+    </daemon>
+</daemon_status>
+<database_file_states>
+   <results_ready_to_send>610</results_ready_to_send>
+   <results_in_progress>18471</results_in_progress>
+   <workunits_waiting_for_validation>123</workunits_waiting_for_validation>
+   <workunits_waiting_for_assimilation>0</workunits_waiting_for_assimilation>
+   <workunits_waiting_for_deletion>0</workunits_waiting_for_deletion>
+   <results_waiting_for_deletion>0</results_waiting_for_deletion>
+   <transitioner_backlog_hours>0.00083333333333333</transitioner_backlog_hours>
+   <users_with_recent_credit>3063</users_with_recent_credit>
+   <users_with_credit>16057</users_with_credit>
+   <users_registered_in_past_24_hours>25</users_registered_in_past_24_hours>
+   <hosts_with_recent_credit>4726</hosts_with_recent_credit>
+   <hosts_with_credit>38686</hosts_with_credit>
+   <hosts_registered_in_past_24_hours>51</hosts_registered_in_past_24_hours>
+   <current_floating_point_speed>3904.0825430258</current_floating_point_speed>
+<tasks_by_app>
+<app>
+   <id>1</id>
+   <name>sbcl_wrap</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>2</id>
+   <name>sbcl_wrap_winOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>3</id>
+   <name>sbcl_wrap_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>4</id>
+   <name>sbcl_wrap_macOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>5</id>
+   <name>ccl_wrap</name>
+   <unsent>610</unsent>
+   <in_progress>18447</in_progress>
+   <avg_runtime>0.7300</avg_runtime>
+   <min_runtime>0.0000</min_runtime>
+   <max_runtime>21.4000</max_runtime>
+   <users>1424</users>
+</app>
+<app>
+   <id>6</id>
+   <name>ccl_wrap_winOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>7</id>
+   <name>ccl_wrap_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>8</id>
+   <name>ccl_wrap_macOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>9</id>
+   <name>python2.7_wrap</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>10</id>
+   <name>python2.7_wrap_winOnly</name>
+   <unsent>0</unsent>
+   <in_progress>24</in_progress>
+   <avg_runtime>2.1200</avg_runtime>
+   <min_runtime>0.0100</min_runtime>
+   <max_runtime>2.6100</max_runtime>
+   <users>5</users>
+</app>
+<app>
+   <id>11</id>
+   <name>python2.7_wrap_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>12</id>
+   <name>python2.7_wrap_macOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>13</id>
+   <name>pypy1.9_wrap</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>14</id>
+   <name>pypy1.9_wrap_winOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>15</id>
+   <name>pypy1.9_wrap_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>16</id>
+   <name>pypy1.9_wrap_macOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>17</id>
+   <name>R2.15.1_wrap</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>18</id>
+   <name>R2.15.1_wrap_winOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>19</id>
+   <name>R2.15.1_wrap_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>20</id>
+   <name>java-1.7_wrap</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>21</id>
+   <name>java-1.7_wrap_winOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>22</id>
+   <name>java-1.7_wrap_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>23</id>
+   <name>matlab_wrap</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>24</id>
+   <name>matlab_wrap_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>25</id>
+   <name>sbcl_wrap_mt</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>26</id>
+   <name>sbcl_wrap_mt_winOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>27</id>
+   <name>sbcl_wrap_mt_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>28</id>
+   <name>sbcl_wrap_mt_macOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>29</id>
+   <name>ccl_wrap_mt</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>30</id>
+   <name>ccl_wrap_mt_winOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>31</id>
+   <name>ccl_wrap_mt_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>32</id>
+   <name>ccl_wrap_mt_macOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>33</id>
+   <name>python2.7_wrap_mt</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>34</id>
+   <name>python2.7_wrap_mt_winOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>35</id>
+   <name>python2.7_wrap_mt_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>36</id>
+   <name>python2.7_wrap_mt_macOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>37</id>
+   <name>pypy1.9_wrap_mt</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>38</id>
+   <name>pypy1.9_wrap_mt_winOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>39</id>
+   <name>pypy1.9_wrap_mt_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>40</id>
+   <name>pypy1.9_wrap_mt_macOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>41</id>
+   <name>R2.15.1_wrap_mt</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>42</id>
+   <name>R2.15.1_wrap_mt_winOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>43</id>
+   <name>R2.15.1_wrap_mt_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>44</id>
+   <name>java-1.7_wrap_mt</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>45</id>
+   <name>java-1.7_wrap_mt_winOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>46</id>
+   <name>java-1.7_wrap_mt_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>47</id>
+   <name>matlab_wrap_mt</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>48</id>
+   <name>matlab_wrap_mt_linOnly</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+</tasks_by_app>
+</database_file_states>
+</server_status>

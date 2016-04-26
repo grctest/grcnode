@@ -1,0 +1,23 @@
+					<!--<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "DistributedDataMining", 
+									project_xml_name: "ddm", 
+									project_pages: "ddm", 
+									project_homepage: "http://www.distributeddatamining.org/", 
+									project_description: "Research in Simulations, Data analysis and Machine Learning.", 
+									project_institution: "Private, project management by Nicko Schlitter", 
+									project_institution_url: "#", 
+									launch_date: "March,2010" 
+								} %>-->
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "World Community Grid", 
+									project_xml_name: "", 
+									project_pages: "", 
+									project_homepage: "http://www.worldcommunitygrid.org/", 
+									project_description: "To further critical non-profit research on some of humanity's most pressing problems by creating the world's largest volunteer computing grid. Research includes HIV/AIDS, cancer, muscular dystrophy, dengue fever, and many more.", 
+									project_institution: "IBM Corporate Community Relations", 
+									project_institution_url: "http://www.ibm.com/ibm/ibmgives/", 
+									launch_date: "16 Nov 2004" 
+								} %>

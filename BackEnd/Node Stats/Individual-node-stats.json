@@ -1,0 +1,85 @@
+//Point to where you've installed the node-gridcoin library
+var gridcoin = require('/root/node_modules/node-gridcoin/lib');
+
+var Node = new gridcoin.Client({
+  host: 'Nodes-IP-address',
+  port: 9332,
+  user: 'ReplaceThisTextWithALongString',
+  pass: 'ReplaceThisTextWithAVERYLongString'
+});
+
+var fs = require('fs');
+
+var outputFilename = '/Node/Node.json';
+var outputFilename2 = '/Node/Node-Blocks.json';
+var outputFilename3 = '/Node/Node-Peers.json';
+
+var TexasBlockHashSub1 = '/Node/Node-Blocks-Sub1.json';
+var TexasBlockHashSub2 = '/Node/NodeBlocks-Sub2.json';
+var TexasBlockHashSub3 = '/Node/Node-Blocks-Sub3.json';
+
+Node.cmd('getinfo', function(err, getinfo){
+//JSON
+fs.writeFile(outputFilename, JSON.stringify(getinfo, null, 4), function(err) {
+    if(err) {
+      console.log(err);
+    }
+});
+});
+
+Node.getBlockCount(function(err, getBlockCount){
+  //JSON
+  var blockminus1 = getBlockCount - 1;
+  var blockminus2 = getBlockCount - 2;
+  var blockminus3 = getBlockCount - 3;
+
+  if(err) {
+    console.log(err);
+  }
+
+  Node.getBlockHash(blockminus1, function(err, getBlockHash1){
+    //JSON
+    fs.writeFile(TexasBlockHashSub1, JSON.stringify(getBlockHash1, null, 4), function(err) {
+      if(err) {
+        console.log(err);
+      }
+    });
+  });
+
+  Node.getBlockHash(blockminus2, function(err, getBlockHash2){
+    //JSON
+    fs.writeFile(TexasBlockHashSub2, JSON.stringify(getBlockHash2, null, 4), function(err) {
+      if(err) {
+        console.log(err);
+      }
+    });
+  });
+
+  Node.getBlockHash(blockminus3, function(err, getBlockHash3){
+    //JSON
+    fs.writeFile(TexasBlockHashSub3, JSON.stringify(getBlockHash3, null, 4), function(err) {
+      if(err) {
+        console.log(err);
+      }
+    });
+  });   
+
+});
+
+Node.cmd('getbestblockhash', function(err, getbestblockhash){
+//JSON
+fs.writeFile(outputFilename2, JSON.stringify(getbestblockhash, null, 4), function(err) {
+    if(err) {
+      console.log(err);
+    }
+});
+});
+
+Node.cmd('getpeerinfo', function(err, getpeerinfo){
+//JSON
+fs.writeFile(outputFilename3, JSON.stringify(getpeerinfo, null, 4), function(err) {
+    if(err) {
+      console.log(err);
+    }
+});
+});

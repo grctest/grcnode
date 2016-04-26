@@ -1,0 +1,247 @@
+<container>
+	<div class="row" style="padding-top:25px;">
+		<div class="col-xs-12" style="text-align:center;">
+			<h3>Advertise a custom beacon</h3>
+		    <h5>Utilising the Neural Network statistics as a new sharedropping vector!</h5>
+        </div>
+	</div>
+
+    <div class="row" style="padding-top:25px;">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            <div class="panel panel-default">
+              <div class="panel-heading" style="text-align:center;">
+                <h3 class="panel-title">Tutorial: How to enter commands into the gridcoin client</h3>
+              </div>
+              <div class="panel-body">
+                <div class="col-xs-6">
+                    <h5 style="text-align:center;">Terminal/Cli</h5>
+                    <h6>Start the Gridcoin client, open a terminal window and type '<b>gridcoinresearchd &lt;command&gt;'</b></h6>
+                </div>
+                <div class="col-xs-6">
+                    <h5 style="text-align:center;">Gridcoin Gui/QT</h5>
+                    <h6>Within the Gridcoin client, navigate to the debug console (<b>Help</b> | <b>Debug window</b> | <b>Console</b>), enter the commands below (without gridcoinresearchd).</h6>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="row" style="padding-top:25px;">
+		<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            <div class="panel panel-default">
+              <div class="panel-heading" style="text-align:center;">
+                <h3 class="panel-title">Step 1: List unspent outputs of your staking address</h3>
+              </div>
+              <div class="panel-body">
+                <h5>Check which address this is in the <a href="/Stats/Reports/NNReport.json">Neural Network JSON file</a>.</h5>
+                <h6>Command: <a href="https://en.bitcoin.it/wiki/Raw_Transactions#listunspent_.5Bminconf.3D1.5D_.5Bmaxconf.3D999999.5D">More info!</a></h6>
+                <div class="well">
+                    listunspent [minconf=1] [maxconf=999999]
+                </div>
+                <h6>Example command usage: (Replace address with your own)</h6>
+                <div class="well">gridcoinresearchd listunspent 0 999999 '["S2YKdCFvTAWKLgwsFQCJDSMNPbw1a5HJB4"]'</div>
+                <h6>Example output:</h6>
+                <div class="well">
+                    [
+                        {
+                            "txid" : "ab62dc59f349baa9e9142f6d86c2d20c94493985b0951d85240c09806608372d",
+                            "vout" : 1,
+                            "address" : "S2YKdCFvTAWKLgwsFQCJDSMNPbw1a5HJB4",
+                            "account" : "",
+                            "scriptPubKey" : "76a914324af421b248f3160dfba76d7c1d5871b89f57c888ac",
+                            "amount" : 12.59200781,
+                            "confirmations" : 11065
+                        }
+                    ]
+                </div>
+                <h6>Take note of both the 'txid' and 'vout' values, ensuring that the txid you pick has a positive 'amount' value. In the above example, txid = "7425deeaebc2b13ff6c6d3cac78332693c86f46433403f65aef028bc88050583" and vout = "4".</h6>
+              </div>
+            </div>
+		</div>
+	</div>
+
+    <div class="row" style="padding-top:25px;">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            <div class="panel panel-default">
+              <div class="panel-heading" style="text-align:center;">
+                <h3 class="panel-title">Step 2: Create the raw transaction.</h3>
+              </div>
+              <div class="panel-body">
+                <h5>Command: <a href="https://en.bitcoin.it/wiki/Raw_Transactions#createrawtransaction_.5B.7B.22txid.22:txid.2C.22vout.22:n.7D.2C....5D_.7Baddress:amount.2C....7D">More info!</a></h5>
+                <div class="well">
+                    gridcoinresearchd createrawtransaction [{"txid":txid,"vout":n,"data":"&lt;Hex encoded data&gt;"},...] {address:amount,...}
+                </div>
+                <ul style="list-style-type: none;">
+                    <li>
+                        We use the 'txid' and 'vout' found in step 1's 'listunspent' command.
+                    </li>
+                    <li>
+                        The '{address:amount,...}' section of the createrawtransaction command is the destination address. Set this to <b>XXXXXXXXXXXX. FIX THIS!</b>
+                    </li>
+                    <li>
+                        The "data" field in the 'createrawtransaction' command is where we enter our custom beacon data. It is in a hex format, and currently has a maximum limit of 40 bytes (potentially 80 in the future).
+                    </li>
+                    <li>
+                        <h5><b>Text to hex converters:</b></h5>
+                        http://www.swingnote.com/tools/texttohex.php<br/>
+                        http://www.binaryhexconverter.com/ascii-text-to-hex-converter
+                    </li>
+                </ul>
+                <h5>Example usage:</h5>
+                <div class="well">
+                    gridcoinresearchd createrawtransaction '[{"txid":"ab62dc59f349baa9e9142f6d86c2d20c94493985b0951d85240c09806608372d","vout":1,"data":"4752432d5241494e3a20414c5445524e415449564520414444524553532f4143434f554e54"}]' '{"S2YKdCFvTAWKLgwsFQCJDSMNPbw1a5HJB4":0.00100691}'
+                </div>
+                <ul style="list-style-type: none;">
+                    <li>
+                        I manually added a change output with a value of 0.00100691, so I pay a fee of exactly 0.0001 BTC. The payload for this transaction is the hex-encoded message "GRC-RAIN: ALTERNATIVE ADDRESS/ACCOUNT".
+                    </li>
+                </ul>
+                <h5>Example output:</h5>
+                <div class="well">01000000b9fec556012d37086680090c24851d95b0853949940cd2c2866d2f14e9a9ba49f359dc62ab0100000000ffffffff0153890100000000001976a914324af421b248f3160dfba76d7c1d5871b89f57c888ac0000000000</div>
+                <h5>Take note of your 'createrawtransaction' command output.</h5>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="padding-top:25px;">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            <!-- -->
+            <div class="panel panel-default">
+              <div class="panel-heading" style="text-align:center;">
+                <h3 class="panel-title">Step 3: Sign the raw transaction.</h3>
+              </div>
+              <div class="panel-body">
+                <h5>Command: <a href="https://en.bitcoin.it/wiki/Raw_Transactions#signrawtransaction_.3Chex_string.3E_.5B.7B.22txid.22:txid.2C.22vout.22:n.2C.22scriptPubKey.22:hex.7D.2C....5D_.5B.3Cprivatekey1.3E.2C....5D_.5Bsighash.3D.22ALL.22.5D">More info!</a></h5>
+                <div class="well">
+                    signrawtransaction <hex string> [{"txid":txid,"vout":n,"scriptPubKey":hex},...] [<privatekey1>,...] [sighash="ALL"]
+                </div>
+                <h5>Example command usage:</h5>
+                <div class="well">
+                    gridcoinresearchd signrawtransaction 01000000b9fec556012d37086680090c24851d95b0853949940cd2c2866d2f14e9a9ba49f359dc62ab0100000000ffffffff0153890100000000001976a914324af421b248f3160dfba76d7c1d5871b89f57c888ac0000000000
+                </div>
+
+                <h5>Example output:</h5>
+                <div class="well">
+                    {
+                        "hex" : "01000000b9fec556012d37086680090c24851d95b0853949940cd2c2866d2f14e9a9ba49f359dc62ab010000006a473044022061bedc401846004977520f049c497b1513e5a9bcb35e415155362c01a2a1ccac0220022680eab9067ddb0a5b448e25381ab524607fa62a0a03c59b6c8f038093934701210235cd96e85889beeab0136e2c120605146fc212087f0179b759cbb685fa6ceff6ffffffff0153890100000000001976a914324af421b248f3160dfba76d7c1d5871b89f57c888ac0000000000",
+                        "complete" : true
+                    }
+                </div>
+                <h5>Take note of your '' command output.</h5>
+              </div>
+            </div>
+            <!-- -->
+        </div>
+    </div>
+
+    <div class="row" style="padding-top:25px;">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            <!-- -->
+            <div class="panel panel-default">
+              <div class="panel-heading" style="text-align:center;">
+                <h3 class="panel-title">Step 4: Broadcast the signed raw transaction.</h3>
+              </div>
+              <div class="panel-body">
+                <h5>Command: <a href="https://en.bitcoin.it/wiki/Raw_Transactions#sendrawtransaction_.3Chex_string.3E">More info!</a></h5>
+                <div class="well">
+                    sendrawtransaction &lt;hex string&gt;
+                </div>
+                <h5>Example command usage:</h5>
+                <div class="well">
+                    gridcoinresearchd sendrawtransaction 01000000b9fec556012d37086680090c24851d95b0853949940cd2c2866d2f14e9a9ba49f359dc62ab010000006a473044022061bedc401846004977520f049c497b1513e5a9bcb35e415155362c01a2a1ccac0220022680eab9067ddb0a5b448e25381ab524607fa62a0a03c59b6c8f038093934701210235cd96e85889beeab0136e2c120605146fc212087f0179b759cbb685fa6ceff6ffffffff0153890100000000001976a914324af421b248f3160dfba76d7c1d5871b89f57c888ac0000000000
+                </div>
+                <h5>Example output:</h5>
+                <div class="well">
+                    9005744ae5eea45e1ae397c231458dbfbc030e4cec36be5013fb345848f730f6
+                </div>
+              </div>
+            </div>
+            <!-- -->
+        </div>
+    </div>
+
+    <div class="row" style="padding-top:25px;">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            <!-- -->
+            <div class="panel panel-default">
+              <div class="panel-heading" style="text-align:center;">
+                <h3 class="panel-title">Step 5: Verify transaction</h3>
+              </div>
+              <div class="panel-body">
+                <h5>Command: <a href="https://en.bitcoin.it/wiki/Raw_Transactions#sendrawtransaction_.3Chex_string.3E">More info!</a></h5>
+                <div class="well">
+                    gettransaction &lt;txid&gt;
+                </div>
+                <h5>Example command usage:</h5>
+                <div class="well">
+                    gridcoinresearchd gettransaction 9005744ae5eea45e1ae397c231458dbfbc030e4cec36be5013fb345848f730f6
+                </div>
+                <h5>Example output:</h5>
+                <div class="well">
+                    {<br/>
+                        "txid" : "9005744ae5eea45e1ae397c231458dbfbc030e4cec36be5013fb345848f730f6",<br/>
+                        "version" : 1,<br/>
+                        "time" : 1455816377,<br/>
+                        "locktime" : 0,<br/>
+                        "hashboinc" : "",<br/>
+                        "vin" : [<br/>
+                            {<br/>
+                                "txid" : "ab62dc59f349baa9e9142f6d86c2d20c94493985b0951d85240c09806608372d",<br/>
+                                "vout" : 1,<br/>
+                                "scriptSig" : {<br/>
+                                    "asm" : "3044022061bedc401846004977520f049c497b1513e5a9bcb35e415155362c01a2a1ccac0220022680eab9067ddb0a5b448e25381ab524607fa62a0a03c59b6c8f038093934701 0235cd96e85889beeab0136e2c120605146fc212087f0179b759cbb685fa6ceff6",<br/>
+                                    "hex" : "473044022061bedc401846004977520f049c497b1513e5a9bcb35e415155362c01a2a1ccac0220022680eab9067ddb0a5b448e25381ab524607fa62a0a03c59b6c8f038093934701210235cd96e85889beeab0136e2c120605146fc212087f0179b759cbb685fa6ceff6"<br/>
+                                },<br/>
+                                "sequence" : 4294967295<br/>
+                            }<br/>
+                        ],<br/>
+                        "vout" : [<br/>
+                            {<br/>
+                                "value" : 0.00100691,<br/>
+                                "n" : 0,<br/>
+                                "scriptPubKey" : {<br/>
+                                    "asm" : "OP_DUP OP_HASH160 324af421b248f3160dfba76d7c1d5871b89f57c8 OP_EQUALVERIFY OP_CHECKSIG",<br/>
+                                    "reqSigs" : 1,<br/>
+                                    "type" : "pubkeyhash",<br/>
+                                    "addresses" : [
+                                        "S2YKdCFvTAWKLgwsFQCJDSMNPbw1a5HJB4"
+                                    ]<br/>
+                                }<br/>
+                            }<br/>
+                        ],<br/>
+                        "amount" : 0.00000000,<br/>
+                        "fee" : -12.59100090,<br/>
+                        "confirmations" : 7,<br/>
+                        "blockhash" : "d37f79c3618ebc407e48e962774c2546f9ed67b00672029e50f03240de676440",<br/>
+                        "blockindex" : 2,<br/>
+                        "blocktime" : 1455816944,<br/>
+                        "txid" : "9005744ae5eea45e1ae397c231458dbfbc030e4cec36be5013fb345848f730f6",<br/>
+                        "time" : 1455816933,<br/>
+                        "timereceived" : 1455816933,<br/>
+                        "details" : [<br/>
+                            {<br/>
+                                "account" : "",<br/>
+                                "address" : "S2YKdCFvTAWKLgwsFQCJDSMNPbw1a5HJB4",<br/>
+                                "category" : "send",<br/>
+                                "amount" : -0.00100691,<br/>
+                                "fee" : -12.59100090<br/>
+                            },<br/>
+                            {<br/>
+                                "account" : "",<br/>
+                                "address" : "S2YKdCFvTAWKLgwsFQCJDSMNPbw1a5HJB4",<br/>
+                                "category" : "receive",<br/>
+                                "amount" : 0.00100691<br/>
+                            }<br/>
+                        ]<br/>
+                    }
+                </div>
+                <h5><a href="http://explorer.gridcoin.asia/tx/9005744ae5eea45e1ae397c231458dbfbc030e4cec36be5013fb345848f730f6">explorer.gridcoin.asia</a></h5>
+                <h5><a href="http://explorer.gridcoin.asia/api/getrawtransaction?txid=9005744ae5eea45e1ae397c231458dbfbc030e4cec36be5013fb345848f730f6&decrypt=1">explorer.gridcoin.asia raw transaction</a></h5>
+                <h5><a href="http://www.gridresearchcorp.com/gridcoin/?transaction_detail&txid=9005744ae5eea45e1ae397c231458dbfbc030e4cec36be5013fb345848f730f6">gridresearchcorp.com</a></h5>
+              </div>
+            </div>
+            <!-- -->
+        </div>
+    </div>
+</container>

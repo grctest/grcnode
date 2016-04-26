@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<server_status>
+<daemon_status>
+  <daemon>
+        <host>findah.ucd.ie</host>
+        <command>Download server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>findah.ucd.ie</host>
+        <command>Upload server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>findah</host>
+        <command>Scheduler</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>findah</host>
+        <command>feeder</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>findah</host>
+        <command>transitioner</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>findah</host>
+        <command>transitioner2</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>findah</host>
+        <command>file_deleter</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>findah</host>
+        <command>work_generator (vina)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>findah</host>
+        <command>my_validator (vina)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>findah</host>
+        <command>my_validator2 (vina)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>findah</host>
+        <command>PyAssimilator.py (vina)</command>
+        <status>running</status>
+    </daemon>
+</daemon_status>
+<database_file_states>
+   <results_ready_to_send>0</results_ready_to_send>
+   <results_in_progress>103</results_in_progress>
+   <workunits_waiting_for_validation>0</workunits_waiting_for_validation>
+   <workunits_waiting_for_assimilation>0</workunits_waiting_for_assimilation>
+   <workunits_waiting_for_deletion>0</workunits_waiting_for_deletion>
+   <results_waiting_for_deletion>0</results_waiting_for_deletion>
+   <transitioner_backlog_hours>0</transitioner_backlog_hours>
+   <users_with_recent_credit>2510</users_with_recent_credit>
+   <users_with_credit>52256</users_with_credit>
+   <users_registered_in_past_24_hours>26</users_registered_in_past_24_hours>
+   <hosts_with_recent_credit>3812</hosts_with_recent_credit>
+   <hosts_with_credit>77404</hosts_with_credit>
+   <hosts_registered_in_past_24_hours>44</hosts_registered_in_past_24_hours>
+   <current_floating_point_speed>503.24113650082</current_floating_point_speed>
+<tasks_by_app>
+<app>
+   <id>9</id>
+   <name>vina</name>
+   <unsent>0</unsent>
+   <in_progress>103</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+</tasks_by_app>
+</database_file_states>
+</server_status>

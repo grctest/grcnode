@@ -1,0 +1,8 @@
+<container>
+	<%= partial "/layouts/partials/projectheader", locals: { project_name: "Asteroids", project_url: "Asteroids", page_link: "asteroids" } %>
+	<div class="row" style="text-align:center;">
+		<%= partial "/layouts/partials/projectcolumns" %>
+		<%= partial "/layouts/partials/projectdetails", locals: { project_name: "Asteroids@Home", project_homepage: "http://asteroids@home.net/boinc/", project_description: "The project Asteroids@home was started with the aim to significantly enlarge our knowledge of physical proportions of asteroids.", project_institution: "Charles University in Prague", project_institution_url: "http://www.cuni.cz/UKENG-1.html", launch_date: "June 2012" } %>
+	</div>
+</container>
+<%= partial "/layouts/partials/projectdescription" %>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<server_status>
+  <update_time>1449524262</update_time>
+  <daemon_status>
+    <daemon>
+      <host>africa-home1</host>
+      <command>data-driven web pages</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>africa-home1</host>
+      <command>upload/download server</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>africa-home1</host>
+      <command>scheduler</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>africa-home1</host>
+      <command>feeder</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>africa-home1</host>
+      <command>transitioner</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>africa-home1</host>
+      <command>file_deleter</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>africa-home1</host>
+      <command>db_purge</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>africa-home1</host>
+      <command>validatorA</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>africa-home1</host>
+      <command>validatorB</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>africa-home1</host>
+      <command>validatorBeta</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>africa-home1</host>
+      <command>assimilatorA</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>africa-home1</host>
+      <command>assimilatorB</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>africa-home1</host>
+      <command>assimilatorBeta</command>
+      <status>not running</status>
+    </daemon>
+  </daemon_status>
+  <database_file_states>
+    <results_ready_to_send>0</results_ready_to_send>
+    <results_in_progress>1354</results_in_progress>
+    <workunits_waiting_for_validation>0</workunits_waiting_for_validation>
+    <workunits_waiting_for_assimilation>0</workunits_waiting_for_assimilation>
+    <workunits_waiting_for_deletion>0</workunits_waiting_for_deletion>
+    <results_waiting_for_deletion>0</results_waiting_for_deletion>
+    <new_results>5430</new_results>
+    <new_users>17</new_users>
+    <transitioner_backlog_hours>0</transitioner_backlog_hours>
+  </database_file_states>
+</server_status>

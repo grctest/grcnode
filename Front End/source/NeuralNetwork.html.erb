@@ -1,0 +1,70 @@
+<container>
+	<div class="row" style="padding-top:25px;">
+		<div class="col-xs-12" style="text-align:center;">
+			<h3>Neural Network Extracts</h3><br/>
+		</div>
+	</div>
+
+	<div class="row" style="padding-top:25px;">
+		<div class="col-xs-4" style="text-align:center;">
+			<a href="/Stats/Reports/NNReport.json">
+				<button type="button" class="btn btn-success">JSON</button>
+			</a>
+		</div>
+		<div class="col-xs-4" style="text-align:center;">
+			<a href="/Stats/Reports/DailyNeuralMagnitudeReport.csv">
+				<button type="button" class="btn btn-success">CSV</button>
+			</a>
+		</div>
+		<div class="col-xs-4" style="text-align:center;">
+			<a href="/Stats/Reports/MassExport.dat">
+				<button type="button" class="btn btn-success">DAT</button>
+			</a>
+		</div>
+	</div>
+
+	<div class="row" style="padding-top:25px;">
+		<div class="col-xs-12" style="text-align:center;">
+			<h3>Neural Network Leaderboard</h3>
+            <h5>Synced until: <span id="synced_until"></span></h5>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+            <table id="myTable" class="table tablesorter table-bordered table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col" style="text-align:center;">
+                            CPID
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Address
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            RAC
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Local Mag
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            NN Mag
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            CPID Valid?
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Sync date
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Earnings
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="Table_Tbody" style="text-align:center;">
+                </tbody>
+            </table>
+		</div>
+	</div>
+</container>
+<script type="text/javascript" src="/js/MISC/NN-Table.js"></script>

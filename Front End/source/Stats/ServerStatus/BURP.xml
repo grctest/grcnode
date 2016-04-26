@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<server_status>
+<daemon_status>
+  <daemon>
+        <host>burp.renderfarming.net</host>
+        <command>Download server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>burp.renderfarming.net</host>
+        <command>Upload server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>donatello</host>
+        <command>Scheduler</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>donatello</host>
+        <command>
+        feeder</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>donatello</host>
+        <command>burp_validator (blender)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>donatello</host>
+        <command>burp_assimilator (blender)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>donatello</host>
+        <command>burp_validator (blender-gpu)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>donatello</host>
+        <command>burp_assimilator (blender-gpu)</command>
+        <status>running</status>
+    </daemon>
+</daemon_status>
+<database_file_states>
+   <results_ready_to_send>0</results_ready_to_send>
+   <results_in_progress>0</results_in_progress>
+   <workunits_waiting_for_validation>0</workunits_waiting_for_validation>
+   <workunits_waiting_for_assimilation>0</workunits_waiting_for_assimilation>
+   <workunits_waiting_for_deletion>771911</workunits_waiting_for_deletion>
+   <results_waiting_for_deletion>467407</results_waiting_for_deletion>
+   <transitioner_backlog_hours>12.291666666667</transitioner_backlog_hours>
+   <users_with_recent_credit>287</users_with_recent_credit>
+   <users_with_credit>6472</users_with_credit>
+   <users_registered_in_past_24_hours>3</users_registered_in_past_24_hours>
+   <hosts_with_recent_credit>539</hosts_with_recent_credit>
+   <hosts_with_credit>8022</hosts_with_credit>
+   <hosts_registered_in_past_24_hours>17</hosts_registered_in_past_24_hours>
+   <current_floating_point_speed>599.5753712718</current_floating_point_speed>
+<tasks_by_app>
+<app>
+   <id>1</id>
+   <name>blender</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0.4300</avg_runtime>
+   <min_runtime>0.3400</min_runtime>
+   <max_runtime>0.5200</max_runtime>
+   <users>2</users>
+</app>
+<app>
+   <id>4</id>
+   <name>blender-gpu</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+</tasks_by_app>
+</database_file_states>
+</server_status>

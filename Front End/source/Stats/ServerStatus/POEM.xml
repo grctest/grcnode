@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<server_status>
+<daemon_status>
+  <daemon>
+        <host>boinc.fzk.de</host>
+        <command>Download server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>boinc.fzk.de</host>
+        <command>Upload server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>boinc</host>
+        <command>
+        feeder</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>boinc</host>
+        <command>
+        transitioner</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>boinc</host>
+        <command>
+        file_deleter</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>boinc</host>
+        <command>
+        antique_file_deleter</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>boinc</host>
+        <command>
+	  db_purge</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>boinc</host>
+        <command>
+	  pcl_validator (poemcl)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>boinc</host>
+        <command>
+	  pcl_assimilator (poemcl
+	)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>boinc</host>
+        <command>
+	  ppp_validator (poempp)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>boinc</host>
+        <command>
+	  ppp_assimilator (poempp
+	)</command>
+        <status>running</status>
+    </daemon>
+</daemon_status>
+<database_file_states>
+   <results_ready_to_send>97236</results_ready_to_send>
+   <results_in_progress>102074</results_in_progress>
+   <workunits_waiting_for_validation>7</workunits_waiting_for_validation>
+   <workunits_waiting_for_assimilation>6</workunits_waiting_for_assimilation>
+   <workunits_waiting_for_deletion>11</workunits_waiting_for_deletion>
+   <results_waiting_for_deletion>12</results_waiting_for_deletion>
+   <transitioner_backlog_hours>0</transitioner_backlog_hours>
+   <users_with_recent_credit>7210</users_with_recent_credit>
+   <users_with_credit>53411</users_with_credit>
+   <users_registered_in_past_24_hours>35</users_registered_in_past_24_hours>
+   <hosts_with_recent_credit>45981</hosts_with_recent_credit>
+   <hosts_with_credit>984821</hosts_with_credit>
+   <hosts_registered_in_past_24_hours>1564</hosts_registered_in_past_24_hours>
+   <current_floating_point_speed>631972.17775619</current_floating_point_speed>
+<tasks_by_app>
+<app>
+   <id>2</id>
+   <name>poem</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>3</id>
+   <name>poempp</name>
+   <unsent>97239</unsent>
+   <in_progress>80387</in_progress>
+   <avg_runtime>1.4800</avg_runtime>
+   <min_runtime>0.1700</min_runtime>
+   <max_runtime>28.9600</max_runtime>
+   <users>2410</users>
+</app>
+<app>
+   <id>4</id>
+   <name>poemcl</name>
+   <unsent>0</unsent>
+   <in_progress>21692</in_progress>
+   <avg_runtime>1.6700</avg_runtime>
+   <min_runtime>0.2700</min_runtime>
+   <max_runtime>112.7000</max_runtime>
+   <users>1037</users>
+</app>
+</tasks_by_app>
+</database_file_states>
+</server_status>

@@ -1,0 +1,8 @@
+<container>
+	<%= partial "/layouts/partials/projectheader", locals: { project_name: "SETI@Home", project_url: "SETI", page_link: "seti" } %>
+	<div class="row" style="text-align:center;">
+		<%= partial "/layouts/partials/projectcolumns" %>
+		<%= partial "/layouts/partials/projectdetails", locals: { project_name: "SETI@Home", project_homepage: "http://setiathome.berkeley.edu/", project_description: "SETI@home searches through data from the radio telescope at the Arecibo Observatory in Puerto Rico, looking for narrow-bandwidth radio signals which might be taken as evidence of extraterrestrial technology. (SETI stands for Search for Extra-Terestrial Intelligence.)", project_institution: "Berkeley Space Sciences Laboratory, University of California, with support from Sun Microsystems, the Planetary Society, and others", project_institution_url: "http://www.berkeley.edu/", launch_date: "17 May 1999" } %>
+	</div>
+</container>
+	<%= partial "/layouts/partials/projectdescription" %>

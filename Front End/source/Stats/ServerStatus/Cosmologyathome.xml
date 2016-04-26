@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<server_status>
+<daemon_status>
+  <daemon>
+        <host>www.cosmologyathome.org</host>
+        <command>Download server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>www.cosmologyathome.org</host>
+        <command>Upload server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>cosmohome</host>
+        <command>Scheduler</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>cosmohome</host>
+        <command>feeder</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>cosmohome</host>
+        <command>transitioner</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>cosmohome</host>
+        <command>file_deleter</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>cosmohome</host>
+        <command>script_validator (camb_boinc2docker)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>cosmohome</host>
+        <command>script_assimilator (camb_boinc2docker)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>cosmohome</host>
+        <command>camb_boinc2docker_work_generator</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>cosmohome</host>
+        <command>script_validator (camb)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>cosmohome</host>
+        <command>script_assimilator (camb)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>cosmohome</host>
+        <command>camb_legacy_work_generator</command>
+        <status>running</status>
+    </daemon>
+</daemon_status>
+<database_file_states>
+   <results_ready_to_send>200</results_ready_to_send>
+   <results_in_progress>43618</results_in_progress>
+   <workunits_waiting_for_validation>0</workunits_waiting_for_validation>
+   <workunits_waiting_for_assimilation>1</workunits_waiting_for_assimilation>
+   <workunits_waiting_for_deletion>0</workunits_waiting_for_deletion>
+   <results_waiting_for_deletion>0</results_waiting_for_deletion>
+   <transitioner_backlog_hours>0</transitioner_backlog_hours>
+   <users_with_recent_credit>5240</users_with_recent_credit>
+   <users_with_credit>64670</users_with_credit>
+   <users_registered_in_past_24_hours>136</users_registered_in_past_24_hours>
+   <hosts_with_recent_credit>8213</hosts_with_recent_credit>
+   <hosts_with_credit>148273</hosts_with_credit>
+   <hosts_registered_in_past_24_hours>51</hosts_registered_in_past_24_hours>
+   <current_floating_point_speed>15350.017636716</current_floating_point_speed>
+<tasks_by_app>
+<app>
+   <id>2</id>
+   <name>camb</name>
+   <unsent>100</unsent>
+   <in_progress>31790</in_progress>
+   <avg_runtime>13.5500</avg_runtime>
+   <min_runtime>2.1800</min_runtime>
+   <max_runtime>208.4400</max_runtime>
+   <users>1666</users>
+</app>
+<app>
+   <id>4</id>
+   <name>camb_boinc2docker</name>
+   <unsent>100</unsent>
+   <in_progress>11828</in_progress>
+   <avg_runtime>0.1600</avg_runtime>
+   <min_runtime>0.0700</min_runtime>
+   <max_runtime>1.5400</max_runtime>
+   <users>74</users>
+</app>
+</tasks_by_app>
+</database_file_states>
+</server_status>

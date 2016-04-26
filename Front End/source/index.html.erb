@@ -1,0 +1,654 @@
+<container>
+	<div class="row">
+		<div class="col-xs-12" style="text-align:center;">
+			<h3>Production network</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+            <table id="myTable" class="table tablesorter table-bordered table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col" style="text-align:center;">
+                            Location
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Block Number
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Block Hash Icon
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                        	Block Hash
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Connections
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Version
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Getinfo output
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            More details
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="Table_Tbody" style="text-align:center;">
+                	<tr>
+                		<td>
+                			London.GRCNode.co.uk
+                		</td>
+                		<td>
+                			<span id='UKblocks'></span>
+                		</td>
+                		<td>
+							<canvas id="UKidenticon" width="40" height="40" />
+                		</td>
+                		<td>
+                			<span id='UKbestblockhash'></span>
+                		</td>
+                		<td>
+                			<span id='UKconnections'></span>
+                		</td>
+                		<td>
+                			<span id='UKversion'></span>
+                		</td>
+                		<td>
+							<a href="/Stats/Servers/UK/UK.json">Getinfo</a><br/>
+                		</td>
+                		<td>
+							<a href="/Nodes/UK/UK.html">Details</a>
+                		</td>
+                	</tr>
+                	<!-- -->
+                	<tr>
+                		<td>
+                			Frankfurt.GRCNode.co.uk
+                		</td>
+                		<td>
+                			<span id='GERblocks'></span>
+                		</td>
+                		<td>
+							<canvas id="GERidenticon" width="40" height="40" />
+                		</td>
+                		<td>
+                			<span id='GERbestblockhash'></span>
+                		</td>
+                		<td>
+                			<span id='GERconnections'></span>
+                		</td>
+                		<td>
+                			<span id='GERversion'></span>
+                		</td>
+                		<td>
+							<a href="/Stats/Servers/GER/GER.json">Getinfo</a><br/>
+                		</td>
+                		<td>
+							<a href="/Nodes/GER/GER.html">Details</a>
+                		</td>
+                	</tr>
+                	<!-- -->
+                	<tr>
+                		<td>
+                			Amsterdam.GRCNode.co.uk
+                		</td>
+                		<td>
+                			<span id='AMSblocks'></span>
+                		</td>
+                		<td>
+							<canvas id="AMSidenticon" width="40" height="40" />
+                		</td>
+                		<td>
+                			<span id='AMSbestblockhash'></span>
+                		</td>
+                		<td>
+                			<span id='AMSconnections'></span>
+                		</td>
+                		<td>
+                			<span id='AMSversion'></span>
+                		</td>
+                		<td>
+							<a href="/Stats/Servers/AMS/AMS.json">Getinfo</a><br/>
+                		</td>
+                		<td>
+							<a href="/Nodes/AMS/AMS.html">Details</a>
+                		</td>
+                	</tr>
+                	<!-- -->
+                	<tr>
+                		<td>
+                			NYC.GRCNode.co.uk
+                		</td>
+                		<td>
+                			<span id='NYCblocks'></span>
+                		</td>
+                		<td>
+							<canvas id="NYCidenticon" width="40" height="40" />
+                		</td>
+                		<td>
+                			<span id='NYCbestblockhash'></span>
+                		</td>
+                		<td>
+                			<span id='NYCconnections'></span>
+                		</td>
+                		<td>
+                			<span id='NYCversion'></span>
+                		</td>
+                		<td>
+							<a href="/Stats/Servers/NYC/NYC.json">Getinfo</a><br/>
+                		</td>
+                		<td>
+							<a href="/Nodes/NYC/NYC.html">Details</a>
+                		</td>
+                	</tr>
+                	<!-- -->
+                	<tr>
+                		<td>
+                			SF.GRCNode.co.uk
+                		</td>
+                		<td>
+                			<span id='SFblocks'></span>
+                		</td>
+                		<td>
+							<canvas id="SFidenticon" width="40" height="40" />
+                		</td>
+                		<td>
+                			<span id='SFbestblockhash'></span>
+                		</td>
+                		<td>
+                			<span id='SFconnections'></span>
+                		</td>
+                		<td>
+                			<span id='SFversion'></span>
+                		</td>
+                		<td>
+							<a href="/Stats/Servers/SF/SF.json">Getinfo</a><br/>
+                		</td>
+                		<td>
+							<a href="/Nodes/SF/SF.html">Details</a>
+                		</td>
+                	</tr>
+                </tbody>
+            </table>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12" style="text-align:center;">
+			<h3>Testnet network</h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+            <table id="myTable" class="table tablesorter table-bordered table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col" style="text-align:center;">
+                            Location
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Block Number
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Block Hash Icon
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                        	Block Hash
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Connections
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Version
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Getinfo output
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            More details
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="Table_Tbody" style="text-align:center;">
+                	<tr>
+                		<td>
+                			Testnet.GRCNode.co.uk
+                		</td>
+                		<td>
+                			<span id='Testnetblocks'></span>
+                		</td>
+                		<td>
+							<canvas id="Testnetidenticon" width="40" height="40" />
+                		</td>
+                		<td>
+                			<span id='Testnetbestblockhash'></span>
+                		</td>
+                		<td>
+                			<span id='Testnetconnections'></span>
+                		</td>
+                		<td>
+                			<span id='Testnetversion'></span>
+                		</td>
+                		<td>
+							<a href="/Stats/Servers/Testnet/testnet.json">Getinfo</a><br/>
+                		</td>
+                		<td>
+							<a href="/Nodes/Testnet/testnet.html">Details</a>
+                		</td>
+                	</tr>
+                </tbody>
+            </table>
+		</div>
+	</div>
+
+	<div class="row" style="padding-top:25px;">
+		<div class="col-xs-12" style="text-align:center;">
+			<h3>Neural Network Data</h3><br/>
+		</div>
+	</div>
+
+	<div class="row" style="padding-top:25px;">
+		<div class="col-xs-3" style="text-align:center;">
+			<a href="/Stats/Reports/NNReport.json">
+				<button type="button" class="btn btn-success">JSON</button>
+			</a>
+		</div>
+		<div class="col-xs-3" style="text-align:center;">
+			<a href="/Stats/Reports/DailyNeuralMagnitudeReport.csv">
+				<button type="button" class="btn btn-success">CSV</button>
+			</a>
+		</div>
+		<div class="col-xs-3" style="text-align:center;">
+			<a href="/Stats/Reports/MassExport.dat">
+				<button type="button" class="btn btn-success">DAT</button>
+			</a>
+		</div>
+        <div class="col-xs-3" style="text-align:center;">
+            <a href="/NeuralNetwork.html">
+                <button type="button" class="btn btn-success">Neural Network Tables</button>
+            </a>
+        </div>
+	</div>
+
+	<div class="row" style="padding-top:25px;">
+		<div class="col-xs-12" style="text-align:center;">
+			<h3>Whitelisted project info</h3><br/>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+            <table id="myTable" class="table tablesorter table-bordered table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col" style="text-align:center;">
+                            Project
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Results in progress
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Users with RAC
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Server Status XML
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Team Stats XML
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Rain
+                        </th>
+                        <th scope="col" style="text-align:center;">
+                            Details
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="Table_Tbody" style="text-align:center;">
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Atlas", 
+									project_xml_name: "Atlas", 
+									project_pages: "atlas", 
+									project_homepage: "http://atlasathome.cern.ch/", 
+									project_description: "ATLAS is a particle physics experiment taking place at the Large Hadron Collider at CERN, that searches for new particles and processes using head-on collisions of protons of extraordinary high energy. Petabytes of data were recorded, processed and analyzed during the first three years of data taking, leading to up to 300 publications covering all the aspects of the Standard Model of particle physics, including the discovery of the Higgs boson in 2012.", 
+									project_institution: "CERN", 
+									project_institution_url: "http://atlasathome.cern.ch/", 
+									launch_date: "June 2014" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Asteroids@Home", 
+									project_xml_name: "Asteroids", 
+									project_pages: "asteroids", 
+									project_homepage: "http://asteroids@home.net/boinc/", 
+									project_description: "The project Asteroids@home was started with the aim to significantly enlarge our knowledge of physical proportions of asteroids.", 
+									project_institution: "Charles University in Prague", 
+									project_institution_url: "http://www.cuni.cz/UKENG-1.html", 
+									launch_date: "June 2012" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Bitcoin Utopia", 
+									project_xml_name: "BU", 
+									project_pages: "bu", 
+									project_homepage: "http://www.bitcoinutopia.net/bitcoinutopia/", 
+									project_description: "Bitcoin Utopia is a commercial platform for crowd-donations that uses Internet-connected computers to mine cryptocurrencies for incentive awards and science projects.", 
+									project_institution: "private", 
+									project_institution_url: "#", 
+									launch_date: "8 March 2014" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "BURP", 
+									project_xml_name: "BURP", 
+									project_pages: "burp", 
+									project_homepage: "http://burp.renderfarming.net/", 
+									project_description: "", 
+									project_institution: "", 
+									project_institution_url: "", 
+									launch_date: "" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Collatz", 
+									project_xml_name: "Collatz", 
+									project_pages: "collatz", 
+									project_homepage: "http://boinc.thesonntags.com/collatz/", 
+									project_description: "The Collatz Conjecture project does research in mathematics, specifically testing the Collatz Conjecture, also known as 3x+1 or HOTPO (half or triple plus one).", 
+									project_institution: "private", 
+									project_institution_url: "#", 
+									launch_date: "1-6-2009" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Cosmology@Home", 
+									project_xml_name: "Cosmologyathome", 
+									project_pages: "cosmology", 
+									project_homepage: "http://www.cosmologyathome.org/", 
+									project_description: "The goal of Cosmology@Home is to search for the model that best describes our Universe and to find the range of models that agree with the available astronomical and particle physics data.", 
+									project_institution: "Departments of Astronomy and Physics, University of Illinois at Urbana-Champaign", 
+									project_institution_url: "http://www.uiuc.edu/", 
+									launch_date: "31-03-2007" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Citizen Science Grid", 
+									project_xml_name: "CSG", 
+									project_pages: "csg", 
+									project_homepage: "http://csgrid.org/csg/", 
+									project_description: "The project is dedicated to supporting a wide range of research and educational projects.", 
+									project_institution: "University of North Dakota (UND). It is hosted by the UND's Computaional Research Center and IT Systems and services.", 
+									project_institution_url: "http://und.edu/", 
+									launch_date: "23 April, 2013" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Eingstein@Home", 
+									project_xml_name: "Einstein", 
+									project_pages: "einstein", 
+									project_homepage: "http://einstein.phys.uwm.edu/", 
+									project_description: "Einstein@Home searches through data collected by the LIGO and GEO600 gravitational wave detectors for evidence of periodic sources (such as spinning neutron stars), which would be the gravitational equivalent of pulsars. Einstein@Home was launched as part of the World Year of Physics 2005.", 
+									project_institution: "University of Wisconsin at Milwaukee and the Albert Einstein Institute", 
+									project_institution_url: "http://www.aei.mpg.de/", 
+									launch_date: "19 February 2005 (beta testing began 19 November 2004)" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Enigma@Home", 
+									project_xml_name: "Enigma", 
+									project_pages: "enigma", 
+									project_homepage: "http://www.enigmaathome.net/", 
+									project_description: "Enigma@Home is a wrapper between BOINC and Stefan Krah's M4 Project. The M4 Project is an effort to break 3 original Enigma messages with the help of distributed computing. The signals were intercepted in the North Atlantic in 1942 and are believed to be unbroken.", 
+									project_institution: "Private", 
+									project_institution_url: "#", 
+									launch_date: "09-09-2007" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Find@Home", 
+									project_xml_name: "FAH", 
+									project_pages: "find", 
+									project_homepage: "http://findah.ucd.ie/", 
+									project_description: "The goal of CASL is to become a globally recognised institute in applied mathematics, computational science and informatics.", 
+									project_institution: "Complex of Adaptive Systems Laboratory(CASL) University College Dublin (UCD)", 
+									project_institution_url: "http://www.ucd.ie/casl/", 
+									launch_date: "20/07/2012" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "GPUGRID", 
+									project_xml_name: "GPUGRID", 
+									project_pages: "gpugrid", 
+									project_homepage: "http://www.gpugrid.net/", 
+									project_description: "GPUGrid is a volunteer computing project on the PlayStation3 for full-atom molecular simulations of proteins.Your contribution is very important because our CellMD software runs over an order of magnitude faster on the PlayStation3 opening the way to innovative scientific experiments.", 
+									project_institution: "University Pompeu Fabra", 
+									project_institution_url: "http://www.upf.edu/english/web/", 
+									launch_date: "12-05-2007" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Gridcoin Finance", 
+									project_xml_name: "GridcoinFinance", 
+									project_pages: "gridcoinfinance", 
+									project_homepage: "http://finance.gridcoin.us/finance/", 
+									project_description: "Gridcoin Finance is a research and development project that uses volunteers computing power to perform financial simulations, analysis of the block chain, consolidate humanitarian reports, calculate marketing strategies, perform stock option analysis, harvest business intelligence, and assimilate top level results for the crowdsourced web pages.", 
+									project_institution: "Gridcoin", 
+									project_institution_url: "http://www.gridcoin.us", 
+									launch_date: "2014" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Leiden Classical", 
+									project_xml_name: "LeidenClassic", 
+									project_pages: "leidenclassic", 
+									project_homepage: "http://boinc.gorlaeus.net/", 
+									project_description: "Surface science calculations using Classical Dynamics. In contrast to other projects, Leiden Classical allows volunteers, students and other scientists to submit their personal calculations to the grid. Each user has his own personal queue for Classical Dynamics jobs. In this way students have used the grid to simulate liquid argon, or to test the validity of the ideal gas law by actually doing the simulations through the grid.", 
+									project_institution: "Leiden University", 
+									project_institution_url: "http://www.leiden.edu/", 
+									launch_date: "05-12-2005" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "LHC@Home", 
+									project_xml_name: "LHC", 
+									project_pages: "lhc", 
+									project_homepage: "http://lhcathome.cern.ch/lhcathome/", 
+									project_description: "LHC@home studies the stability of the orbits of particles traveling around the Large Hadron Collider (LHC), a particle accelerator built at CERN, the European Organization for Nuclear Research, in Geneva, Switzerland. When it switches on in late 2009, the LHC will be the most powerful instrument ever built to investigate the properties of sub-atomic particles.", 
+									project_institution: "CERN (European Organization for Nuclear Research)", 
+									project_institution_url: "http://www.cern.ch/", 
+									launch_date: "01-09-2004" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "MalariaControl.net", 
+									project_xml_name: "MalariaControl", 
+									project_pages: "malariacontrol", 
+									project_homepage: "http://www.malariacontrol.net/", 
+									project_description: "Simulation models of the transmission dynamics and health effects of malaria are an important tool for malaria control. They can be used to determine optimal strategies for delivering mosquito nets, chemotherapy, or new vaccines which are currently under development and testing. Such modeling is extremely computer intensive, requiring simulations of large human populations with a diverse set of parameters related to biological and social factors that influence the distribution of the disease.", 
+									project_institution: "The Swiss Tropical Institute", 
+									project_institution_url: "http://www.sti.ch/", 
+									launch_date: "19-12-2006" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Milkyway@Home", 
+									project_xml_name: "Milkyway", 
+									project_pages: "milkyway", 
+									project_homepage: "http://milkyway.cs.rpi.edu/milkyway/", 
+									project_description: "Research in modeling and determining the evolution of the Milkyway galaxy.", 
+									project_institution: "Computer Science Department, Rensselaer Polytechnic Institute", 
+									project_institution_url: "http://www.rpi.edu/", 
+									launch_date: "07-07-2007" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "MindModeling", 
+									project_xml_name: "MindModeling", 
+									project_pages: "mindmodeling", 
+									project_homepage: "http://mindmodeling.org/beta/", 
+									project_description: "The research focuses on utilizing computational cognitive process modeling to better understand the human mind and to improve on the scientific foundations that explain the mechanisms and processes that enable and moderate human performance and learning.", 
+									project_institution: "http://cerici.org/", 
+									project_institution_url: "http://cerici.org/", 
+									launch_date: "17-03-2007" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Moo! Wrapper", 
+									project_xml_name: "Moowrap", 
+									project_pages: "moo", 
+									project_homepage: "http://www.moowrap.net/", 
+									project_description: "Wrapper to help solving RC5-72", 
+									project_institution: "Private", 
+									project_institution_url: "#", 
+									launch_date: "02-05-2011" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "NFS@Home", 
+									project_xml_name: "NFS", 
+									project_pages: "nfs", 
+									project_homepage: "http://escatter11.fullerton.edu/nfs/", 
+									project_description: "Performing Lattice Sieving step in the Number Field Sieve factorization of large integers.", 
+									project_institution: "California State University Fullerton", 
+									project_institution_url: "http://www.fullerton.edu/", 
+									launch_date: "5 Sep 2009" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "NumbersField@Home", 
+									project_xml_name: "Numberfields", 
+									project_pages: "numbersfield", 
+									project_homepage: "http://numberfields.as.edu/NumberFields/", 
+									project_description: "Research in number theory", 
+									project_institution: "School of Mathematics Arizona State University", 
+									project_institution_url: "http://math.arizona.edu/", 
+									launch_date: "8 Aug 2011" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Poem@Home", 
+									project_xml_name: "POEM", 
+									project_pages: "poem", 
+									project_homepage: "http://boinc.fzk.de/poem/", 
+									project_description: "Models protein folding using Anfinsen's dogma.", 
+									project_institution: "Biomolecular Structure Prediction Group", 
+									project_institution_url: "http://iwrwww1.fzk.de/biostruct/", 
+									launch_date: "13-11-2007" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "theSkyNet POGS", 
+									project_xml_name: "Skynet", 
+									project_pages: "pogs", 
+									project_homepage: "http://pogs.theskynet.org/pogs/", 
+									project_description: "We will combine the spectral coverage of GALEX, Pan-STARRS1, and WISE to generate a multi-wavelength UV-optical-NIR galaxy atlas for the nearby Universe. We will measure physical parameters (such as stellar mass surface density, star formation rate surface density, attenuation, and first-order star formation history) on a resolved pixel-by-pixel basis using spectral energy distribution (SED) fitting techniques in a distributed computing mode.", 
+									project_institution: "The International Centre for Radio Astronomy Research (Perth, Australia)",
+									project_institution_url: "http://www.icrar.org/", 
+									launch_date: "03-08-2012" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "PrimeGrid", 
+									project_xml_name: "Primegrid", 
+									project_pages: "primegrid", 
+									project_homepage: "http://www.primegrid.com/", 
+									project_description: "Primegrid is generating a public sequential prime number database, and is searching for large twin primes of the form k*2n+1 and k*2n-1", 
+									project_institution: "Private", 
+									project_institution_url: "#", 
+									launch_date: "July 12, 2005" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "SAT@Home", 
+									project_xml_name: "SAT", 
+									project_pages: "sat", 
+									project_homepage: "http://sat.isa.ru/pdsat/", 
+									project_description: "Sat@home is a research project to solve hard and practically important problems,(dysreate functions in version problems, dyscreat optimizations, bioinformatics, etc.)",
+									project_institution: "Institute for Information Transmission Problems of Russian Academy of Sciences, department of Distributed Computing.", 
+									project_institution_url: "http://iitp.ru/en/about", 
+									launch_date: "29 Sep 2011" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "SETI@Home", 
+									project_xml_name: "SETI", 
+									project_pages: "seti", 
+									project_homepage: "http://setiathome.berkeley.edu/", 
+									project_description: "SETI@home searches through data from the radio telescope at the Arecibo Observatory in Puerto Rico, looking for narrow-bandwidth radio signals which might be taken as evidence of extraterrestrial technology. (SETI stands for Search for Extra-Terestrial Intelligence.)", 
+									project_institution: "Berkeley Space Sciences Laboratory, University of California, with support from Sun Microsystems, the Planetary Society, and others", 
+									project_institution_url: "http://www.berkeley.edu/", 
+									launch_date: "17 May 1999" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+						locals: { 
+									project_name: "Wuprop", 
+									project_xml_name: "Wuprop", 
+									project_pages: "wuprop", 
+									project_homepage: "http://wuprop.boinc-af.org/", 
+									project_description: "Collects Work Unit properties of BOINC projects such as computation time, memory and disk space requirements, checkpoint intervals and report times.",
+									project_institution: "Private", 
+									project_institution_url: "#", 
+									launch_date: "27 Mar 2010" 
+								} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+					locals: { 
+								project_name: "YAFU", 
+								project_xml_name: "YAFU", 
+								project_pages: "yafu", 
+								project_homepage: "http://yafu.myfirewall.org/yafu/", 
+								project_description: "Factorizing Utility. Factoring numbers of 80 - 110 digits length.", 
+								project_institution: "Private", 
+								project_institution_url: "#", 
+								launch_date: "28 Aug 2011" 
+							} %>
+
+					<%= partial "/layouts/partials/projecttable", 
+					locals: { 
+								project_name: "YOYO@Home", 
+								project_xml_name: "YOYO", 
+								project_pages: "yoyo", 
+								project_homepage: "http://www.rechenkraft.net/yoyo/", 
+								project_description: "Yoyo@home brings existing distributed computing projects to the Boinc world using the Boinc Wrapper technology.", 
+								project_institution: "", 
+								project_institution_url: "http://www.rechenkraft.net/", 
+								launch_date: "" 
+							} %>
+                </tbody>
+            </table>
+		</div>
+	</div>
+</container>
+
+<script type="text/javascript" src="/js/Mandatory/jdenticon-1.3.2.min.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+<script type="text/javascript" src="/js/MISC/index_stats.js"></script>

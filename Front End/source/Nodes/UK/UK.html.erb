@@ -1,0 +1,93 @@
+<container>
+	<div class="row">
+		<div class="col-xs-12 col-sm-offset-2 col-sm-8" style="padding:15px;">
+			<div class="col-xs-3" style="text-align:center;">
+				<div class="col-xs-12">
+					<canvas id="UKidenticon" width="120" height="120" />
+				</div>
+				<div class="col-xs-4">
+					-1 <canvas id="UKidenticon-1" width="40" height="40" />
+				</div>
+				<div class="col-xs-4">
+					-2 <canvas id="UKidenticon-2" width="40" height="40" />
+				</div>
+				<div class="col-xs-4">
+					-3 <canvas id="UKidenticon-3" width="40" height="40" />
+				</div>
+			</div>
+			<div class="col-xs-3">
+				<div class="col-xs-12">
+					<div class="col-xs-4">
+						<canvas id="GERidenticon" width="40" height="40" />
+					</div>
+					<div class="col-xs-8">
+					 	<a href="/Stats/Servers/GER/GER.html">
+						 	<h5>GER Node</h5>
+						 </a>
+					 </div>
+				</div>
+				<div class="col-xs-12">
+					<div class="col-xs-4">
+						<canvas id="UKidenticon" width="40" height="40" />
+					</div>
+					<div class="col-xs-8">
+					 	<a href="/Stats/Servers/SF/SF.html">
+						 	<h5>SF Node</h5>
+						 </a>
+					 </div>		
+				</div>
+				<div class="col-xs-12">
+					<div class="col-xs-4">
+						<canvas id="UKidenticon" width="40" height="40" />
+					</div>
+					<div class="col-xs-8">
+					 	<a href="/Stats/Servers/AMS/AMS.html">
+					 		<h5>AMS Node</h5>
+					 	</a>
+					 </div>
+				</div>
+				<div class="col-xs-12">
+					<div class="col-xs-4">
+						<canvas id="NYCidenticon" width="40" height="40" />
+					</div>
+					<div class="col-xs-8">
+					 	<a href="/Stats/Servers/NYC/NYC.html">
+						 	<h5>NYC Node</h5>
+						 </a>
+					 </div>		
+				</div>
+			</div>
+			<div class="col-xs-3" style="text-align:center;">
+					<img id="UKRobohash" src="" alt="Robohash" width="120" height="120" style="border:1px dotted black;"><br/>
+					<h5>
+						London.GRCNode.co.uk
+					</h5>
+			</div>
+			<div class="col-xs-3">
+				<div class="col-xs-12">
+							<b>Blocks:</b> <span id='UKblocks'></span><br/>
+							<b>Connections:</b> <span id='UKconnections'></span><br/>
+							<b>Version:</b> <span id='UKversion'></span><br/>
+							<b>Money Supply:</b> <span id='UKmoneysupply'></span><br/>
+							<b>Best Block Hash:</b> <span id='UKbestblockhash'></span><br/>
+							<a href="/Stats/Servers/UK/UK.json">Full getinfo details</a><br/>
+							<a type="button" class="btn btn-secondary" href="../index.html" role="button">Back to overview</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="text-align:center;">
+		<div class="col-xs-12 col-sm-offset-2 col-sm-8" style="padding:15px;">
+			<div class="col-xs-12">
+				<h4>Peers</h4>
+			</div>
+			<div class="col-xs-12" id="UKPeerRoboHashes">
+			</div>
+		</div>
+	</div>
+</container>
+
+<script type="text/javascript" src="/js/Mandatory/jdenticon-1.3.2.min.js"></script>
+<script type="text/javascript" src="/js/MISC/UK.js"></script>

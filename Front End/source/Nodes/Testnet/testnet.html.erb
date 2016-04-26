@@ -1,0 +1,51 @@
+<container>
+	<div class="row">
+		<div class="col-xs-12 col-sm-offset-2 col-sm-8" style="padding:15px;">
+			<div class="col-xs-4" style="text-align:center;">
+				<div class="col-xs-12">
+					<canvas id="Testnetidenticon" width="120" height="120" />
+				</div>
+				<div class="col-xs-4">
+					-1 <canvas id="Testnetidenticon-1" width="40" height="40" />
+				</div>
+				<div class="col-xs-4">
+					-2 <canvas id="Testnetidenticon-2" width="40" height="40" />
+				</div>
+				<div class="col-xs-4">
+					-3 <canvas id="Testnetidenticon-3" width="40" height="40" />
+				</div>
+			</div>
+			<div class="col-xs-4" style="text-align:center;">
+					<img id="TestnetRobohash" src="" alt="Robohash" width="120" height="120" style="border:1px dotted black;"><br/>
+					<h5>
+						Testnet.GRCNode.co.uk
+					</h5>
+			</div>
+			<div class="col-xs-4">
+				<div class="col-xs-12">
+							<b>Blocks:</b> <span id='Testnetblocks'></span><br/>
+							<b>Connections:</b> <span id='Testnetconnections'></span><br/>
+							<b>Version:</b> <span id='Testnetversion'></span><br/>
+							<b>Money Supply:</b> <span id='Testnetmoneysupply'></span><br/>
+							<b>Best Block Hash:</b> <span id='Testnetbestblockhash'></span><br/>
+							<a href="/Stats/Servers/Testnet/testnet.json">Full getinfo details</a><br/>
+							<a type="button" class="btn btn-secondary" href="../index.html" role="button">Back to overview</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="text-align:center;">
+		<div class="col-xs-12 col-sm-offset-2 col-sm-8" style="padding:15px;">
+			<div class="col-xs-12">
+				<h4>Peers</h4>
+			</div>
+			<div class="col-xs-12" id="TestnetPeerRoboHashes">
+			</div>
+		</div>
+	</div>
+</container>
+
+<script type="text/javascript" src="/js/Mandatory/jdenticon-1.3.2.min.js"></script>
+<script type="text/javascript" src="/js/MISC/testnet.js"></script>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<server_status>
+<daemon_status>
+  <daemon>
+        <host>yafu.myfirewall.org</host>
+        <command>Download server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>yafu.myfirewall.org</host>
+        <command>Upload server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>debian</host>
+        <command>Scheduler</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>debian</host>
+        <command>
+        feeder</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>debian</host>
+        <command>
+        transitioner</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>debian</host>
+        <command>
+        file_deleter</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>debian</host>
+        <command>   	sample_assimilator (example_app	)</command>
+        <status>not running</status>
+    </daemon>
+  <daemon>
+        <host>debian</host>
+        <command>   	sample_trivial_validator (yafu	)</command>
+        <status>not running</status>
+    </daemon>
+  <daemon>
+        <host>debian</host>
+        <command>   	sample_assimilator (yafu	)</command>
+        <status>not running</status>
+    </daemon>
+  <daemon>
+        <host>debian</host>
+        <command>   	sample_trivial_validator (yafu-low	)</command>
+        <status>not running</status>
+    </daemon>
+  <daemon>
+        <host>debian</host>
+        <command>   	sample_assimilator (yafu-low	)</command>
+        <status>not running</status>
+    </daemon>
+  <daemon>
+        <host>debian</host>
+        <command>   	sample_trivial_validator (benchmark	)</command>
+        <status>not running</status>
+    </daemon>
+  <daemon>
+        <host>debian</host>
+        <command>   	sample_assimilator (benchmark	)</command>
+        <status>not running</status>
+    </daemon>
+  <daemon>
+        <host>debian</host>
+        <command>   	db_purge</command>
+        <status>not running</status>
+    </daemon>
+</daemon_status>
+<database_file_states>
+   <results_ready_to_send>669</results_ready_to_send>
+   <results_in_progress>905</results_in_progress>
+   <workunits_waiting_for_validation>0</workunits_waiting_for_validation>
+   <workunits_waiting_for_assimilation>0</workunits_waiting_for_assimilation>
+   <workunits_waiting_for_deletion>0</workunits_waiting_for_deletion>
+   <results_waiting_for_deletion>0</results_waiting_for_deletion>
+   <transitioner_backlog_hours>0</transitioner_backlog_hours>
+   <users_with_recent_credit>245</users_with_recent_credit>
+   <users_with_credit>1426</users_with_credit>
+   <users_registered_in_past_24_hours>2</users_registered_in_past_24_hours>
+   <hosts_with_recent_credit>922</hosts_with_recent_credit>
+   <hosts_with_credit>7170</hosts_with_credit>
+   <hosts_registered_in_past_24_hours>21</hosts_registered_in_past_24_hours>
+   <current_floating_point_speed>3022.9955848362</current_floating_point_speed>
+<tasks_by_app>
+<app>
+   <id>3</id>
+   <name>yafu</name>
+   <unsent>626</unsent>
+   <in_progress>716</in_progress>
+   <avg_runtime>2.3000</avg_runtime>
+   <min_runtime>0.0100</min_runtime>
+   <max_runtime>58.7400</max_runtime>
+   <users>54</users>
+</app>
+<app>
+   <id>9</id>
+   <name>yafu-low</name>
+   <unsent>43</unsent>
+   <in_progress>189</in_progress>
+   <avg_runtime>0.7900</avg_runtime>
+   <min_runtime>0.0100</min_runtime>
+   <max_runtime>11.3100</max_runtime>
+   <users>27</users>
+</app>
+</tasks_by_app>
+</database_file_states>
+</server_status>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!-- Use title if it's in the page YAML frontmatter -->
+        <title><%= current_page.data.title || "GRCNode" %></title>
+        <meta name="description" content="GRCNode stats/info/tools">
+        <meta name="author" content="CM">
+        <meta name="viewport" content="width=device-width">
+
+        <!--Favicons
+        <link rel="apple-touch-icon" sizes="57x57" href="/img/Favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/img/Favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/img/Favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/img/Favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/img/Favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/img/Favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/img/Favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/img/Favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/Favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/img/Favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/Favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/img/Favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/Favicons/favicon-16x16.png">
+        <link rel="manifest" href="/img/Favicons/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/img/Favicons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        /Favicons-->
+
+        <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <script type="text/javascript" src="/js/Mandatory/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/Mandatory/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="/js/Mandatory/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/js/Mandatory/analytics.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+        <%= partial "/layouts/partials/header" %>
+        <!--Yield-->
+        <%= yield %>
+        <!--/Yield-->
+        <div class="row">
+            <div class="class-sm-12" style="text-align:center;">
+                <h4>Help keep these full nodes running:</h4>
+                <a href="https://www.digitalocean.com/?refcode=b86d3e55f889">
+                    <img src="/img/DigitalOcean.png" width="300px;" alt="DigitalOcean Logo">
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

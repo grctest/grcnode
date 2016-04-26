@@ -1,0 +1,26 @@
+{
+    "version": "v3.5.4.8-g-research",
+    "minor_version": 315,
+    "protocolversion": 180317,
+    "walletversion": 60000,
+    "balance": 0,
+    "newmint": 0,
+    "stake": 0,
+    "blocks": 427314,
+    "timeoffset": -110,
+    "moneysupply": 371476067.0178276,
+    "connections": 61,
+    "proxy": "",
+    "ip": "46.101.151.219",
+    "difficulty": {
+        "proof-of-work": 8.23948943,
+        "proof-of-stake": 43.6665747
+    },
+    "testnet": false,
+    "keypoololdest": 1448660266,
+    "keypoolsize": 101,
+    "paytxfee": 0.0001,
+    "tally": "",
+    "mininput": 0,
+    "errors": ""
+}

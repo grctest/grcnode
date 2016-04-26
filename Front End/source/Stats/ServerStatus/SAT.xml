@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<server_status>
+  <update_time>1449532123</update_time>
+  <daemon_status>
+    <daemon>
+      <host>sat</host>
+      <command>data-driven web pages</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>sat</host>
+      <command>upload/download server</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>sat</host>
+      <command>scheduler</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>sat</host>
+      <command>feeder</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>sat</host>
+      <command>transitioner</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>sat</host>
+      <command>file_deleter</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>sat</host>
+      <command>validator_crypto</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>sat</host>
+      <command>assimilator_crypto</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>sat</host>
+      <command>validator_latin</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>sat</host>
+      <command>assimilator_latin</command>
+      <status>running</status>
+    </daemon>
+  </daemon_status>
+  <database_file_states>
+    <results_ready_to_send>3356</results_ready_to_send>
+    <results_in_progress>21798</results_in_progress>
+    <workunits_waiting_for_validation>0</workunits_waiting_for_validation>
+    <workunits_waiting_for_assimilation>0</workunits_waiting_for_assimilation>
+    <workunits_waiting_for_deletion>0</workunits_waiting_for_deletion>
+    <results_waiting_for_deletion>0</results_waiting_for_deletion>
+    <transitioner_backlog_hours>0</transitioner_backlog_hours>
+  </database_file_states>
+</server_status>
