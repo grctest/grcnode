@@ -25,3 +25,4 @@ wget "http://findah.ucd.ie/server_status.php?xml=1" -O /json/Stats/ServerStatus/
 wget "http://boinc.fzk.de/poem/server_status.php?xml=1" -O /json/Stats/ServerStatus/POEM.xml
 wget "http://www.malariacontrol.net/server_status.php?xml=1" -O /json/Stats/ServerStatus/MalariaControl.xml
 wget "https://www.gpugrid.net/server_status.php?xml=1" -O /json/Stats/ServerStatus/GPUGRID.xml
+wget "http://www.distributeddatamining.org/DistributedDataMining/server_status.php?xml=1" -O /json/Stats/ServerStatus/DDM.xml
