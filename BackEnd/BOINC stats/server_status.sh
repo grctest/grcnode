@@ -26,3 +26,4 @@ wget "http://boinc.fzk.de/poem/server_status.php?xml=1" -O /json/Stats/ServerSta
 wget "http://www.malariacontrol.net/server_status.php?xml=1" -O /json/Stats/ServerStatus/MalariaControl.xml
 wget "https://www.gpugrid.net/server_status.php?xml=1" -O /json/Stats/ServerStatus/GPUGRID.xml
 wget "http://www.distributeddatamining.org/DistributedDataMining/server_status.php?xml=1" -O /json/Stats/ServerStatus/DDM.xml
+wget "http://boinc.gorlaeus.net/server_status.php?xml=1" -O /json/Stats/ServerStatus/Leiden.xml
