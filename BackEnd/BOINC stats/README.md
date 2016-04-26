@@ -6,7 +6,7 @@ Not in team Gridcoin, and want team stats for your team? Just replace the team I
 | --- | --- | --- | --- | --- |
 | Distributed Data Mining  | ✓  | ✓ | [Team stats](http://www.distributeddatamining.org/DistributedDataMining/team_email_list.php?teamid=2176&xml=1) | [Server stats](http://www.distributeddatamining.org/DistributedDataMining/server_status.php?xml=1) |
 | LHC@Home (classic)  | ✓ | ✓ | [Team stats](http://lhcathomeclassic.cern.ch/sixtrack/team_email_list.php?teamid=8128&xml=1) | [Server stats](http://lhcathomeclassic.cern.ch/sixtrack/server_status.php?xml=1) |
-| world community grid  | ✓  | ✕ | [Team stats](http://www.worldcommunitygrid.org/boinc/team_email_list.php?teamid=30513&xml=1) | [Server stats](#) |
+| world community grid  | ✓  | ✕ (not available) | [Team stats](http://www.worldcommunitygrid.org/boinc/team_email_list.php?teamid=30513&xml=1) | [Server stats](#) |
 | Gridcoin Finance  | ✓ | ✓ | [Team stats](http://finance.gridcoin.us/finance/team_email_list.php?teamid=5&xml=1) | [Server stats](http://finance.gridcoin.us/server_status.php?xml=1) |
 | GPUGRID  | ✓  | ✓ | [Team stats](http://www.gpugrid.net/team_email_list.php?teamid=3493&xml=1) | [Server stats](https://www.gpugrid.net/server_status.php?xml=1) |
 | Asteroids@Home  | ✓  | ✓ | [Team stats](http://asteroidsathome.net/boinc/team_email_list.php?teamid=2218&xml=1) | [Server stats](http://asteroidsathome.net/boinc/server_status.php?xml=1) |
