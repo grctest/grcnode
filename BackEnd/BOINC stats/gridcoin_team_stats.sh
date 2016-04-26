@@ -23,7 +23,6 @@ wget "http://mindmodeling.org/team_email_list.php?teamid=2415&xml=1" -O /json/St
 wget "http://escatter11.fullerton.edu/nfs/team_email_list.php?teamid=2353&xml=1" -O /json/Stats/TeamStats/NFS.xml
 wget "http://numberfields.asu.edu/NumberFields/team_email_list.php?teamid=2069&xml=1" -O /json/Stats/TeamStats/NumbersField.xml
 wget "http://boinc.bakerlab.org/rosetta/team_email_list.php?teamid=12575&xml=1" -O /json/Stats/TeamStats/Rosetta.xml
-wget "http://sat.isa.ru/pdsat/team_email_list.php?teamid=2059&xml=1" -O /json/Stats/TeamStats/SAT.xml
 wget "http://pogs.theskynet.org/pogs/team_email_list.php?teamid=2020&xml=1" -O /json/Stats/TeamStats/Skynet.xml
 wget "http://www.rechenkraft.net/yoyo/team_email_list.php?teamid=1475&xml=1" -O /json/Stats/TeamStats/YOYO.xml
 wget "http://www.bitcoinutopia.net/bitcoinutopia/team_email_list.php?teamid=1888&xml=1" -O /json/Stats/TeamStats/BU.xml
