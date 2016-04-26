@@ -1,3 +1,4 @@
+wget "http://atlasathome.cern.ch/team_email_list.php?teamid=1869&xml=1" -O /json/Stats/TeamStats/Atlas.xml
 wget "http://www.distributeddatamining.org/DistributedDataMining/team_email_list.php?teamid=2176&xml=1" -O /json/Stats/TeamStats/DDM.xml
 wget "http://lhcathomeclassic.cern.ch/sixtrack/team_email_list.php?teamid=8128&xml=1" -O /json/Stats/TeamStats/LHCatHome.xml
 wget "http://www.worldcommunitygrid.org/boinc/team_email_list.php?teamid=30513&xml=1" -O /json/Stats/TeamStats/WCG.xml
