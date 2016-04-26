@@ -2,6 +2,7 @@ wget "http://www.distributeddatamining.org/DistributedDataMining/team_email_list
 wget "http://lhcathomeclassic.cern.ch/sixtrack/team_email_list.php?teamid=8128&xml=1" -O /json/Stats/TeamStats/LHCatHome.xml
 wget "http://www.worldcommunitygrid.org/boinc/team_email_list.php?teamid=30513&xml=1" -O /json/Stats/TeamStats/WCG.xml
 wget "http://finance.gridcoin.us/finance/team_email_list.php?teamid=5&xml=1" -O /json/Stats/TeamStats/GRCF.xml
+wget "http://sat.isa.ru/pdsat/team_email_list.php?teamid=2059&xml=1" -O /json/Stats/TeamStats/SAT.xml
 wget "http://www.gpugrid.net/team_email_list.php?teamid=3493&xml=1" -O /json/Stats/TeamStats/GPUGrid.xml
 wget "http://asteroidsathome.net/boinc/team_email_list.php?teamid=2218&xml=1" -O /json/Stats/TeamStats/Asteroids.xml
 wget "http://milkyway.cs.rpi.edu/milkyway/team_email_list.php?teamid=6566&xml=1" -O /json/Stats/TeamStats/Milkyway.xml
