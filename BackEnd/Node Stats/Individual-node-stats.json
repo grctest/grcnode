@@ -14,9 +14,9 @@ var outputFilename = '/Node/Node.json';
 var outputFilename2 = '/Node/Node-Blocks.json';
 var outputFilename3 = '/Node/Node-Peers.json';
 
-var TexasBlockHashSub1 = '/Node/Node-Blocks-Sub1.json';
-var TexasBlockHashSub2 = '/Node/NodeBlocks-Sub2.json';
-var TexasBlockHashSub3 = '/Node/Node-Blocks-Sub3.json';
+var NodeBlockHashSub1 = '/Node/Node-Blocks-Sub1.json';
+var NodeBlockHashSub2 = '/Node/NodeBlocks-Sub2.json';
+var NodeBlockHashSub3 = '/Node/Node-Blocks-Sub3.json';
 
 Node.cmd('getinfo', function(err, getinfo){
 //JSON
@@ -39,7 +39,7 @@ Node.getBlockCount(function(err, getBlockCount){
 
   Node.getBlockHash(blockminus1, function(err, getBlockHash1){
     //JSON
-    fs.writeFile(TexasBlockHashSub1, JSON.stringify(getBlockHash1, null, 4), function(err) {
+    fs.writeFile(NodeBlockHashSub1, JSON.stringify(getBlockHash1, null, 4), function(err) {
       if(err) {
         console.log(err);
       }
@@ -48,7 +48,7 @@ Node.getBlockCount(function(err, getBlockCount){
 
   Node.getBlockHash(blockminus2, function(err, getBlockHash2){
     //JSON
-    fs.writeFile(TexasBlockHashSub2, JSON.stringify(getBlockHash2, null, 4), function(err) {
+    fs.writeFile(NodeBlockHashSub2, JSON.stringify(getBlockHash2, null, 4), function(err) {
       if(err) {
         console.log(err);
       }
@@ -57,7 +57,7 @@ Node.getBlockCount(function(err, getBlockCount){
 
   Node.getBlockHash(blockminus3, function(err, getBlockHash3){
     //JSON
-    fs.writeFile(TexasBlockHashSub3, JSON.stringify(getBlockHash3, null, 4), function(err) {
+    fs.writeFile(NodeBlockHashSub3, JSON.stringify(getBlockHash3, null, 4), function(err) {
       if(err) {
         console.log(err);
       }
