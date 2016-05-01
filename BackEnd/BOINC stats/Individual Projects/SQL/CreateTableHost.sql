@@ -30,6 +30,7 @@
   <host_cpid>1aec0d53f97802118accae88b7556e42</host_cpid> 
 </host>
 */
+USE BOINC;
 create table host (
     id                      integer         not null, 
     userid                  integer, 

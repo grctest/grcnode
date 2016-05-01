@@ -11,6 +11,7 @@
  <teamid>1629</teamid>
 </user>
 */
+USE BOINC;
 create table user (
     id                      integer         not null,
     create_time             integer,
