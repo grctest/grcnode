@@ -12,7 +12,7 @@
 </user>
 */
 USE BOINC;
-create table user (
+create table GridcoinFinance_user (
     id                      integer         not null,
     create_time             integer,
     name                    varchar(254),
@@ -21,17 +21,455 @@ create table user (
     expavg_credit           double,
     expavg_time             double,
     teamid                  integer,
-    venue                   varchar(254),
-    url                     varchar(254),
-    show_hosts              smallint,
-    posts                   smallint,
-        -- reused: salt for weak auth
-    seti_id                 integer,
-    seti_nresults           integer,
-    seti_last_result_time   integer,
-    seti_total_cpu          double,
-        -- deprecated
     has_profile             smallint,
-    cross_project_id        varchar(254),
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+/*
+<user>
+ <id>5</id>
+ <name>Vladimir Pelikan</name>
+ <country>Czech Republic</country>
+ <create_time>941807225</create_time>
+ <total_credit>981181.419186</total_credit>
+ <expavg_credit>0.052065</expavg_credit>
+ <expavg_time>1363717804.788830</expavg_time>
+ <cpid>a262dee5c7186318fab8f38a8f19a254</cpid>
+ <teamid>101562</teamid>
+</user>
+*/
+
+create table SETI_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table Einstein_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table ClimatePrediction_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table Rosetta_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table BURP_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table PrimeGrid_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table Sztaki_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table WCG_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table MalariaControl_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table lattice2_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table CPDN_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table Leiden_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table MooWrap_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table GPUGRID_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table Asteroids_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table Milkyway_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table POEM_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table Collatz_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table CSG_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table YAFU_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table FindAtHome_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table Cosmology_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table vLHC_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table MindModeling_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table NFS_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table NumbersFields_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table Skynet_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table YOYO_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table BitcoinUtopia_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table SAT_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
+    primary key (id)
+) engine=InnoDB;
+
+create table ATLAS_user (
+    id                      integer         not null,
+    create_time             integer,
+    name                    varchar(254),
+    country                 varchar(254),
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    teamid                  integer,
+    has_profile             smallint,
+    cpid        varchar(254)         not null,
     primary key (id)
 ) engine=InnoDB;
