@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<server_status>
+<daemon_status>
+  <daemon>
+        <host>csgrid.org</host>
+        <command>Download server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>csgrid.org</host>
+        <command>Upload server</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                feeder</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                transitioner</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                file_deleter</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                db_purge</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                dna_assimilator (gibbs)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                dna_validator (gibbs)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                crowd_observation_validator</command>
+        <status>not running</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                wildlife_bgsub_assimilator (wildlife_bgsub)</command>
+        <status>not running</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                sss_validator (subset_sum)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                sss_assimilator (subset_sum)</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                sss_webpage_generator</command>
+        <status>running</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                wildlife_validator (wildlife)</command>
+        <status>disabled</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                wildlife_surf_validator (wildlife_surf)</command>
+        <status>disabled</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                wildlife_surf_collect_validator (wildlife_surf_collect)</command>
+        <status>disabled</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                wildlife_surf_collect_assimilator (wildlife_surf_collect)</command>
+        <status>disabled</status>
+    </daemon>
+  <daemon>
+        <host>undhpccsgrid</host>
+        <command>
+                wildlife_bgsub_validator (wildlife_bgsub)</command>
+        <status>disabled</status>
+    </daemon>
+</daemon_status>
+<database_file_states>
+   <results_ready_to_send>602849</results_ready_to_send>
+   <results_in_progress>16258</results_in_progress>
+   <workunits_waiting_for_validation>4</workunits_waiting_for_validation>
+   <workunits_waiting_for_assimilation>1892</workunits_waiting_for_assimilation>
+   <workunits_waiting_for_deletion>2</workunits_waiting_for_deletion>
+   <results_waiting_for_deletion>4</results_waiting_for_deletion>
+   <transitioner_backlog_hours>0</transitioner_backlog_hours>
+   <users_with_recent_credit>2483</users_with_recent_credit>
+   <users_with_credit>5780</users_with_credit>
+   <users_registered_in_past_24_hours>66</users_registered_in_past_24_hours>
+   <hosts_with_recent_credit>5347</hosts_with_recent_credit>
+   <hosts_with_credit>14337</hosts_with_credit>
+   <hosts_registered_in_past_24_hours>70</hosts_registered_in_past_24_hours>
+   <current_floating_point_speed>10155.561547442</current_floating_point_speed>
+<tasks_by_app>
+<app>
+   <id>7</id>
+   <name>wildlife</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>9</id>
+   <name>wildlife_surf</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>12</id>
+   <name>wildlife_surf_collect</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+<app>
+   <id>13</id>
+   <name>gibbs</name>
+   <unsent>4</unsent>
+   <in_progress>5368</in_progress>
+   <avg_runtime>1.2200</avg_runtime>
+   <min_runtime>0.0100</min_runtime>
+   <max_runtime>18.3900</max_runtime>
+   <users>597</users>
+</app>
+<app>
+   <id>15</id>
+   <name>subset_sum</name>
+   <unsent>602841</unsent>
+   <in_progress>10890</in_progress>
+   <avg_runtime>2.6200</avg_runtime>
+   <min_runtime>0.7500</min_runtime>
+   <max_runtime>37.3000</max_runtime>
+   <users>766</users>
+</app>
+<app>
+   <id>22</id>
+   <name>wildlife_bgsub</name>
+   <unsent>0</unsent>
+   <in_progress>0</in_progress>
+   <avg_runtime>0</avg_runtime>
+   <min_runtime>0</min_runtime>
+   <max_runtime>0</max_runtime>
+   <users>0</users>
+</app>
+</tasks_by_app>
+</database_file_states>
+</server_status>
