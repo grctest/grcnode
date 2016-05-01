@@ -14,15 +14,514 @@
  <country>Internet</country>
 </team>
 */
-create table team (
+create table GridcoinFinance_team (
     id                      integer         not null,
-    cpid        varchar(254)    not null,
-    create_time             integer,
+    type                      integer,
     name                    varchar(254),
-    url                     varchar(254),
-    country                 varchar(254),
+    userid                      integer,
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table SETI_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table Einstein_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table ClimatePrediction_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table Rosetta_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table BURP_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table PrimeGrid_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table Sztaki_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table WCG_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table MalariaControl_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table lattice2_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table CPDN_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table Leiden_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table MooWrap_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table GPUGRID_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table Asteroids_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table Milkyway_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table POEM_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table Collatz_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table CSG_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table YAFU_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table FindAtHome_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table Cosmology_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table vLHC_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table MindModeling_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table NFS_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table NumbersFields_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table Skynet_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table YOYO_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table BitcoinUtopia_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table SAT_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
+    primary key (id)
+) engine=MyISAM;
+
+create table ATLAS_team (
+    id                      integer         not null,
+    type                      integer,
+    name                    varchar(254),
+    userid                      integer,
+    total_credit            double,
+    expavg_credit           double,
+    expavg_time             double,
+    founder_name        varchar(254),
+    create_time             integer,
+    url                     varchar(254),
+    description        varchar(254),
+    country                 varchar(254),
     primary key (id)
 ) engine=MyISAM;

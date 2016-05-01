@@ -26,20 +26,6 @@ create table GridcoinFinance_user (
     primary key (id)
 ) engine=InnoDB;
 
-/*
-<user>
- <id>5</id>
- <name>Vladimir Pelikan</name>
- <country>Czech Republic</country>
- <create_time>941807225</create_time>
- <total_credit>981181.419186</total_credit>
- <expavg_credit>0.052065</expavg_credit>
- <expavg_time>1363717804.788830</expavg_time>
- <cpid>a262dee5c7186318fab8f38a8f19a254</cpid>
- <teamid>101562</teamid>
-</user>
-*/
-
 create table SETI_user (
     id                      integer         not null,
     create_time             integer,
