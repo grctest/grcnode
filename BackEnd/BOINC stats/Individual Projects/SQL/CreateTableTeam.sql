@@ -14,23 +14,15 @@
  <country>Internet</country>
 </team>
 */
-
 create table team (
-    id                      integer    not null,
+    id                      integer         not null,
+    cpid        varchar(254)    not null,
     create_time             integer,
-    userid                  integer,
-    name                    varchar(254)    not null,
-    name_lc                 varchar(254),
-    founder_name            varchar(254),
+    name                    varchar(254),
     url                     varchar(254),
-    type                    integer,
-    name_html               varchar(254),
-    description             text,
-    nusers                  integer,   /* temp */
     country                 varchar(254),
-    total_credit            double,   /* temp */
-    expavg_credit           double,   /* temp */
+    total_credit            double,
+    expavg_credit           double,
     expavg_time             double,
-    seti_id                 integer,
     primary key (id)
-) engine=MyISAM;  
+) engine=MyISAM;
