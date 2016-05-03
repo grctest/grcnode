@@ -28,3 +28,5 @@ wget "https://www.gpugrid.net/server_status.php?xml=1" -O GPUGRID.xml
 wget "http://www.distributeddatamining.org/DistributedDataMining/server_status.php?xml=1" -O DDM.xml
 wget "http://boinc.gorlaeus.net/server_status.php?xml=1" -O Leiden.xml
 wget "http://lhcathome2.cern.ch/vLHCathome/server_status.php?xml=1" -O lhcathome2.xml
+#CPDN server status page is html not php, unable to get xml extract.
+#http://climateapps2.oerc.ox.ac.uk/cpdnboinc/server_status.html

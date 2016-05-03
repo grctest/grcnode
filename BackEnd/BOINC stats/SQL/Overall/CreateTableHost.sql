@@ -62,38 +62,6 @@ create table GridcoinFinance_host (
     primary key (host_cpid)
 ) engine=InnoDB;
 
-create table DDM_host (
-    id                      integer         not null, 
-    userid                  integer, 
-    total_credit            double,
-    expavg_credit           double,
-    expavg_time             double,
-    p_vendor                varchar(254),
-    p_model                 varchar(254),
-    os_name                 varchar(254),
-    os_version              varchar(254),
-    coprocs                 varchar(254),
-    boinc_version           varchar(254),
-    create_time             integer, 
-    rpc_time                integer,
-    timezone                integer,
-    ncpus                   integer,
-    p_fpops                 double,
-    p_iops                  double,
-    p_membw                 double,
-    m_nbytes                double,
-    m_cache                 double,
-    m_swap                  double,
-    d_total                 double,
-    d_free                  double,
-    n_bwup                  double,
-    n_bwdown                double,
-    avg_turnaround          double,
-    credit_per_cpu_sec      double,
-    host_cpid               varchar(254)          not null,
-    primary key (host_cpid)
-) engine=InnoDB;
-
 create table SETI_host (
     id                      integer         not null, 
     userid                  integer, 

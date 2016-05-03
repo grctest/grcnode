@@ -1,4 +1,6 @@
 USE BOINC;
+#Bear in mind, some of these files may take HOURS to import (500-5000MB)
+#Replace '/ with the exact path to the BOINC xml folder locations.
 LOAD XML LOCAL INFILE '/GridcoinFinance/host.xml' INTO TABLE GridcoinFinance_host ROWS IDENTIFIED BY '<host>';
 LOAD XML LOCAL INFILE '/GridcoinFinance/user.xml' INTO TABLE GridcoinFinance_user ROWS IDENTIFIED BY '<user>';
 LOAD XML LOCAL INFILE '/GridcoinFinance/team.xml' INTO TABLE GridcoinFinance_team ROWS IDENTIFIED BY '<team>';
