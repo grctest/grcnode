@@ -36,6 +36,7 @@ create table TeamOverview (
     project_mag_YOYO             double     DEFAULT 0,
     project_mag_vLHC             double     DEFAULT 0,
     TotalMag             double     DEFAULT 0,
+    MonthlyEarnings             double     DEFAULT 0,
     StakingAddress                 varchar(35),
     OP_Return                 varchar(254),
     cpid        varchar(254)         not null,

@@ -11343,7 +11343,7 @@
 </user>
 <user>
     <id>329103</id>
-    <cpid>98c31b508539235d9b4d797a0061fa76</cpid>
+    <cpid>0901f3032c09703f8056c2aa5d53c198</cpid>
     <total_credit>0</total_credit>    <create_time>1462053331</create_time>
     <name>sandruk</name>
     <country>Ukraine</country>
@@ -11369,6 +11369,17 @@
     <total_credit>0</total_credit>    <create_time>1462105278</create_time>
     <name>kimmo</name>
     <country>Finland</country>
+    <expavg_credit>0</expavg_credit>
+    <expavg_time></expavg_time>
+    <url></url>
+    <has_profile>0</has_profile>
+</user>
+<user>
+    <id>329132</id>
+    <cpid>afb2d70642bc92804fa495895574d93e</cpid>
+    <total_credit>0</total_credit>    <create_time>1462274843</create_time>
+    <name>donioid</name>
+    <country>International</country>
     <expavg_credit>0</expavg_credit>
     <expavg_time></expavg_time>
     <url></url>

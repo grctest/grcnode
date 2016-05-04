@@ -91,11 +91,11 @@
 <user>
     <id>4354</id>
     <cpid>663fe6b7010ad83e4d056f00629df188</cpid>
-    <total_credit>200729.85570750045</total_credit>    <create_time>1096608262</create_time>
+    <total_credit>202456.10650702586</total_credit>    <create_time>1096608262</create_time>
     <name>lingannis</name>
     <country>Argentina</country>
-    <expavg_credit>523.1446888642741</expavg_credit>
-    <expavg_time>1461995729.885435</expavg_time>
+    <expavg_credit>485.6366702340566</expavg_credit>
+    <expavg_time>1462376669.29929</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -113,11 +113,11 @@
 <user>
     <id>6154</id>
     <cpid>b1fc8162e7d4c87a9f3f02657c2a6ccb</cpid>
-    <total_credit>152008.43199699247</total_credit>    <create_time>1121274121</create_time>
+    <total_credit>165443.1183301066</total_credit>    <create_time>1121274121</create_time>
     <name>Gallifrey</name>
     <country>United States</country>
-    <expavg_credit>4647.569162262563</expavg_credit>
-    <expavg_time>1462137231.751111</expavg_time>
+    <expavg_credit>4678.064695004668</expavg_credit>
+    <expavg_time>1462377500.949781</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -157,11 +157,22 @@
 <user>
     <id>9173</id>
     <cpid>49f5d6ae6795dc13de42bc56af591a42</cpid>
-    <total_credit>8272.663058901133</total_credit>    <create_time>1122407766</create_time>
+    <total_credit>8452.287981326828</total_credit>    <create_time>1122407766</create_time>
     <name>Penumbra Du Fromage</name>
     <country>United States</country>
-    <expavg_credit>165.743727</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>115.4127919923358</expavg_credit>
+    <expavg_time>1462377145.451823</expavg_time>
+    <url></url>
+    <has_profile>0</has_profile>
+</user>
+<user>
+    <id>9959</id>
+    <cpid>8f6c3ee5d5bb28b38993a36bbba99951</cpid>
+    <total_credit>892295.7863427972</total_credit>    <create_time>1122801853</create_time>
+    <name>Ron S</name>
+    <country>Luxembourg</country>
+    <expavg_credit>306.524316651568</expavg_credit>
+    <expavg_time>1462335032.979645</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -190,11 +201,11 @@
 <user>
     <id>12868</id>
     <cpid>2419fb27eba52ae5972930cf1125e276</cpid>
-    <total_credit>579597.1156981181</total_credit>    <create_time>1124538702</create_time>
+    <total_credit>580445.5442739263</total_credit>    <create_time>1124538702</create_time>
     <name>rerobert</name>
     <country>International</country>
-    <expavg_credit>2746.373786777437</expavg_credit>
-    <expavg_time>1462083155.463613</expavg_time>
+    <expavg_credit>2032.664247951986</expavg_credit>
+    <expavg_time>1462376601.200012</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -223,11 +234,11 @@
 <user>
     <id>16098</id>
     <cpid>8f373c16ae13fa0d3206b92a945367a2</cpid>
-    <total_credit>256087.17557329795</total_credit>    <create_time>1126455154</create_time>
+    <total_credit>256712.4045681853</total_credit>    <create_time>1126455154</create_time>
     <name>NocFlame</name>
     <country>Sweden</country>
-    <expavg_credit>857.4335345453042</expavg_credit>
-    <expavg_time>1461863783.121927</expavg_time>
+    <expavg_credit>528.7833194725398</expavg_credit>
+    <expavg_time>1462372018.475365</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -245,11 +256,11 @@
 <user>
     <id>17118</id>
     <cpid>1963a6f109ea770c195a0e1afacd2eba</cpid>
-    <total_credit>2082949.2126814793</total_credit>    <create_time>1127235564</create_time>
+    <total_credit>2090347.4731161215</total_credit>    <create_time>1127235564</create_time>
     <name>BGB [gridcoin.us]</name>
     <country>United States</country>
-    <expavg_credit>3531.436610754371</expavg_credit>
-    <expavg_time>1462135246.698839</expavg_time>
+    <expavg_credit>3422.346130039095</expavg_credit>
+    <expavg_time>1462357075.783027</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -267,11 +278,11 @@
 <user>
     <id>18592</id>
     <cpid>9ac6e23644ff714535b4fc5d32addcf3</cpid>
-    <total_credit>169523.13667983477</total_credit>    <create_time>1128409866</create_time>
+    <total_credit>169823.0656708438</total_credit>    <create_time>1128409866</create_time>
     <name>FdG</name>
     <country>Germany</country>
-    <expavg_credit>63.41463907946211</expavg_credit>
-    <expavg_time>1462118600.742303</expavg_time>
+    <expavg_credit>79.15716201059557</expavg_credit>
+    <expavg_time>1462288305.85125</expavg_time>
     <url></url>
     <has_profile>1</has_profile>
 </user>
@@ -333,11 +344,11 @@
 <user>
     <id>24884</id>
     <cpid>b837ffae734b258adde58c5ba921fc0b</cpid>
-    <total_credit>208924.56389904796</total_credit>    <create_time>1132862971</create_time>
+    <total_credit>211348.35674808084</total_credit>    <create_time>1132862971</create_time>
     <name>LennStar</name>
     <country>Germany</country>
-    <expavg_credit>86.30862821218105</expavg_credit>
-    <expavg_time>1462042637.519482</expavg_time>
+    <expavg_credit>274.1040046490322</expavg_credit>
+    <expavg_time>1462377755.746081</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -366,22 +377,22 @@
 <user>
     <id>36637</id>
     <cpid>4563338e20bb2bc44d6ea9dc28bb70f9</cpid>
-    <total_credit>12237.342938117448</total_credit>    <create_time>1137100184</create_time>
+    <total_credit>12429.610308280224</total_credit>    <create_time>1137100184</create_time>
     <name>Wilson Tam</name>
     <country>Canada</country>
-    <expavg_credit>140.9203510424248</expavg_credit>
-    <expavg_time>1462134728.616814</expavg_time>
+    <expavg_credit>128.0794074512533</expavg_credit>
+    <expavg_time>1462331987.615084</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>37445</id>
     <cpid>8cfd5c4383276d0ad86a8ec7263eb8d8</cpid>
-    <total_credit>106819.64667056847</total_credit>    <create_time>1137450505</create_time>
+    <total_credit>106911.79838638782</total_credit>    <create_time>1137450505</create_time>
     <name>fthibaud0001</name>
     <country>Switzerland</country>
-    <expavg_credit>200.2519330592208</expavg_credit>
-    <expavg_time>1462104734.194773</expavg_time>
+    <expavg_credit>201.8215266589545</expavg_credit>
+    <expavg_time>1462137924.215015</expavg_time>
     <url></url>
     <has_profile>1</has_profile>
 </user>
@@ -410,11 +421,11 @@
 <user>
     <id>41014</id>
     <cpid>c4b0aabb0caebb594b1da76618f40146</cpid>
-    <total_credit>231479.94677371052</total_credit>    <create_time>1139537768</create_time>
+    <total_credit>231754.3373690303</total_credit>    <create_time>1139537768</create_time>
     <name>bmfhp50</name>
     <country>United States</country>
-    <expavg_credit>615.4616459119509</expavg_credit>
-    <expavg_time>1462117357.602814</expavg_time>
+    <expavg_credit>498.6815406316262</expavg_credit>
+    <expavg_time>1462347039.253765</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -465,11 +476,11 @@
 <user>
     <id>48793</id>
     <cpid>4c1bf31edc8a857d51c6aca84ad2de96</cpid>
-    <total_credit>255365.27868743145</total_credit>    <create_time>1145543210</create_time>
+    <total_credit>255747.21555973697</total_credit>    <create_time>1145543210</create_time>
     <name>Michgelsen</name>
     <country>Netherlands</country>
-    <expavg_credit>1136.700077200765</expavg_credit>
-    <expavg_time>1462137122.207453</expavg_time>
+    <expavg_credit>894.5606388214577</expavg_credit>
+    <expavg_time>1462377677.282387</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -487,22 +498,22 @@
 <user>
     <id>49583</id>
     <cpid>30595e5e9b3f62c7d5d46e19417ffa9f</cpid>
-    <total_credit>21013.449242325878</total_credit>    <create_time>1146510668</create_time>
+    <total_credit>21034.117617689735</total_credit>    <create_time>1146510668</create_time>
     <name>snaky39</name>
     <country>France</country>
-    <expavg_credit>8.257394</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>7.562659234221927</expavg_credit>
+    <expavg_time>1462264251.239502</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>50527</id>
     <cpid>b4c78f4aea8fb194fcf85c26c1e6f7c6</cpid>
-    <total_credit>272282.3544411601</total_credit>    <create_time>1147767644</create_time>
+    <total_credit>273095.1113483381</total_credit>    <create_time>1147767644</create_time>
     <name>owlhooter</name>
     <country>United States</country>
-    <expavg_credit>131.74456809005</expavg_credit>
-    <expavg_time>1462062181.22187</expavg_time>
+    <expavg_credit>168.4600176018788</expavg_credit>
+    <expavg_time>1462335064.013427</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -531,11 +542,11 @@
 <user>
     <id>56673</id>
     <cpid>55290d37a92dea0ff5c7f90e70d9a84b</cpid>
-    <total_credit>41613.712630164955</total_credit>    <create_time>1156440467</create_time>
+    <total_credit>42074.061574465</total_credit>    <create_time>1156440467</create_time>
     <name>Cooperative Gridcoin.fr</name>
     <country>France</country>
-    <expavg_credit>344.8086162052059</expavg_credit>
-    <expavg_time>1462070797.951628</expavg_time>
+    <expavg_credit>346.0971790985511</expavg_credit>
+    <expavg_time>1462186667.453264</expavg_time>
     <url>gridcoin.fr</url>
     <has_profile>0</has_profile>
 </user>
@@ -597,22 +608,22 @@
 <user>
     <id>71421</id>
     <cpid>0eaaadc3d9be56100bc82a5027da56ec</cpid>
-    <total_credit>884639.2902228931</total_credit>    <create_time>1172683920</create_time>
+    <total_credit>884871.8645485375</total_credit>    <create_time>1172683920</create_time>
     <name>Loderunner</name>
     <country>Germany</country>
-    <expavg_credit>226.205467</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>156.3907381744144</expavg_credit>
+    <expavg_time>1462376711.845286</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>72891</id>
     <cpid>b858fcb0f02d895e8e9b7267db3600b7</cpid>
-    <total_credit>641045.4978984102</total_credit>    <create_time>1174835901</create_time>
+    <total_credit>642464.9519104284</total_credit>    <create_time>1174835901</create_time>
     <name>Joel</name>
     <country></country>
-    <expavg_credit>1756.794071236621</expavg_credit>
-    <expavg_time>1461941096.940903</expavg_time>
+    <expavg_credit>1219.939087677225</expavg_credit>
+    <expavg_time>1462356904.495063</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -652,11 +663,11 @@
 <user>
     <id>85528</id>
     <cpid>7405df90cf38e7f7ee1b38a6990a809a</cpid>
-    <total_credit>55972.00151541527</total_credit>    <create_time>1192305726</create_time>
+    <total_credit>58410.40258891595</total_credit>    <create_time>1192305726</create_time>
     <name>joesn00ze@gmail.com</name>
     <country>Austria</country>
-    <expavg_credit>518.2178279796095</expavg_credit>
-    <expavg_time>1462137486.478864</expavg_time>
+    <expavg_credit>603.8023506159134</expavg_credit>
+    <expavg_time>1462374784.325485</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -707,11 +718,11 @@
 <user>
     <id>94534</id>
     <cpid>b2f5c7f5f3fb4f4d3ea014123d4386bb</cpid>
-    <total_credit>13379.1739618889</total_credit>    <create_time>1201592681</create_time>
+    <total_credit>13381.187574669455</total_credit>    <create_time>1201592681</create_time>
     <name>Kram</name>
     <country>Australia</country>
-    <expavg_credit>41.44618</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>30.89689920790032</expavg_credit>
+    <expavg_time>1462180159.69592</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -729,22 +740,22 @@
 <user>
     <id>106202</id>
     <cpid>8bdedfc3962a6a436c68514327d9f09b</cpid>
-    <total_credit>14495.091117805354</total_credit>    <create_time>1212471973</create_time>
+    <total_credit>14871.426571294629</total_credit>    <create_time>1212471973</create_time>
     <name>drew03030</name>
     <country>United States</country>
-    <expavg_credit>297.0110774696919</expavg_credit>
-    <expavg_time>1462041286.210714</expavg_time>
+    <expavg_credit>261.2818785257545</expavg_credit>
+    <expavg_time>1462283002.135821</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>108282</id>
     <cpid>11ebf3fb7219c0c46b6bfcb166144c4a</cpid>
-    <total_credit>83111.56343567488</total_credit>    <create_time>1214739035</create_time>
+    <total_credit>84334.28443519096</total_credit>    <create_time>1214739035</create_time>
     <name>Matthew Lancey</name>
     <country>Australia</country>
-    <expavg_credit>100.2124076834145</expavg_credit>
-    <expavg_time>1461914455.936102</expavg_time>
+    <expavg_credit>166.3539065028961</expavg_credit>
+    <expavg_time>1462371092.105907</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -784,22 +795,22 @@
 <user>
     <id>119564</id>
     <cpid>c297775511cc71ef6b3c4ed12b7b965e</cpid>
-    <total_credit>6120.501054800818</total_credit>    <create_time>1221070760</create_time>
+    <total_credit>6266.336111897857</total_credit>    <create_time>1221070760</create_time>
     <name>Nahte27</name>
     <country>United States</country>
-    <expavg_credit>51.019776</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>47.34709869579444</expavg_credit>
+    <expavg_time>1462285826.6115</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>119592</id>
     <cpid>6ace0fa3c8072d52af486e4769a8863c</cpid>
-    <total_credit>48494.50561031836</total_credit>    <create_time>1221071245</create_time>
+    <total_credit>49694.68823698837</total_credit>    <create_time>1221071245</create_time>
     <name>Jeff_Wright</name>
     <country>United States</country>
-    <expavg_credit>453.4814021694813</expavg_credit>
-    <expavg_time>1462113372.27998</expavg_time>
+    <expavg_credit>457.4467801099258</expavg_credit>
+    <expavg_time>1462346715.34207</expavg_time>
     <url>www.kadena.af.mil</url>
     <has_profile>0</has_profile>
 </user>
@@ -850,11 +861,11 @@
 <user>
     <id>132963</id>
     <cpid>e697ec9fcdb1c4c500c6031873440c39</cpid>
-    <total_credit>14480.402288349662</total_credit>    <create_time>1223597986</create_time>
+    <total_credit>14573.584726978139</total_credit>    <create_time>1223597986</create_time>
     <name>Cartoonman</name>
     <country>United States</country>
-    <expavg_credit>234.5765767791614</expavg_credit>
-    <expavg_time>1461894034.343077</expavg_time>
+    <expavg_credit>144.158582336067</expavg_credit>
+    <expavg_time>1462376056.453678</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -982,11 +993,11 @@
 <user>
     <id>154096</id>
     <cpid>0968f3f73c358da2dd8b4854e1ede35e</cpid>
-    <total_credit>15535.521777876364</total_credit>    <create_time>1243057684</create_time>
+    <total_credit>15740.14844560104</total_credit>    <create_time>1243057684</create_time>
     <name>zyxelenator</name>
     <country>United States</country>
-    <expavg_credit>61.31456744773907</expavg_credit>
-    <expavg_time>1462120343.721466</expavg_time>
+    <expavg_credit>72.93738115969691</expavg_credit>
+    <expavg_time>1462247901.164733</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -1147,22 +1158,22 @@
 <user>
     <id>170611</id>
     <cpid>488d4fb8f2edd599aece8f4332f5b09c</cpid>
-    <total_credit>209927.11874214766</total_credit>    <create_time>1256318207</create_time>
+    <total_credit>210066.8252603215</total_credit>    <create_time>1256318207</create_time>
     <name>bondsbach</name>
     <country>Germany</country>
-    <expavg_credit>151.4780103920987</expavg_credit>
-    <expavg_time>1462096137.527454</expavg_time>
+    <expavg_credit>140.3591179998574</expavg_credit>
+    <expavg_time>1462249576.047413</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>171586</id>
     <cpid>9f3a026093ab9c6cb095fb10ca56af1c</cpid>
-    <total_credit>381313.7509409715</total_credit>    <create_time>1257210060</create_time>
+    <total_credit>381569.79672939546</total_credit>    <create_time>1257210060</create_time>
     <name>Rob H.B. Velthuis</name>
     <country>Netherlands</country>
-    <expavg_credit>473.6568572629919</expavg_credit>
-    <expavg_time>1462086755.914168</expavg_time>
+    <expavg_credit>362.0568065870489</expavg_credit>
+    <expavg_time>1462376930.769042</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -1290,11 +1301,11 @@
 <user>
     <id>188533</id>
     <cpid>fda0739e22e485f9c8cf0fcda1ec443f</cpid>
-    <total_credit>364133.0160317073</total_credit>    <create_time>1271019391</create_time>
+    <total_credit>364432.9502698383</total_credit>    <create_time>1271019391</create_time>
     <name>Jojo</name>
     <country>Germany</country>
-    <expavg_credit>239.8775</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>171.264793134966</expavg_credit>
+    <expavg_time>1462377428.385634</expavg_time>
     <url>none</url>
     <has_profile>0</has_profile>
 </user>
@@ -1345,22 +1356,22 @@
 <user>
     <id>189980</id>
     <cpid>4d69be38d1ee1cda339425600732f38c</cpid>
-    <total_credit>73329.23789617266</total_credit>    <create_time>1272387249</create_time>
+    <total_credit>73737.22733944528</total_credit>    <create_time>1272387249</create_time>
     <name>SykoFerret</name>
     <country>United States</country>
-    <expavg_credit>1338.649754672649</expavg_credit>
-    <expavg_time>1462038557.928434</expavg_time>
+    <expavg_credit>1178.295654460899</expavg_credit>
+    <expavg_time>1462180079.762183</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>190128</id>
     <cpid>002d383a19b63d698a3201793e7e3750</cpid>
-    <total_credit>574683.8314682783</total_credit>    <create_time>1272533118</create_time>
+    <total_credit>574873.7313698289</total_credit>    <create_time>1272533118</create_time>
     <name>A</name>
     <country>Russia</country>
-    <expavg_credit>515.7006094932095</expavg_credit>
-    <expavg_time>1462099885.468218</expavg_time>
+    <expavg_credit>392.3065814952055</expavg_credit>
+    <expavg_time>1462377671.427521</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -1389,11 +1400,11 @@
 <user>
     <id>196580</id>
     <cpid>6fef768a3a12d4fbbf71293346bb3fa2</cpid>
-    <total_credit>514014.25286243507</total_credit>    <create_time>1280862832</create_time>
+    <total_credit>514015.73366220214</total_credit>    <create_time>1280862832</create_time>
     <name>keiii420</name>
     <country>Japan</country>
-    <expavg_credit>32.894527</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>24.10275159821391</expavg_credit>
+    <expavg_time>1462194512.629022</expavg_time>
     <url>k-memo-blog.blogspot.jp/</url>
     <has_profile>0</has_profile>
 </user>
@@ -1444,11 +1455,11 @@
 <user>
     <id>201094</id>
     <cpid>3724f4f178b5900b8d2ef459c9c6390c</cpid>
-    <total_credit>590460.241253488</total_credit>    <create_time>1284812235</create_time>
+    <total_credit>592333.5619951767</total_credit>    <create_time>1284812235</create_time>
     <name>Safety</name>
     <country>Sweden</country>
-    <expavg_credit>1667.537711421373</expavg_credit>
-    <expavg_time>1462011195.806855</expavg_time>
+    <expavg_credit>1273.47098004221</expavg_credit>
+    <expavg_time>1462369756.325872</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -1488,11 +1499,11 @@
 <user>
     <id>211095</id>
     <cpid>5d965cff02263ee6a9290e631ad06a5e</cpid>
-    <total_credit>60417.183142934984</total_credit>    <create_time>1296718267</create_time>
+    <total_credit>61125.12621440215</total_credit>    <create_time>1296718267</create_time>
     <name>Tasadar.pl</name>
     <country>Poland</country>
-    <expavg_credit>100.4972082972217</expavg_credit>
-    <expavg_time>1462085451.442656</expavg_time>
+    <expavg_credit>144.9459513715835</expavg_credit>
+    <expavg_time>1462294684.210221</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -1510,11 +1521,11 @@
 <user>
     <id>215424</id>
     <cpid>dc70cdf841be846b585201c7f0ab39a0</cpid>
-    <total_credit>146380.5564368026</total_credit>    <create_time>1303339037</create_time>
+    <total_credit>146935.5055185014</total_credit>    <create_time>1303339037</create_time>
     <name>Stevan Radovic</name>
     <country>Serbia</country>
-    <expavg_credit>950.9658455313895</expavg_credit>
-    <expavg_time>1462136038.023585</expavg_time>
+    <expavg_credit>783.9037699151668</expavg_credit>
+    <expavg_time>1462361449.771561</expavg_time>
     <url>http://lhcathomeclassic.cern.ch/sixtrack/</url>
     <has_profile>0</has_profile>
 </user>
@@ -1543,11 +1554,11 @@
 <user>
     <id>218714</id>
     <cpid>31b166561cb4639e816561ef7a5f25d1</cpid>
-    <total_credit>5262.365407889287</total_credit>    <create_time>1308293062</create_time>
+    <total_credit>6286.929336260827</total_credit>    <create_time>1308293062</create_time>
     <name>malcolm.teo</name>
     <country>Singapore</country>
-    <expavg_credit>193.7601008635517</expavg_credit>
-    <expavg_time>1462133129.673052</expavg_time>
+    <expavg_credit>257.8740902448877</expavg_credit>
+    <expavg_time>1462281519.38752</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -1598,11 +1609,11 @@
 <user>
     <id>221874</id>
     <cpid>fa1a611d7c2bb42d13617eb6b8903f8c</cpid>
-    <total_credit>117290.93065984361</total_credit>    <create_time>1318587688</create_time>
+    <total_credit>117306.65553107335</total_credit>    <create_time>1318587688</create_time>
     <name>MarkRBright</name>
     <country>United Kingdom</country>
-    <expavg_credit>0.30737</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>1.763333507394759</expavg_credit>
+    <expavg_time>1462193836.814476</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -1631,11 +1642,11 @@
 <user>
     <id>223755</id>
     <cpid>513aa014fef77c6e5ab2587dc10611e0</cpid>
-    <total_credit>130408.50135189475</total_credit>    <create_time>1319962466</create_time>
+    <total_credit>134353.6114170445</total_credit>    <create_time>1319962466</create_time>
     <name>Achintya</name>
     <country>Switzerland</country>
-    <expavg_credit>595.5488253633965</expavg_credit>
-    <expavg_time>1462085753.182115</expavg_time>
+    <expavg_credit>766.4452602298227</expavg_credit>
+    <expavg_time>1462376279.370089</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -1653,11 +1664,11 @@
 <user>
     <id>228378</id>
     <cpid>844c06c97c4561473a1964ebe92c1950</cpid>
-    <total_credit>16506.093770792202</total_credit>    <create_time>1325275879</create_time>
+    <total_credit>17118.43792740397</total_credit>    <create_time>1325275879</create_time>
     <name>LennartWilde</name>
     <country>Germany</country>
-    <expavg_credit>148.7251881404923</expavg_credit>
-    <expavg_time>1461871708.465239</expavg_time>
+    <expavg_credit>155.2911377404694</expavg_credit>
+    <expavg_time>1462242793.155127</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -1752,11 +1763,11 @@
 <user>
     <id>238437</id>
     <cpid>28e0ae8715768aff53e2dc971251402c</cpid>
-    <total_credit>4496652.512578632</total_credit>    <create_time>1341095414</create_time>
+    <total_credit>4497299.557635238</total_credit>    <create_time>1341095414</create_time>
     <name>linkmark</name>
     <country>Belgium</country>
-    <expavg_credit>1159.465326693551</expavg_credit>
-    <expavg_time>1462049445.852484</expavg_time>
+    <expavg_credit>851.072787277313</expavg_credit>
+    <expavg_time>1462377417.358641</expavg_time>
     <url>www.globalscicon.com</url>
     <has_profile>0</has_profile>
 </user>
@@ -1785,11 +1796,11 @@
 <user>
     <id>239773</id>
     <cpid>b7889a19cf219bf01205d412b076814f</cpid>
-    <total_credit>230435.76553432894</total_credit>    <create_time>1342549440</create_time>
+    <total_credit>230515.8722187931</total_credit>    <create_time>1342549440</create_time>
     <name>DGM17</name>
     <country>United States</country>
-    <expavg_credit>183.2680401138765</expavg_credit>
-    <expavg_time>1461861968.205484</expavg_time>
+    <expavg_credit>117.011829371247</expavg_credit>
+    <expavg_time>1462309476.956577</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -1873,11 +1884,11 @@
 <user>
     <id>246939</id>
     <cpid>ba6c7b48d785785061230bedf7807ae7</cpid>
-    <total_credit>621399.8997815575</total_credit>    <create_time>1353892026</create_time>
+    <total_credit>621399.9975915067</total_credit>    <create_time>1353892026</create_time>
     <name>Moony</name>
     <country>Belgium</country>
-    <expavg_credit>1057.163956538947</expavg_credit>
-    <expavg_time>1462122009.588875</expavg_time>
+    <expavg_credit>862.0203988389526</expavg_credit>
+    <expavg_time>1462300074.738802</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -1994,11 +2005,11 @@
 <user>
     <id>252953</id>
     <cpid>0de9afa3b9ff3870dc5da23599750cda</cpid>
-    <total_credit>206339.81473242823</total_credit>    <create_time>1364223769</create_time>
+    <total_credit>206368.36678601097</total_credit>    <create_time>1364223769</create_time>
     <name>nily</name>
     <country>Czech Republic</country>
-    <expavg_credit>176.109105802973</expavg_credit>
-    <expavg_time>1462126891.386796</expavg_time>
+    <expavg_credit>135.4932624327003</expavg_credit>
+    <expavg_time>1462372928.503214</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -2148,11 +2159,11 @@
 <user>
     <id>263612</id>
     <cpid>2bebcc51ce6b307d8410ba59a9072039</cpid>
-    <total_credit>117431.64948589966</total_credit>    <create_time>1377040609</create_time>
+    <total_credit>117484.60225924557</total_credit>    <create_time>1377040609</create_time>
     <name>kikipope</name>
     <country>Croatia</country>
-    <expavg_credit>552.1115623610305</expavg_credit>
-    <expavg_time>1462127142.148978</expavg_time>
+    <expavg_credit>419.2608073788211</expavg_credit>
+    <expavg_time>1462377365.064419</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -2225,22 +2236,22 @@
 <user>
     <id>274047</id>
     <cpid>50c49c94c2d3e43657eedf009e48c5a4</cpid>
-    <total_credit>62856.64759315538</total_credit>    <create_time>1385488231</create_time>
+    <total_credit>62882.66102367005</total_credit>    <create_time>1385488231</create_time>
     <name>Manfred Graf</name>
     <country>Austria</country>
-    <expavg_credit>115.4674994277147</expavg_credit>
-    <expavg_time>1462010210.467957</expavg_time>
+    <expavg_credit>83.19827584913664</expavg_credit>
+    <expavg_time>1462319247.425566</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>274327</id>
     <cpid>f54f51af9ccd1bb3b38fcd02e290b997</cpid>
-    <total_credit>69354.42227924545</total_credit>    <create_time>1385633174</create_time>
+    <total_credit>69417.4134981789</total_credit>    <create_time>1385633174</create_time>
     <name>ClonedAgain</name>
     <country>France</country>
-    <expavg_credit>356.0552522719578</expavg_credit>
-    <expavg_time>1462108499.112087</expavg_time>
+    <expavg_credit>333.2941644278254</expavg_credit>
+    <expavg_time>1462182231.673103</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -2258,11 +2269,11 @@
 <user>
     <id>275863</id>
     <cpid>efb9bd313e37c809262e47485735aaf3</cpid>
-    <total_credit>65497.35124342396</total_credit>    <create_time>1386599751</create_time>
+    <total_credit>65711.45703405052</total_credit>    <create_time>1386599751</create_time>
     <name>maad412</name>
     <country>Germany</country>
-    <expavg_credit>66.40815507436977</expavg_credit>
-    <expavg_time>1462100211.225628</expavg_time>
+    <expavg_credit>69.20901091490695</expavg_credit>
+    <expavg_time>1462374411.761731</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -2335,11 +2346,11 @@
 <user>
     <id>281457</id>
     <cpid>b8c3956ed5273fced5cbfb5114427128</cpid>
-    <total_credit>62172.345357722705</total_credit>    <create_time>1391009757</create_time>
+    <total_credit>62641.07564779674</total_credit>    <create_time>1391009757</create_time>
     <name>bagelminer</name>
     <country>Canada</country>
-    <expavg_credit>324.500416</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>279.5897926431998</expavg_credit>
+    <expavg_time>1462205158.305547</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -2412,11 +2423,11 @@
 <user>
     <id>291746</id>
     <cpid>140fcba689c4904beb79f818809bd94e</cpid>
-    <total_credit>30663.16013034195</total_credit>    <create_time>1398494470</create_time>
+    <total_credit>30665.3456472605</total_credit>    <create_time>1398494470</create_time>
     <name>mwm312</name>
     <country></country>
-    <expavg_credit>331.798982784192</expavg_credit>
-    <expavg_time>1461957689.946183</expavg_time>
+    <expavg_credit>231.0312476672793</expavg_credit>
+    <expavg_time>1462274277.016412</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -2610,11 +2621,11 @@
 <user>
     <id>296925</id>
     <cpid>4da3743bb4071d6cc28bd862d7ca99ff</cpid>
-    <total_credit>225987.72260280594</total_credit>    <create_time>1402227847</create_time>
+    <total_credit>226129.1375334844</total_credit>    <create_time>1402227847</create_time>
     <name>GingwinJoe</name>
     <country>International</country>
-    <expavg_credit>372.0658925486427</expavg_credit>
-    <expavg_time>1462137040.875096</expavg_time>
+    <expavg_credit>345.6600219347088</expavg_credit>
+    <expavg_time>1462235101.059091</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -2742,11 +2753,11 @@
 <user>
     <id>303309</id>
     <cpid>ba15be94823f04aca3647250712e53ca</cpid>
-    <total_credit>1237707.8384263646</total_credit>    <create_time>1406429479</create_time>
+    <total_credit>1239936.420022115</total_credit>    <create_time>1406429479</create_time>
     <name>Wered</name>
     <country>United States</country>
-    <expavg_credit>1842.900218870802</expavg_credit>
-    <expavg_time>1462101135.14353</expavg_time>
+    <expavg_credit>1538.622817831613</expavg_credit>
+    <expavg_time>1462377013.982402</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -2797,11 +2808,11 @@
 <user>
     <id>306265</id>
     <cpid>1d7530a7bbe26bd466c9a79ebf9898af</cpid>
-    <total_credit>198548.53002577333</total_credit>    <create_time>1408136106</create_time>
+    <total_credit>198594.45450756105</total_credit>    <create_time>1408136106</create_time>
     <name>Nova</name>
     <country>United States</country>
-    <expavg_credit>1561.959810909314</expavg_credit>
-    <expavg_time>1462041495.505644</expavg_time>
+    <expavg_credit>1068.06230982897</expavg_credit>
+    <expavg_time>1462376405.737973</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -2830,11 +2841,11 @@
 <user>
     <id>307348</id>
     <cpid>2eac618ae38dde417921473f8f54dc8c</cpid>
-    <total_credit>68203.23434100335</total_credit>    <create_time>1408849699</create_time>
+    <total_credit>68204.01918754396</total_credit>    <create_time>1408849699</create_time>
     <name>Phehoo</name>
     <country>International</country>
-    <expavg_credit>108.5991335834785</expavg_credit>
-    <expavg_time>1462120825.255419</expavg_time>
+    <expavg_credit>82.48547825743204</expavg_credit>
+    <expavg_time>1462361528.961115</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -3226,11 +3237,11 @@
 <user>
     <id>317465</id>
     <cpid>942fea7c3eebcae5224ec1ee39bc4744</cpid>
-    <total_credit>49428.714014106925</total_credit>    <create_time>1414174569</create_time>
+    <total_credit>49908.615521229214</total_credit>    <create_time>1414174569</create_time>
     <name>meta137magicum [Gridcoin]</name>
     <country>Germany</country>
-    <expavg_credit>597.6132027483962</expavg_credit>
-    <expavg_time>1462005396.708978</expavg_time>
+    <expavg_credit>507.9955886658817</expavg_credit>
+    <expavg_time>1462230478.63759</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -3248,11 +3259,11 @@
 <user>
     <id>317683</id>
     <cpid>decb378a7ce3d8bef9eb6ca94fd2d7a4</cpid>
-    <total_credit>6345.753378813463</total_credit>    <create_time>1414254793</create_time>
+    <total_credit>6372.246765859209</total_credit>    <create_time>1414254793</create_time>
     <name>lawern</name>
     <country>Germany</country>
-    <expavg_credit>0.115614</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>2.63866828254647</expavg_credit>
+    <expavg_time>1462212746.767035</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -3292,11 +3303,11 @@
 <user>
     <id>318857</id>
     <cpid>08321f22a670ce593f85cee0aceed378</cpid>
-    <total_credit>77415.04884294665</total_credit>    <create_time>1414747038</create_time>
+    <total_credit>78684.9504246543</total_credit>    <create_time>1414747038</create_time>
     <name>DoggyDog76</name>
     <country>International</country>
-    <expavg_credit>256.4973132754528</expavg_credit>
-    <expavg_time>1462048465.530562</expavg_time>
+    <expavg_credit>289.4208182251404</expavg_credit>
+    <expavg_time>1462370943.459742</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -3534,11 +3545,11 @@
 <user>
     <id>324512</id>
     <cpid>54404c886a6a3ffe385d86326de7a75c</cpid>
-    <total_credit>263349.29624151724</total_credit>    <create_time>1417211000</create_time>
+    <total_credit>264264.3458275512</total_credit>    <create_time>1417211000</create_time>
     <name>FredericChopin</name>
     <country>International</country>
-    <expavg_credit>213.8380218182435</expavg_credit>
-    <expavg_time>1462114099.92086</expavg_time>
+    <expavg_credit>257.1063887164759</expavg_credit>
+    <expavg_time>1462319569.630348</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -3567,11 +3578,11 @@
 <user>
     <id>325021</id>
     <cpid>6f3f5c0d930dad38776fb3b55c328c52</cpid>
-    <total_credit>232434.46114282688</total_credit>    <create_time>1417500548</create_time>
+    <total_credit>232513.06039192586</total_credit>    <create_time>1417500548</create_time>
     <name>Smithers Corporation</name>
     <country>Guam</country>
-    <expavg_credit>54.63904078414843</expavg_credit>
-    <expavg_time>1462101135.133586</expavg_time>
+    <expavg_credit>52.60703334658947</expavg_credit>
+    <expavg_time>1462260348.59905</expavg_time>
     <url>www.smitherscorp.com</url>
     <has_profile>0</has_profile>
 </user>
@@ -3754,11 +3765,11 @@
 <user>
     <id>329767</id>
     <cpid>9cb17c6d1bb2f4100628b274ea35693e</cpid>
-    <total_credit>15112.401906654577</total_credit>    <create_time>1419620156</create_time>
+    <total_credit>15297.975074539045</total_credit>    <create_time>1419620156</create_time>
     <name>Bavaria</name>
     <country>Germany</country>
-    <expavg_credit>106.52643</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>94.94250765258431</expavg_credit>
+    <expavg_time>1462202683.124324</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -3864,33 +3875,33 @@
 <user>
     <id>331741</id>
     <cpid>fc4b7654483e01bea85df5e1e4b1e82c</cpid>
-    <total_credit>7812.610767298496</total_credit>    <create_time>1420514136</create_time>
+    <total_credit>7946.2862250684775</total_credit>    <create_time>1420514136</create_time>
     <name>Herbert Skopnik</name>
     <country>Chile</country>
-    <expavg_credit>8.004119</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>18.54854663389984</expavg_credit>
+    <expavg_time>1462200631.151783</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>332759</id>
     <cpid>632b1d5280af4929fab92eee6ed1d920</cpid>
-    <total_credit>85389.24149588289</total_credit>    <create_time>1420803916</create_time>
+    <total_credit>85695.66935708467</total_credit>    <create_time>1420803916</create_time>
     <name>pkamorta</name>
     <country>International</country>
-    <expavg_credit>132.9528747709137</expavg_credit>
-    <expavg_time>1462057324.423844</expavg_time>
+    <expavg_credit>144.3853990580016</expavg_credit>
+    <expavg_time>1462186588.78786</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>332771</id>
     <cpid>e7f90818e3e87c0bbefe83ad3cfe27e1</cpid>
-    <total_credit>748554.8135078314</total_credit>    <create_time>1420808937</create_time>
+    <total_credit>759914.232839148</total_credit>    <create_time>1420808937</create_time>
     <name>47an</name>
     <country>Sweden</country>
-    <expavg_credit>8898.816831336977</expavg_credit>
-    <expavg_time>1462136397.536093</expavg_time>
+    <expavg_credit>7712.792007731282</expavg_credit>
+    <expavg_time>1462377267.595959</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4007,11 +4018,11 @@
 <user>
     <id>337669</id>
     <cpid>a92e1cf0903633d62283ea1f101a1af3</cpid>
-    <total_credit>86667.3841930468</total_credit>    <create_time>1422298931</create_time>
+    <total_credit>87980.34628105458</total_credit>    <create_time>1422298931</create_time>
     <name>hsdecalc</name>
     <country>Germany</country>
-    <expavg_credit>371.326524188602</expavg_credit>
-    <expavg_time>1462094803.202594</expavg_time>
+    <expavg_credit>421.4413487718454</expavg_credit>
+    <expavg_time>1462291526.997548</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4095,11 +4106,11 @@
 <user>
     <id>339716</id>
     <cpid>275ae435cf65e0b45ce3a31bc6cdd9df</cpid>
-    <total_credit>610762.7431857779</total_credit>    <create_time>1422906378</create_time>
+    <total_credit>611523.5846457502</total_credit>    <create_time>1422906378</create_time>
     <name>glowgrid</name>
     <country>United States</country>
-    <expavg_credit>508.8231011708301</expavg_credit>
-    <expavg_time>1461953685.34082</expavg_time>
+    <expavg_credit>419.6721921655592</expavg_credit>
+    <expavg_time>1462289115.171335</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4150,11 +4161,11 @@
 <user>
     <id>341521</id>
     <cpid>3269bbe96132de3c64f4ea8250b1c904</cpid>
-    <total_credit>110195.06032775136</total_credit>    <create_time>1423435671</create_time>
+    <total_credit>112571.79920050946</total_credit>    <create_time>1423435671</create_time>
     <name>Holovision</name>
     <country>International</country>
-    <expavg_credit>1045.094996860109</expavg_credit>
-    <expavg_time>1462093005.491609</expavg_time>
+    <expavg_credit>952.3555123361822</expavg_credit>
+    <expavg_time>1462377457.951649</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4205,11 +4216,11 @@
 <user>
     <id>342228</id>
     <cpid>fd8bf94446105ffa781c54414e287dc6</cpid>
-    <total_credit>63794.346834034375</total_credit>    <create_time>1423749236</create_time>
+    <total_credit>65248.927879853094</total_credit>    <create_time>1423749236</create_time>
     <name>philwire</name>
     <country>Canada</country>
-    <expavg_credit>151.458721</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>231.5508335451456</expavg_credit>
+    <expavg_time>1462299605.327968</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4227,11 +4238,11 @@
 <user>
     <id>342567</id>
     <cpid>176c53254634ab6ffa7c9e29d8444eb1</cpid>
-    <total_credit>46514.25633488777</total_credit>    <create_time>1423982928</create_time>
+    <total_credit>46745.800152362965</total_credit>    <create_time>1423982928</create_time>
     <name>dlimmage</name>
     <country>International</country>
-    <expavg_credit>142.7925120375834</expavg_credit>
-    <expavg_time>1462136402.601366</expavg_time>
+    <expavg_credit>138.0731667051973</expavg_credit>
+    <expavg_time>1462306065.914566</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4425,11 +4436,11 @@
 <user>
     <id>345584</id>
     <cpid>0b5ef259411ec18e8dac2be0b732fd23</cpid>
-    <total_credit>202933.37977747785</total_credit>    <create_time>1425851657</create_time>
+    <total_credit>204025.3176411129</total_credit>    <create_time>1425851657</create_time>
     <name>starsdust</name>
     <country>International</country>
-    <expavg_credit>1182.90967621161</expavg_credit>
-    <expavg_time>1462129031.184822</expavg_time>
+    <expavg_credit>1009.856317365485</expavg_credit>
+    <expavg_time>1462353701.549676</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4480,11 +4491,11 @@
 <user>
     <id>347493</id>
     <cpid>4255bf7a07011016e9152f2cba514f6e</cpid>
-    <total_credit>184564.1704201655</total_credit>    <create_time>1426955935</create_time>
+    <total_credit>184647.90395896113</total_credit>    <create_time>1426955935</create_time>
     <name>famann</name>
     <country>Germany</country>
-    <expavg_credit>368.5050184955797</expavg_credit>
-    <expavg_time>1461980053.824022</expavg_time>
+    <expavg_credit>266.7596981441787</expavg_credit>
+    <expavg_time>1462287702.459754</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4502,11 +4513,11 @@
 <user>
     <id>348209</id>
     <cpid>a0d15c67aea509d42733de8b34093a2e</cpid>
-    <total_credit>149595.65048209927</total_credit>    <create_time>1427417419</create_time>
+    <total_credit>153068.85531506757</total_credit>    <create_time>1427417419</create_time>
     <name>Whitesox</name>
     <country>Spain</country>
-    <expavg_credit>910.7632800192149</expavg_credit>
-    <expavg_time>1462117321.387743</expavg_time>
+    <expavg_credit>986.9599601561862</expavg_credit>
+    <expavg_time>1462362564.065443</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4535,11 +4546,11 @@
 <user>
     <id>348898</id>
     <cpid>8f4b9102b229931be807c600f9a39940</cpid>
-    <total_credit>15161.925520337627</total_credit>    <create_time>1427824514</create_time>
+    <total_credit>15233.873553082041</total_credit>    <create_time>1427824514</create_time>
     <name>lsky</name>
     <country>Spain</country>
-    <expavg_credit>95.58930760256081</expavg_credit>
-    <expavg_time>1462132761.741078</expavg_time>
+    <expavg_credit>92.11122524036085</expavg_credit>
+    <expavg_time>1462234914.091732</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4590,11 +4601,11 @@
 <user>
     <id>349510</id>
     <cpid>c443bb26793683aa7386e8d944b44b06</cpid>
-    <total_credit>136348.27342351404</total_credit>    <create_time>1428203799</create_time>
+    <total_credit>136358.43179874175</total_credit>    <create_time>1428203799</create_time>
     <name>Radius</name>
     <country>International</country>
-    <expavg_credit>464.1233436810319</expavg_credit>
-    <expavg_time>1462027196.287826</expavg_time>
+    <expavg_credit>330.0346752401127</expavg_credit>
+    <expavg_time>1462327274.686572</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4799,11 +4810,11 @@
 <user>
     <id>352198</id>
     <cpid>5188365b01e83b3244477e8c9a0062f7</cpid>
-    <total_credit>271578.09051713947</total_credit>    <create_time>1430120907</create_time>
+    <total_credit>273934.4226260897</total_credit>    <create_time>1430120907</create_time>
     <name>OOberSauce</name>
     <country>United States</country>
-    <expavg_credit>1137.099827641243</expavg_credit>
-    <expavg_time>1462130850.305985</expavg_time>
+    <expavg_credit>1084.976869216744</expavg_credit>
+    <expavg_time>1462353909.851128</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4865,11 +4876,11 @@
 <user>
     <id>352772</id>
     <cpid>6ad54a9f1c4d97c9f1857b31c6a4127c</cpid>
-    <total_credit>296886.5849520059</total_credit>    <create_time>1431534038</create_time>
+    <total_credit>297084.99809393176</total_credit>    <create_time>1431534038</create_time>
     <name>Excelsior</name>
     <country>Canada</country>
-    <expavg_credit>325.3910314432838</expavg_credit>
-    <expavg_time>1462083841.885649</expavg_time>
+    <expavg_credit>275.431043515573</expavg_credit>
+    <expavg_time>1462293715.801856</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -4964,11 +4975,11 @@
 <user>
     <id>353505</id>
     <cpid>2aaee04bea305a7a94b71bd0f6f40df1</cpid>
-    <total_credit>61878.88681300192</total_credit>    <create_time>1432379787</create_time>
+    <total_credit>62083.33125032137</total_credit>    <create_time>1432379787</create_time>
     <name>George Salukvadze</name>
     <country>Georgia</country>
-    <expavg_credit>483.1985005740228</expavg_credit>
-    <expavg_time>1461966579.197244</expavg_time>
+    <expavg_credit>345.7009203871474</expavg_credit>
+    <expavg_time>1462308240.128479</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -5228,11 +5239,11 @@
 <user>
     <id>356864</id>
     <cpid>7e2e924d255a65e8583ca6e389f1e270</cpid>
-    <total_credit>21655.143915015153</total_credit>    <create_time>1435188990</create_time>
+    <total_credit>22052.49516903448</total_credit>    <create_time>1435188990</create_time>
     <name>NicolasGH</name>
     <country>United States</country>
-    <expavg_credit>367.478630564841</expavg_credit>
-    <expavg_time>1461975647.873798</expavg_time>
+    <expavg_credit>276.1082352298644</expavg_credit>
+    <expavg_time>1462339999.361202</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -5580,11 +5591,11 @@
 <user>
     <id>362589</id>
     <cpid>12eb51ecd1d57fd90250a3cdf0ccfbbd</cpid>
-    <total_credit>23824.55566808632</total_credit>    <create_time>1440453295</create_time>
+    <total_credit>24754.15761482747</total_credit>    <create_time>1440453295</create_time>
     <name>Robi</name>
     <country>None</country>
-    <expavg_credit>186.3997390612549</expavg_credit>
-    <expavg_time>1462069642.161122</expavg_time>
+    <expavg_credit>218.2908421830292</expavg_credit>
+    <expavg_time>1462340833.28514</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -5690,11 +5701,11 @@
 <user>
     <id>363798</id>
     <cpid>7372837954bacf792b371e37f7abe1eb</cpid>
-    <total_credit>60274.64428696669</total_credit>    <create_time>1441723112</create_time>
+    <total_credit>60525.152719770726</total_credit>    <create_time>1441723112</create_time>
     <name>Sod75</name>
     <country>Belgium</country>
-    <expavg_credit>343.7594007352694</expavg_credit>
-    <expavg_time>1461872431.976991</expavg_time>
+    <expavg_credit>256.1893027115363</expavg_credit>
+    <expavg_time>1462215702.579723</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -5943,22 +5954,22 @@
 <user>
     <id>365926</id>
     <cpid>2b28dd6fd317650b0615ce4913d5bae9</cpid>
-    <total_credit>1326.2066404601007</total_credit>    <create_time>1443461741</create_time>
+    <total_credit>1790.4029104289561</total_credit>    <create_time>1443461741</create_time>
     <name>Blaze9</name>
     <country>International</country>
-    <expavg_credit>0.1542</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>38.38593655243881</expavg_credit>
+    <expavg_time>1462339017.444481</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>366038</id>
     <cpid>931b78df49c0885ee19798bd0143a24c</cpid>
-    <total_credit>17808.79923407977</total_credit>    <create_time>1443566819</create_time>
+    <total_credit>17821.345249608017</total_credit>    <create_time>1443566819</create_time>
     <name>MaitreyaBuddha</name>
     <country>United States</country>
-    <expavg_credit>77.767432</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>47.52921772071299</expavg_credit>
+    <expavg_time>1462366252.539782</expavg_time>
     <url>www.gridcoin.us</url>
     <has_profile>0</has_profile>
 </user>
@@ -5987,11 +5998,11 @@
 <user>
     <id>366134</id>
     <cpid>298becdd13b132064ce8e5da4c2e6ba8</cpid>
-    <total_credit>11492.031263795147</total_credit>    <create_time>1443665126</create_time>
+    <total_credit>11586.71464958557</total_credit>    <create_time>1443665126</create_time>
     <name>BruceZ</name>
     <country>International</country>
-    <expavg_credit>76.23180214224426</expavg_credit>
-    <expavg_time>1462100997.115156</expavg_time>
+    <expavg_credit>71.12270979568191</expavg_credit>
+    <expavg_time>1462269279.541008</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -6108,11 +6119,11 @@
 <user>
     <id>366568</id>
     <cpid>f9e46b43ebe11e0650112a6361500801</cpid>
-    <total_credit>69333.21934613075</total_credit>    <create_time>1444110754</create_time>
+    <total_credit>69555.12776339168</total_credit>    <create_time>1444110754</create_time>
     <name>Phh</name>
     <country>International</country>
-    <expavg_credit>544.2365675358603</expavg_credit>
-    <expavg_time>1462120600.137076</expavg_time>
+    <expavg_credit>433.6450618601336</expavg_credit>
+    <expavg_time>1462360930.459134</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -6218,11 +6229,11 @@
 <user>
     <id>366970</id>
     <cpid>fbaa9ad38365baf185e3db993677dd25</cpid>
-    <total_credit>46034.318416909206</total_credit>    <create_time>1444440698</create_time>
+    <total_credit>47413.12075142491</total_credit>    <create_time>1444440698</create_time>
     <name>PulsarAV</name>
     <country>International</country>
-    <expavg_credit>3.667289</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>113.9502871352405</expavg_credit>
+    <expavg_time>1462365739.734029</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -6295,11 +6306,11 @@
 <user>
     <id>367287</id>
     <cpid>d7d87ee5511e075b4cfb545565297c97</cpid>
-    <total_credit>2160.698857558896</total_credit>    <create_time>1444814045</create_time>
+    <total_credit>2225.745508580169</total_credit>    <create_time>1444814045</create_time>
     <name>rocknom</name>
     <country>International</country>
-    <expavg_credit>39.417901</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>29.70050838567292</expavg_credit>
+    <expavg_time>1462377252.356997</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -6405,11 +6416,11 @@
 <user>
     <id>367696</id>
     <cpid>d83a6e6ad1699e92ddc87ac0a29cf8d2</cpid>
-    <total_credit>69057.14425628533</total_credit>    <create_time>1445129775</create_time>
+    <total_credit>69774.24658396239</total_credit>    <create_time>1445129775</create_time>
     <name>Budzor</name>
     <country>Australia</country>
-    <expavg_credit>322.801568</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>274.6585807245263</expavg_credit>
+    <expavg_time>1462312574.916749</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -6449,11 +6460,11 @@
 <user>
     <id>367852</id>
     <cpid>9f06b8972303f8a92ea6de6bbb7d3e9b</cpid>
-    <total_credit>166181.56555986876</total_credit>    <create_time>1445259417</create_time>
+    <total_credit>166521.86518970612</total_credit>    <create_time>1445259417</create_time>
     <name>[AF&gt;HFR]CgS</name>
     <country>France</country>
-    <expavg_credit>999.6104138621552</expavg_credit>
-    <expavg_time>1462116636.320456</expavg_time>
+    <expavg_credit>773.1776396693822</expavg_credit>
+    <expavg_time>1462373497.127662</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -6570,11 +6581,11 @@
 <user>
     <id>368238</id>
     <cpid>6d088d7ac862fd77015298d6dfac0a3d</cpid>
-    <total_credit>527280.4696099604</total_credit>    <create_time>1445566221</create_time>
+    <total_credit>528355.1983383257</total_credit>    <create_time>1445566221</create_time>
     <name>drockwell</name>
     <country>United States</country>
-    <expavg_credit>3305.081663983249</expavg_credit>
-    <expavg_time>1462130644.479007</expavg_time>
+    <expavg_credit>2595.358388057668</expavg_credit>
+    <expavg_time>1462377834.663501</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -6746,11 +6757,11 @@
 <user>
     <id>368588</id>
     <cpid>ace1a1eb2dc42c2bb2bb7609781ffbc9</cpid>
-    <total_credit>610.1694113596379</total_credit>    <create_time>1445893097</create_time>
+    <total_credit>610.5234752308222</total_credit>    <create_time>1445893097</create_time>
     <name>robb [Gridcoin]</name>
     <country>United States</country>
-    <expavg_credit>6.252788</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>3.768081657871014</expavg_credit>
+    <expavg_time>1462366887.233674</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -6768,11 +6779,11 @@
 <user>
     <id>368600</id>
     <cpid>87a1bae82603f54ca6567502199a0bdb</cpid>
-    <total_credit>19283.875009356158</total_credit>    <create_time>1445908072</create_time>
+    <total_credit>19287.41799348427</total_credit>    <create_time>1445908072</create_time>
     <name>mineur_boiseur</name>
     <country>International</country>
-    <expavg_credit>289.1489081764234</expavg_credit>
-    <expavg_time>1462091049.037221</expavg_time>
+    <expavg_credit>252.179224975822</expavg_credit>
+    <expavg_time>1462211589.784672</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -6834,11 +6845,11 @@
 <user>
     <id>368833</id>
     <cpid>c176e5642f12297d3fdb433de84f9822</cpid>
-    <total_credit>53377.63142431556</total_credit>    <create_time>1446061657</create_time>
+    <total_credit>54277.01400906112</total_credit>    <create_time>1446061657</create_time>
     <name>PAK-FA</name>
     <country>Russia</country>
-    <expavg_credit>156.486568</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>179.9423559914185</expavg_credit>
+    <expavg_time>1462371708.597037</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -6966,11 +6977,11 @@
 <user>
     <id>369110</id>
     <cpid>968d10351616a89a2a4473d987d9c382</cpid>
-    <total_credit>23429.7022411222</total_credit>    <create_time>1446387263</create_time>
+    <total_credit>23941.740927067163</total_credit>    <create_time>1446387263</create_time>
     <name>fenfen</name>
     <country>Australia</country>
-    <expavg_credit>205.017455882236</expavg_credit>
-    <expavg_time>1462050411.09228</expavg_time>
+    <expavg_credit>208.3099577414493</expavg_credit>
+    <expavg_time>1462261731.934863</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -7219,11 +7230,11 @@
 <user>
     <id>369691</id>
     <cpid>7467b330fd6b1f14d368503a950a7082</cpid>
-    <total_credit>27879.143916383386</total_credit>    <create_time>1446899678</create_time>
+    <total_credit>28063.3816423234</total_credit>    <create_time>1446899678</create_time>
     <name>Alpha3031</name>
     <country>International</country>
-    <expavg_credit>209.028068</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>155.5136619380053</expavg_credit>
+    <expavg_time>1462284783.495205</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -7285,11 +7296,11 @@
 <user>
     <id>369754</id>
     <cpid>49571d63665deb7c40e80183bcca411f</cpid>
-    <total_credit>4582.498954281501</total_credit>    <create_time>1447002447</create_time>
+    <total_credit>4807.996590526012</total_credit>    <create_time>1447002447</create_time>
     <name>owens1203</name>
     <country>Germany</country>
-    <expavg_credit>40.63055585631174</expavg_credit>
-    <expavg_time>1462101013.051946</expavg_time>
+    <expavg_credit>58.94654531169664</expavg_credit>
+    <expavg_time>1462184009.752435</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -7307,11 +7318,11 @@
 <user>
     <id>369804</id>
     <cpid>d6cf22705be73de4292ad78c3881fe24</cpid>
-    <total_credit>130887.28612348338</total_credit>    <create_time>1447044900</create_time>
+    <total_credit>133118.4874158662</total_credit>    <create_time>1447044900</create_time>
     <name>Eddie</name>
     <country>United States</country>
-    <expavg_credit>1232.058703725154</expavg_credit>
-    <expavg_time>1462018858.086637</expavg_time>
+    <expavg_credit>1010.446776509802</expavg_credit>
+    <expavg_time>1462377590.335923</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -7329,11 +7340,11 @@
 <user>
     <id>369881</id>
     <cpid>513af4784ff3a8a432ed01978fcf8239</cpid>
-    <total_credit>57105.49346870815</total_credit>    <create_time>1447086563</create_time>
+    <total_credit>57680.176706077415</total_credit>    <create_time>1447086563</create_time>
     <name>progger</name>
     <country>Russia</country>
-    <expavg_credit>601.4555785428659</expavg_credit>
-    <expavg_time>1462030014.236779</expavg_time>
+    <expavg_credit>471.5454928109476</expavg_credit>
+    <expavg_time>1462348058.072259</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -7351,11 +7362,11 @@
 <user>
     <id>370043</id>
     <cpid>0c9fc513e638a2d005c523a28e7e928f</cpid>
-    <total_credit>289219.979099049</total_credit>    <create_time>1447203545</create_time>
+    <total_credit>294666.21259817656</total_credit>    <create_time>1447203545</create_time>
     <name>RTMoney</name>
     <country>International</country>
-    <expavg_credit>1853.695198254788</expavg_credit>
-    <expavg_time>1462080769.900285</expavg_time>
+    <expavg_credit>1809.687212500326</expavg_credit>
+    <expavg_time>1462360102.952937</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -7406,11 +7417,11 @@
 <user>
     <id>370372</id>
     <cpid>4f33ed2171ecddc58847017694ae124d</cpid>
-    <total_credit>77005.89419973371</total_credit>    <create_time>1447453221</create_time>
+    <total_credit>77381.0657281584</total_credit>    <create_time>1447453221</create_time>
     <name>kevzhu</name>
     <country>United States</country>
-    <expavg_credit>757.7517497202194</expavg_credit>
-    <expavg_time>1462097888.468163</expavg_time>
+    <expavg_credit>656.9548369987921</expavg_credit>
+    <expavg_time>1462269144.794533</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -7527,11 +7538,11 @@
 <user>
     <id>370916</id>
     <cpid>2d296b1c0ef6a3f7f1a2bc83c5cda67f</cpid>
-    <total_credit>6186.351945386842</total_credit>    <create_time>1447925933</create_time>
+    <total_credit>6207.741682867499</total_credit>    <create_time>1447925933</create_time>
     <name>MakSimon</name>
     <country>Germany</country>
-    <expavg_credit>81.84076872516738</expavg_credit>
-    <expavg_time>1461966079.210747</expavg_time>
+    <expavg_credit>66.18322929948147</expavg_credit>
+    <expavg_time>1462176532.944641</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -7703,22 +7714,22 @@
 <user>
     <id>371435</id>
     <cpid>9090461f8fab2e2d135e5b253d2cb464</cpid>
-    <total_credit>2773.6716601906955</total_credit>    <create_time>1448327713</create_time>
+    <total_credit>2832.3117145216265</total_credit>    <create_time>1448327713</create_time>
     <name>ftbarr</name>
     <country>United States</country>
-    <expavg_credit>21.800841</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>19.43582041588344</expavg_credit>
+    <expavg_time>1462298608.821592</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>371519</id>
     <cpid>b779ac5846a4a1f8196001227ab2db78</cpid>
-    <total_credit>41733.061150996764</total_credit>    <create_time>1448379668</create_time>
+    <total_credit>42197.912637446825</total_credit>    <create_time>1448379668</create_time>
     <name>igeh1993</name>
     <country>Germany</country>
-    <expavg_credit>190.4858787986528</expavg_credit>
-    <expavg_time>1462018832.87741</expavg_time>
+    <expavg_credit>172.0857935302249</expavg_credit>
+    <expavg_time>1462343473.22076</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -7736,11 +7747,11 @@
 <user>
     <id>371618</id>
     <cpid>9a516e998ffbcb50012f95726aebbf7f</cpid>
-    <total_credit>417003.065212292</total_credit>    <create_time>1448456572</create_time>
+    <total_credit>417500.37105592067</total_credit>    <create_time>1448456572</create_time>
     <name>ENGLAB</name>
     <country>International</country>
-    <expavg_credit>3170.68863544762</expavg_credit>
-    <expavg_time>1462129557.082601</expavg_time>
+    <expavg_credit>2439.49607282571</expavg_credit>
+    <expavg_time>1462374602.960696</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -7824,11 +7835,11 @@
 <user>
     <id>372224</id>
     <cpid>0390450eff5f5cd6d7a7d95a6d898d8d</cpid>
-    <total_credit>540136.9987416008</total_credit>    <create_time>1448959401</create_time>
+    <total_credit>540563.7750935183</total_credit>    <create_time>1448959401</create_time>
     <name>thermophys</name>
     <country>Germany</country>
-    <expavg_credit>1931.642623</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>1179.068878683433</expavg_credit>
+    <expavg_time>1462377574.751806</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -7890,11 +7901,11 @@
 <user>
     <id>372423</id>
     <cpid>0ded68f4f2e69faf653e5ca9907038d2</cpid>
-    <total_credit>65763.54321761357</total_credit>    <create_time>1449099890</create_time>
+    <total_credit>65893.25104543379</total_credit>    <create_time>1449099890</create_time>
     <name>UHC</name>
     <country>Germany</country>
-    <expavg_credit>202.7923674672887</expavg_credit>
-    <expavg_time>1462093120.278827</expavg_time>
+    <expavg_credit>196.75516438484</expavg_credit>
+    <expavg_time>1462177019.795407</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -8044,22 +8055,22 @@
 <user>
     <id>373413</id>
     <cpid>173c5239b3b3d305292f9c900abfbd08</cpid>
-    <total_credit>47714.79426521702</total_credit>    <create_time>1449808894</create_time>
+    <total_credit>49351.651104683886</total_credit>    <create_time>1449808894</create_time>
     <name>marmot</name>
     <country>United States</country>
-    <expavg_credit>28.71445855009538</expavg_credit>
-    <expavg_time>1462050149.436291</expavg_time>
+    <expavg_credit>166.9661259902489</expavg_credit>
+    <expavg_time>1462376642.991174</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>373419</id>
     <cpid>d78af784aacb088a8ae3391e9b042519</cpid>
-    <total_credit>11046.609361507302</total_credit>    <create_time>1449814243</create_time>
+    <total_credit>12495.070263705136</total_credit>    <create_time>1449814243</create_time>
     <name>GRC PRO</name>
     <country>Austria</country>
-    <expavg_credit>284.947668</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>290.2593987362591</expavg_credit>
+    <expavg_time>1462375087.913383</expavg_time>
     <url>www.grcmining.com</url>
     <has_profile>0</has_profile>
 </user>
@@ -8176,11 +8187,11 @@
 <user>
     <id>373892</id>
     <cpid>d4240940bca1728806404374628a94ce</cpid>
-    <total_credit>116531.27270045438</total_credit>    <create_time>1450183092</create_time>
+    <total_credit>119923.57670470246</total_credit>    <create_time>1450183092</create_time>
     <name>Mantas</name>
     <country>Lithuania</country>
-    <expavg_credit>1049.981062327669</expavg_credit>
-    <expavg_time>1462134025.504401</expavg_time>
+    <expavg_credit>1104.109775216125</expavg_credit>
+    <expavg_time>1462375412.133442</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -8209,11 +8220,11 @@
 <user>
     <id>374060</id>
     <cpid>204d178f9b6d4de25297c99fed0ed860</cpid>
-    <total_credit>1024846.0176286203</total_credit>    <create_time>1450295639</create_time>
+    <total_credit>1052027.2793638315</total_credit>    <create_time>1450295639</create_time>
     <name>pool.gridcoin.co</name>
     <country>International</country>
-    <expavg_credit>14372.7722789255</expavg_credit>
-    <expavg_time>1462137715.954181</expavg_time>
+    <expavg_credit>13233.28521893422</expavg_credit>
+    <expavg_time>1462377724.404535</expavg_time>
     <url>pool.gridcoin.co</url>
     <has_profile>0</has_profile>
 </user>
@@ -8308,11 +8319,11 @@
 <user>
     <id>374244</id>
     <cpid>39e3332331e3f6ae21786357aa45cd2a</cpid>
-    <total_credit>1795.4603304957693</total_credit>    <create_time>1450450107</create_time>
+    <total_credit>1821.58472235112</total_credit>    <create_time>1450450107</create_time>
     <name>adamstirtan</name>
     <country>Canada</country>
-    <expavg_credit>129.573723639499</expavg_credit>
-    <expavg_time>1462096505.506417</expavg_time>
+    <expavg_credit>122.622621481541</expavg_credit>
+    <expavg_time>1462162526.837456</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -8330,11 +8341,11 @@
 <user>
     <id>374482</id>
     <cpid>20629b89194dbd97d3f8c3c9eab6b235</cpid>
-    <total_credit>14365.844962701538</total_credit>    <create_time>1450654197</create_time>
+    <total_credit>15002.493435868508</total_credit>    <create_time>1450654197</create_time>
     <name>Panicman</name>
     <country>United States</country>
-    <expavg_credit>108.647268</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>132.4000642148276</expavg_credit>
+    <expavg_time>1462289690.841161</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -8374,11 +8385,11 @@
 <user>
     <id>374665</id>
     <cpid>150427ff56f4ab81b19bd53075bee76a</cpid>
-    <total_credit>4462.5493361641375</total_credit>    <create_time>1450867629</create_time>
+    <total_credit>5451.279919583792</total_credit>    <create_time>1450867629</create_time>
     <name>wolfi2hofer</name>
     <country>Austria</country>
-    <expavg_credit>56.965673</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>126.437494704995</expavg_credit>
+    <expavg_time>1462335735.42858</expavg_time>
     <url>soleterra.at</url>
     <has_profile>0</has_profile>
 </user>
@@ -8407,22 +8418,22 @@
 <user>
     <id>374950</id>
     <cpid>fc15192b790460cde08c0057112b92fa</cpid>
-    <total_credit>24380.322124875285</total_credit>    <create_time>1451197338</create_time>
+    <total_credit>25624.498489756515</total_credit>    <create_time>1451197338</create_time>
     <name>Cedar</name>
     <country>United States</country>
-    <expavg_credit>375.4124808156357</expavg_credit>
-    <expavg_time>1462136140.890745</expavg_time>
+    <expavg_credit>472.8192477118266</expavg_credit>
+    <expavg_time>1462187702.480721</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>374996</id>
     <cpid>480e68a96727ac8d2d4391720ecb7913</cpid>
-    <total_credit>68423.03968489102</total_credit>    <create_time>1451270409</create_time>
+    <total_credit>69767.56494045211</total_credit>    <create_time>1451270409</create_time>
     <name>jhiswin</name>
     <country>International</country>
-    <expavg_credit>894.6212554716019</expavg_credit>
-    <expavg_time>1462115566.342218</expavg_time>
+    <expavg_credit>784.4213168506186</expavg_credit>
+    <expavg_time>1462366737.76118</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -8550,11 +8561,11 @@
 <user>
     <id>375817</id>
     <cpid>1d72b12f758e3d388ccc8afd06f5f53b</cpid>
-    <total_credit>25992.304630012386</total_credit>    <create_time>1452136873</create_time>
+    <total_credit>26705.32771869999</total_credit>    <create_time>1452136873</create_time>
     <name>CursedNumber</name>
     <country>Norway</country>
-    <expavg_credit>431.7889611534379</expavg_credit>
-    <expavg_time>1461933678.447975</expavg_time>
+    <expavg_credit>342.9791199916951</expavg_credit>
+    <expavg_time>1462322846.806495</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -8627,11 +8638,11 @@
 <user>
     <id>376130</id>
     <cpid>94e5ffbbd1da4374ded5bf84b06d6bba</cpid>
-    <total_credit>27719.191505944884</total_credit>    <create_time>1452416445</create_time>
+    <total_credit>28804.39408208288</total_credit>    <create_time>1452416445</create_time>
     <name>BoincBoinc8</name>
     <country>United Kingdom</country>
-    <expavg_credit>87.185649</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>162.028058028983</expavg_credit>
+    <expavg_time>1462289429.779601</expavg_time>
     <url>goo.gl/eflsFi</url>
     <has_profile>0</has_profile>
 </user>
@@ -8704,11 +8715,11 @@
 <user>
     <id>376400</id>
     <cpid>6895f303968ae1ccd62e2b174739cd00</cpid>
-    <total_credit>39193.047304471955</total_credit>    <create_time>1452642276</create_time>
+    <total_credit>39284.4393670558</total_credit>    <create_time>1452642276</create_time>
     <name>Stephan</name>
     <country>Germany</country>
-    <expavg_credit>822.2181029168469</expavg_credit>
-    <expavg_time>1462132093.505754</expavg_time>
+    <expavg_credit>676.4979324914749</expavg_credit>
+    <expavg_time>1462312639.622214</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -8737,11 +8748,11 @@
 <user>
     <id>376503</id>
     <cpid>d794a48fe6ac954c2fdf7f5d796493d9</cpid>
-    <total_credit>15811.15827681321</total_credit>    <create_time>1452720951</create_time>
+    <total_credit>16122.58680945686</total_credit>    <create_time>1452720951</create_time>
     <name>pensierolaterale</name>
     <country>Italy</country>
-    <expavg_credit>136.359819902767</expavg_credit>
-    <expavg_time>1461972490.484156</expavg_time>
+    <expavg_credit>122.8241426982346</expavg_credit>
+    <expavg_time>1462307938.093005</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -8759,11 +8770,11 @@
 <user>
     <id>376619</id>
     <cpid>ad9a179dc17d3fa987bd75e3b71378cd</cpid>
-    <total_credit>22922.629395143587</total_credit>    <create_time>1452798821</create_time>
+    <total_credit>23662.80262561754</total_credit>    <create_time>1452798821</create_time>
     <name>Christian Willmes</name>
     <country>Germany</country>
-    <expavg_credit>258.3675619762926</expavg_credit>
-    <expavg_time>1462128947.04162</expavg_time>
+    <expavg_credit>269.6231565946543</expavg_credit>
+    <expavg_time>1462334138.322901</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -8781,22 +8792,22 @@
 <user>
     <id>376735</id>
     <cpid>ae51c3c4d96c1573460b621e9c636eff</cpid>
-    <total_credit>27096.409678929107</total_credit>    <create_time>1452887139</create_time>
+    <total_credit>27535.873365367093</total_credit>    <create_time>1452887139</create_time>
     <name>Roy Colbert</name>
     <country>United States</country>
-    <expavg_credit>253.1119283578539</expavg_credit>
-    <expavg_time>1462074958.217634</expavg_time>
+    <expavg_credit>222.3185413738995</expavg_credit>
+    <expavg_time>1462358786.646622</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>376752</id>
     <cpid>93c8e4466049ec095ed49f3288766fca</cpid>
-    <total_credit>8620.548942498968</total_credit>    <create_time>1452899892</create_time>
+    <total_credit>8688.84949618153</total_credit>    <create_time>1452899892</create_time>
     <name>Chick3nman</name>
     <country>United States</country>
-    <expavg_credit>43.26963575799773</expavg_credit>
-    <expavg_time>1462129007.878241</expavg_time>
+    <expavg_credit>47.11439295906079</expavg_credit>
+    <expavg_time>1462186441.758718</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -8814,11 +8825,11 @@
 <user>
     <id>376807</id>
     <cpid>db055bf8c12f079bfa91b581748299ed</cpid>
-    <total_credit>20515.44292269874</total_credit>    <create_time>1452960493</create_time>
+    <total_credit>21341.784857890874</total_credit>    <create_time>1452960493</create_time>
     <name>Destined</name>
     <country>International</country>
-    <expavg_credit>68.58434</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>128.9412587634446</expavg_credit>
+    <expavg_time>1462210111.206892</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -8858,11 +8869,11 @@
 <user>
     <id>377185</id>
     <cpid>eb58b80aebebae30c0cb3424291e5cc7</cpid>
-    <total_credit>3998.31268634642</total_credit>    <create_time>1453264450</create_time>
+    <total_credit>3999.3271125618357</total_credit>    <create_time>1453264450</create_time>
     <name>donalale2016</name>
     <country>International</country>
-    <expavg_credit>24.508196</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>17.33466067985536</expavg_credit>
+    <expavg_time>1462225041.65299</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -9078,22 +9089,22 @@
 <user>
     <id>379993</id>
     <cpid>4349db6b0ee7174cddb83435afded978</cpid>
-    <total_credit>6462.836695246693</total_credit>    <create_time>1454532662</create_time>
+    <total_credit>6592.397154735116</total_credit>    <create_time>1454532662</create_time>
     <name>s9erys</name>
     <country>International</country>
-    <expavg_credit>61.8614</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>57.477900319315</expavg_credit>
+    <expavg_time>1462199731.143196</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>380198</id>
     <cpid>aa7a2a491a4c9401074824da31e80e6c</cpid>
-    <total_credit>219978.14065865858</total_credit>    <create_time>1454627785</create_time>
+    <total_credit>227317.5767367547</total_credit>    <create_time>1454627785</create_time>
     <name>Mxmlln</name>
     <country>United Kingdom</country>
-    <expavg_credit>3436.105120344913</expavg_credit>
-    <expavg_time>1462137081.613056</expavg_time>
+    <expavg_credit>3222.785511112409</expavg_credit>
+    <expavg_time>1462375604.479403</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -9199,11 +9210,11 @@
 <user>
     <id>381307</id>
     <cpid>55a8ddb1d407e9fa2b6df07a3ea63610</cpid>
-    <total_credit>16886.443086613093</total_credit>    <create_time>1455304717</create_time>
+    <total_credit>17394.06081650224</total_credit>    <create_time>1455304717</create_time>
     <name>phil</name>
     <country>Switzerland</country>
-    <expavg_credit>176.8541569142932</expavg_credit>
-    <expavg_time>1462070551.230991</expavg_time>
+    <expavg_credit>192.5842628527921</expavg_credit>
+    <expavg_time>1462248178.256862</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -9265,11 +9276,11 @@
 <user>
     <id>382098</id>
     <cpid>6c2c0480900248207210266d166fae9c</cpid>
-    <total_credit>17273.151280110153</total_credit>    <create_time>1455701987</create_time>
+    <total_credit>17446.018074586642</total_credit>    <create_time>1455701987</create_time>
     <name>Sohan24</name>
     <country>United States</country>
-    <expavg_credit>282.1566270473108</expavg_credit>
-    <expavg_time>1462083805.038442</expavg_time>
+    <expavg_credit>275.9329553491504</expavg_credit>
+    <expavg_time>1462158789.243738</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -9331,11 +9342,11 @@
 <user>
     <id>383593</id>
     <cpid>9e70af5104504d78490c67a3b5e54bc6</cpid>
-    <total_credit>24051.63801383019</total_credit>    <create_time>1456346765</create_time>
+    <total_credit>24103.30709974488</total_credit>    <create_time>1456346765</create_time>
     <name>mvoicu</name>
     <country>Romania</country>
-    <expavg_credit>450.2583033127965</expavg_credit>
-    <expavg_time>1462129020.166463</expavg_time>
+    <expavg_credit>446.8756573216987</expavg_credit>
+    <expavg_time>1462145598.28082</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -9408,11 +9419,11 @@
 <user>
     <id>384567</id>
     <cpid>5b9ddc09d04112f3d861a65638230e40</cpid>
-    <total_credit>94525.2972573772</total_credit>    <create_time>1456742678</create_time>
+    <total_credit>98719.84593033967</total_credit>    <create_time>1456742678</create_time>
     <name>warp</name>
     <country>None</country>
-    <expavg_credit>2093.762326812547</expavg_credit>
-    <expavg_time>1462116756.373564</expavg_time>
+    <expavg_credit>1904.854597687776</expavg_credit>
+    <expavg_time>1462377714.149121</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -9606,11 +9617,11 @@
 <user>
     <id>388395</id>
     <cpid>b2cd85a72a5629e69ea57bfb70b20c6c</cpid>
-    <total_credit>17676.39027450342</total_credit>    <create_time>1458016358</create_time>
+    <total_credit>17705.91599125377</total_credit>    <create_time>1458016358</create_time>
     <name>daers</name>
     <country>United States</country>
-    <expavg_credit>384.8694795000329</expavg_credit>
-    <expavg_time>1462082611.669986</expavg_time>
+    <expavg_credit>351.984584910248</expavg_credit>
+    <expavg_time>1462167754.055916</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -9672,11 +9683,11 @@
 <user>
     <id>389786</id>
     <cpid>d5f3b309e6af54db28235449016f7b0a</cpid>
-    <total_credit>7700.894903366429</total_credit>    <create_time>1458440545</create_time>
+    <total_credit>8470.842810179034</total_credit>    <create_time>1458440545</create_time>
     <name>OVRIHOME</name>
     <country>United States</country>
-    <expavg_credit>170.855384925977</expavg_credit>
-    <expavg_time>1462023861.202859</expavg_time>
+    <expavg_credit>180.4054138316997</expavg_credit>
+    <expavg_time>1462372124.251287</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -9892,11 +9903,11 @@
 <user>
     <id>389978</id>
     <cpid>a76b7d6ea0b8c3616a81003bb7c24534</cpid>
-    <total_credit>1574.6168212456748</total_credit>    <create_time>1458495170</create_time>
+    <total_credit>1622.3536910365663</total_credit>    <create_time>1458495170</create_time>
     <name>Bugarup</name>
     <country>Germany</country>
-    <expavg_credit>27.40412806012482</expavg_credit>
-    <expavg_time>1462062718.995986</expavg_time>
+    <expavg_credit>26.15119173671842</expavg_credit>
+    <expavg_time>1462266793.902354</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -9914,11 +9925,11 @@
 <user>
     <id>389985</id>
     <cpid>37d04a47c7e73ea910ddfa345991235a</cpid>
-    <total_credit>11640.091924984108</total_credit>    <create_time>1458496546</create_time>
+    <total_credit>13492.255382092862</total_credit>    <create_time>1458496546</create_time>
     <name>D.A.S.</name>
     <country>United States</country>
-    <expavg_credit>124.4135846903114</expavg_credit>
-    <expavg_time>1462120789.924629</expavg_time>
+    <expavg_credit>255.7531439713122</expavg_credit>
+    <expavg_time>1462344598.481874</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -10101,11 +10112,11 @@
 <user>
     <id>390377</id>
     <cpid>a0535a64ec333d995be9d211f854bc1b</cpid>
-    <total_credit>1738.2395762061933</total_credit>    <create_time>1458612917</create_time>
+    <total_credit>2445.910587657757</total_credit>    <create_time>1458612917</create_time>
     <name>jjjjoe</name>
     <country>International</country>
-    <expavg_credit>39.580552</expavg_credit>
-    <expavg_time>1461918606.578993</expavg_time>
+    <expavg_credit>89.21801404232349</expavg_credit>
+    <expavg_time>1462351361.409144</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -10288,11 +10299,11 @@
 <user>
     <id>391319</id>
     <cpid>d11b9729c9bbfc093a1f0f06f2bad3f0</cpid>
-    <total_credit>12324.972632056986</total_credit>    <create_time>1458858314</create_time>
+    <total_credit>12602.572423255171</total_credit>    <create_time>1458858314</create_time>
     <name>Phill</name>
     <country>United Kingdom</country>
-    <expavg_credit>259.7184971419273</expavg_credit>
-    <expavg_time>1462120166.751258</expavg_time>
+    <expavg_credit>260.9570213070909</expavg_credit>
+    <expavg_time>1462212351.521891</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -10310,11 +10321,11 @@
 <user>
     <id>391356</id>
     <cpid>656907c542a0d1222101637421dbb40b</cpid>
-    <total_credit>11893.302409108981</total_credit>    <create_time>1458874148</create_time>
+    <total_credit>11995.050900586511</total_credit>    <create_time>1458874148</create_time>
     <name>Summersb</name>
     <country>None</country>
-    <expavg_credit>313.0404788288848</expavg_credit>
-    <expavg_time>1462028578.849782</expavg_time>
+    <expavg_credit>259.9597266980833</expavg_credit>
+    <expavg_time>1462223420.201498</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -10409,11 +10420,11 @@
 <user>
     <id>391934</id>
     <cpid>0d7cd65eb6985bc7476cc1799712ee57</cpid>
-    <total_credit>7030.658115598419</total_credit>    <create_time>1459065249</create_time>
+    <total_credit>7564.140369122031</total_credit>    <create_time>1459065249</create_time>
     <name>genesith</name>
     <country>Korea, South</country>
-    <expavg_credit>142.5761233813508</expavg_credit>
-    <expavg_time>1462115715.109841</expavg_time>
+    <expavg_credit>165.5307268413025</expavg_credit>
+    <expavg_time>1462313036.173539</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -10442,11 +10453,11 @@
 <user>
     <id>392206</id>
     <cpid>b8cd694f088d4f1dffbb390aaeccd3a8</cpid>
-    <total_credit>9697.964768331436</total_credit>    <create_time>1459156761</create_time>
+    <total_credit>10563.989624976695</total_credit>    <create_time>1459156761</create_time>
     <name>Michael_</name>
     <country>Australia</country>
-    <expavg_credit>229.3464837897208</expavg_credit>
-    <expavg_time>1462068764.739344</expavg_time>
+    <expavg_credit>240.2798981501134</expavg_credit>
+    <expavg_time>1462362536.013484</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -10552,11 +10563,11 @@
 <user>
     <id>392936</id>
     <cpid>2aeda8e006c5508544431521fc3403a3</cpid>
-    <total_credit>10870.65056555288</total_credit>    <create_time>1459343181</create_time>
+    <total_credit>12217.315929287852</total_credit>    <create_time>1459343181</create_time>
     <name>Beakerboy</name>
     <country>United States</country>
-    <expavg_credit>357.224098436935</expavg_credit>
-    <expavg_time>1461940484.453325</expavg_time>
+    <expavg_credit>325.2113170790817</expavg_credit>
+    <expavg_time>1462375087.923696</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -10596,11 +10607,11 @@
 <user>
     <id>393231</id>
     <cpid>8dfbe1ce72a8e486af25a7afdb574060</cpid>
-    <total_credit>42063.26679158234</total_credit>    <create_time>1459417301</create_time>
+    <total_credit>43241.9515333644</total_credit>    <create_time>1459417301</create_time>
     <name>Beitmyren</name>
     <country>Norway</country>
-    <expavg_credit>1250.241489263301</expavg_credit>
-    <expavg_time>1462121743.316688</expavg_time>
+    <expavg_credit>1117.653493213334</expavg_credit>
+    <expavg_time>1462312581.58715</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -10673,22 +10684,22 @@
 <user>
     <id>394241</id>
     <cpid>b2d5d0a71d91f6a113389422c0776c76</cpid>
-    <total_credit>9000.963720702774</total_credit>    <create_time>1459716638</create_time>
+    <total_credit>10231.63603795183</total_credit>    <create_time>1459716638</create_time>
     <name>rbrahn</name>
     <country>United Kingdom</country>
-    <expavg_credit>332.2234681968058</expavg_credit>
-    <expavg_time>1462131040.072163</expavg_time>
+    <expavg_credit>369.4090826560075</expavg_credit>
+    <expavg_time>1462359722.276904</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>394243</id>
     <cpid>e527bc4ffc2cc03ed3bdf11cbe1f1968</cpid>
-    <total_credit>23786.97083735018</total_credit>    <create_time>1459717262</create_time>
+    <total_credit>26627.3412448518</total_credit>    <create_time>1459717262</create_time>
     <name>alfamate89b</name>
     <country>Hungary</country>
-    <expavg_credit>515.1125752037306</expavg_credit>
-    <expavg_time>1462137537.078093</expavg_time>
+    <expavg_credit>634.8598927526651</expavg_credit>
+    <expavg_time>1462377506.224574</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -10750,22 +10761,22 @@
 <user>
     <id>394939</id>
     <cpid>ea9d93c54b28a6adab322ba7dfb88737</cpid>
-    <total_credit>117255.83518073928</total_credit>    <create_time>1459891762</create_time>
+    <total_credit>119498.08743264074</total_credit>    <create_time>1459891762</create_time>
     <name>David Zhang</name>
     <country>United States</country>
-    <expavg_credit>3246.260709253275</expavg_credit>
-    <expavg_time>1462121711.644564</expavg_time>
+    <expavg_credit>2630.958568506879</expavg_credit>
+    <expavg_time>1462376028.886625</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>395111</id>
     <cpid>8a0536862241b490f9535c1e7898d4f5</cpid>
-    <total_credit>2272.607813438455</total_credit>    <create_time>1459950395</create_time>
+    <total_credit>3040.249533753078</total_credit>    <create_time>1459950395</create_time>
     <name>captainolm</name>
     <country>Germany</country>
-    <expavg_credit>138.5459885185762</expavg_credit>
-    <expavg_time>1462051697.731359</expavg_time>
+    <expavg_credit>174.315073478182</expavg_credit>
+    <expavg_time>1462324242.464188</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -10783,11 +10794,11 @@
 <user>
     <id>395292</id>
     <cpid>1325abb911bddd1ebf8e66c0615948e8</cpid>
-    <total_credit>6674.958899067692</total_credit>    <create_time>1460010080</create_time>
+    <total_credit>9819.196691168705</total_credit>    <create_time>1460010080</create_time>
     <name>rslinford</name>
     <country>United States</country>
-    <expavg_credit>195.1511033177748</expavg_credit>
-    <expavg_time>1461861871.66177</expavg_time>
+    <expavg_credit>397.3015834796561</expavg_credit>
+    <expavg_time>1462349092.43364</expavg_time>
     <url>plus.google.com/+ScottLinford</url>
     <has_profile>1</has_profile>
 </user>
@@ -10805,33 +10816,33 @@
 <user>
     <id>395536</id>
     <cpid>c887daaa352145ca5f653d29252f253f</cpid>
-    <total_credit>32037.87200630368</total_credit>    <create_time>1460063784</create_time>
+    <total_credit>32772.63651719607</total_credit>    <create_time>1460063784</create_time>
     <name>MCWarriorz</name>
     <country>International</country>
-    <expavg_credit>1090.890694990315</expavg_credit>
-    <expavg_time>1462007861.288051</expavg_time>
+    <expavg_credit>822.1776773760905</expavg_credit>
+    <expavg_time>1462322775.847329</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>395928</id>
     <cpid>9f8107021a0041e6f1e3281dad35edd2</cpid>
-    <total_credit>11463.621133717885</total_credit>    <create_time>1460215796</create_time>
+    <total_credit>11495.032265717802</total_credit>    <create_time>1460215796</create_time>
     <name>akbavra</name>
     <country>International</country>
-    <expavg_credit>412.9034650204013</expavg_credit>
-    <expavg_time>1462063752.621906</expavg_time>
+    <expavg_credit>334.6038870503168</expavg_credit>
+    <expavg_time>1462255297.456371</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
 <user>
     <id>395994</id>
     <cpid>5a95f32b7f396a65cdece7611e22f681</cpid>
-    <total_credit>34894.15595281402</total_credit>    <create_time>1460237645</create_time>
+    <total_credit>34999.92904151252</total_credit>    <create_time>1460237645</create_time>
     <name>D3v14n7</name>
     <country>International</country>
-    <expavg_credit>1494.965573620982</expavg_credit>
-    <expavg_time>1462127152.452409</expavg_time>
+    <expavg_credit>1268.161180749315</expavg_credit>
+    <expavg_time>1462277530.372869</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -10865,6 +10876,17 @@
     <country>Russia</country>
     <expavg_credit>0</expavg_credit>
     <expavg_time>1460606946</expavg_time>
+    <url></url>
+    <has_profile>0</has_profile>
+</user>
+<user>
+    <id>396944</id>
+    <cpid>050cf6306871aa4d70998deadd6871d3</cpid>
+    <total_credit>0</total_credit>    <create_time>1460612509</create_time>
+    <name>AsaHurst</name>
+    <country>International</country>
+    <expavg_credit>0</expavg_credit>
+    <expavg_time>1460612509</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -11036,11 +11058,11 @@
 <user>
     <id>399652</id>
     <cpid>207a8db3b0d9d9c4fabe7da6c7dfbb37</cpid>
-    <total_credit>0</total_credit>    <create_time>1461966118</create_time>
+    <total_credit>322.44816450532005</total_credit>    <create_time>1461966118</create_time>
     <name>XerXeS</name>
     <country>None</country>
-    <expavg_credit>0</expavg_credit>
-    <expavg_time>1461966118</expavg_time>
+    <expavg_credit>31.20029255155066</expavg_credit>
+    <expavg_time>1462199954.048459</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
@@ -11058,11 +11080,44 @@
 <user>
     <id>399883</id>
     <cpid>8fbd093bab90295d253a758e69225994</cpid>
-    <total_credit>0</total_credit>    <create_time>1462106160</create_time>
+    <total_credit>262.9067770856382</total_credit>    <create_time>1462106160</create_time>
     <name>kimmo</name>
     <country>Finland</country>
+    <expavg_credit>25.44295383542368</expavg_credit>
+    <expavg_time>1462281728.02834</expavg_time>
+    <url></url>
+    <has_profile>0</has_profile>
+</user>
+<user>
+    <id>399969</id>
+    <cpid>bfe5b65d8b30da2823295ecaa5e0fb44</cpid>
+    <total_credit>0</total_credit>    <create_time>1462176349</create_time>
+    <name>sibir22</name>
+    <country>International</country>
     <expavg_credit>0</expavg_credit>
-    <expavg_time>1462106160</expavg_time>
+    <expavg_time>1462176349</expavg_time>
+    <url></url>
+    <has_profile>0</has_profile>
+</user>
+<user>
+    <id>400334</id>
+    <cpid>30fac34b20d238d8b22b16b0d5c80eb0</cpid>
+    <total_credit>0</total_credit>    <create_time>1462361821</create_time>
+    <name>AKL</name>
+    <country>Malaysia</country>
+    <expavg_credit>0</expavg_credit>
+    <expavg_time>1462361821</expavg_time>
+    <url></url>
+    <has_profile>0</has_profile>
+</user>
+<user>
+    <id>400374</id>
+    <cpid>c8f05720ad02ecee460f6bb366908bb1</cpid>
+    <total_credit>0</total_credit>    <create_time>1462374937</create_time>
+    <name>Nakamoto</name>
+    <country>Switzerland</country>
+    <expavg_credit>0</expavg_credit>
+    <expavg_time>1462374937</expavg_time>
     <url></url>
     <has_profile>0</has_profile>
 </user>
