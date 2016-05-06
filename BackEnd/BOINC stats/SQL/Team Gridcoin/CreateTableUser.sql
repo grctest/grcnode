@@ -20,7 +20,6 @@ create table Asteroids_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -34,7 +33,6 @@ create table ATLAS_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -48,7 +46,6 @@ create table BitcoinUtopia_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -62,7 +59,6 @@ create table BURP_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -76,7 +72,6 @@ create table ClimatePrediction_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -90,7 +85,6 @@ create table CPDN_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -104,7 +98,6 @@ create table CSG_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -118,7 +111,6 @@ create table Collatz_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -132,7 +124,6 @@ create table Cosmology_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -146,7 +137,6 @@ create table DDM_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -160,7 +150,6 @@ create table Einstein_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -174,7 +163,6 @@ create table Enigma_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -188,7 +176,6 @@ create table FindAtHome_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -202,7 +189,6 @@ create table GPUGRID_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -216,7 +202,6 @@ create table GridcoinFinance_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -230,7 +215,6 @@ create table lattice2_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -244,7 +228,6 @@ create table LHCatHome_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -258,7 +241,6 @@ create table Leiden_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -272,7 +254,6 @@ create table MalariaControl_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -286,7 +267,6 @@ create table Milkyway_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -300,7 +280,6 @@ create table MindModeling_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -314,7 +293,6 @@ create table MooWrap_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -328,13 +306,12 @@ create table NFS_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
 
-create table NumbersFields_user (
+create table NumbersField_user (
     id                      integer         not null,
     create_time             integer,
     name                    varchar(254),
@@ -342,7 +319,6 @@ create table NumbersFields_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -356,7 +332,6 @@ create table POEM_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -370,7 +345,6 @@ create table PrimeGrid_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -384,7 +358,6 @@ create table Rosetta_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -398,7 +371,6 @@ create table SAT_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -412,7 +384,6 @@ create table SETI_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -426,7 +397,6 @@ create table Sztaki_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -440,7 +410,6 @@ create table Skynet_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -454,7 +423,6 @@ create table WCG_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -468,7 +436,6 @@ create table YAFU_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -482,7 +449,6 @@ create table YOYO_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)
@@ -496,7 +462,6 @@ create table vLHC_user (
     total_credit            double,
     expavg_credit           double,
     expavg_time             double,
-    project_mag             double,
     has_profile             smallint,
     cpid        varchar(254)         not null,
     primary key (cpid)

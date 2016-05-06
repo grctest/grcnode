@@ -1,11 +1,12 @@
 USE TeamGridcoin;
 create table TeamOverview (
+    id              integer         not null auto_increment,
     name                    varchar(254),
     country                 varchar(254),
     combined_total_credit            double,
     combined_expavg_credit           double,
     Asteroids_Mag             double     DEFAULT 0,
-    Atlas_Mag             double     DEFAULT 0,
+    ATLAS_Mag             double     DEFAULT 0,
     BU_Mag             double     DEFAULT 0,
     BURP_Mag              double     DEFAULT 0,
     CAS_Mag             double     DEFAULT 0,
@@ -44,5 +45,5 @@ create table TeamOverview (
     StakingAddress                 varchar(35),
     OP_Return                 varchar(254),
     cpid        varchar(254)         not null,
-    primary key (cpid)
+    primary key (id)
 ) engine=InnoDB;
