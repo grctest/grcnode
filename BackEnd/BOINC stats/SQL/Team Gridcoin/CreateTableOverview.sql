@@ -42,7 +42,8 @@ create table TeamOverview (
     #Above total mag was an attempt at a virtually computed column; the expression string exceeded the max length of 252 characters.
     TotalMag             double     DEFAULT 0,
     MonthlyEarnings             double     DEFAULT 0,
-    StakingAddress                 varchar(35),
+    Address                 varchar(35),
+    Synced_Till        varchar(25),
     OP_Return                 varchar(254),
     cpid        varchar(254)         not null,
     primary key (cpid)

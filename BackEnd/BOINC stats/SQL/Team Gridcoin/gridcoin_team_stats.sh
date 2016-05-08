@@ -35,4 +35,4 @@ wget "http://szdg.lpds.sztaki.hu/szdg/team_email_list.php?teamid=3502&xml=1" -O 
 wget "http://wuprop.boinc-af.org/team_email_list.php?teamid=2243&xml=1" -O ./XML/Wuprop.xml
 #Lattice's xml is malformed, don't enable until fixed. Could maybe remove the html above the xml content?
 #wget "http://boinc.umiacs.umd.edu/team_email_list.php?teamid=3567&xml=1" -O ./XML/lattice2.xml
-wget "https://grcnode.co.uk/Stats/Reports/NNReport.json" -O ./XML/NNReport.json
+wget "https://grcnode.co.uk/Stats/Reports/DailyNeuralMagnitudeReport.csv" -O ./XML/NNReport.csv
