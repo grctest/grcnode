@@ -1,19 +1,18 @@
 USE TeamGridcoin;
 create table TeamOverview (
-    id              integer         not null auto_increment,
     name                    varchar(254),
     country                 varchar(254),
-    combined_total_credit            double,
-    combined_expavg_credit           double,
     Asteroids_Mag             double     DEFAULT 0,
     ATLAS_Mag             double     DEFAULT 0,
     BU_Mag             double     DEFAULT 0,
     BURP_Mag              double     DEFAULT 0,
-    CAS_Mag             double     DEFAULT 0,
+    #CAS_Mag             double     DEFAULT 0,
     CSG_Mag             double     DEFAULT 0,
     Collatz_Mag             double     DEFAULT 0,
     Cosmology_Mag             double     DEFAULT 0,
+    CPDN_Mag             double     DEFAULT 0,
     DDM_Mag             double     DEFAULT 0,
+    Denis_Mag             double     DEFAULT 0,
     Einstein_Mag             double     DEFAULT 0,
     Enigma_Mag             double     DEFAULT 0,
     FIND_Mag             double     DEFAULT 0,
@@ -35,6 +34,7 @@ create table TeamOverview (
     Skynet_Mag             double     DEFAULT 0,
     Sztaki_Mag             double     DEFAULT 0,
     WCG_Mag             double     DEFAULT 0,
+    Wuprop_Mag             double     DEFAULT 0,
     YAFU_Mag             double     DEFAULT 0,
     YOYO_Mag             double     DEFAULT 0,
     vLHC_Mag             double     DEFAULT 0,
@@ -45,5 +45,5 @@ create table TeamOverview (
     StakingAddress                 varchar(35),
     OP_Return                 varchar(254),
     cpid        varchar(254)         not null,
-    primary key (id)
+    primary key (cpid)
 ) engine=InnoDB;

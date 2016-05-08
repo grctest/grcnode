@@ -1,12 +1,13 @@
 wget "http://asteroidsathome.net/boinc/team_email_list.php?teamid=2218&xml=1" -O ./XML/Asteroids.xml
 wget "http://atlasathome.cern.ch/team_email_list.php?teamid=1869&xml=1" -O ./XML/Atlas.xml
-wget "http://climateapps2.oerc.ox.ac.uk/cpdnboinc/team_email_list.php?teamid=10427&xml=1" -O ./XML/BBC-CPDN.xml
 wget "http://www.bitcoinutopia.net/bitcoinutopia/team_email_list.php?teamid=1888&xml=1" -O ./XML/BU.xml
 wget "http://burp.renderfarming.net/team_email_list.php?teamid=1285&xml=1" -O ./XML/BURP.xml
 wget "http://csgrid.org/csg/team_email_list.php?teamid=154&xml=1" -O ./XML/CSG.xml
 wget "http://boinc.thesonntags.com/collatz/team_email_list.php?teamid=3029&xml=1" -O ./XML/Collatz.xml
 wget "http://www.cosmologyathome.org/team_email_list.php?teamid=3637&xml=1" -O ./XML/Cosmology.xml
+wget "http://climateapps2.oerc.ox.ac.uk/cpdnboinc/team_email_list.php?teamid=10427&xml=1" -O ./XML/CPDN.xml
 wget "http://www.distributeddatamining.org/DistributedDataMining/team_email_list.php?teamid=2176&xml=1" -O ./XML/DDM.xml
+wget "http://denis.usj.es/denisathome/team_email_list.php?teamid=1825&xml=1" -O ./XML/Denis.xml
 wget "https://einstein.phys.uwm.edu/team_email_list.php?teamid=13630&xml=1" -O ./XML/Einstein.xml
 wget "http://www.enigmaathome.net/team_email_list.php?teamid=2937&xml=1" -O ./XML/Enigma.xml
 wget "http://findah.ucd.ie/team_email_list.php?teamid=2198&xml=1" -O ./XML/FindAtHome.xml
@@ -31,5 +32,7 @@ wget "http://yafu.myfirewall.org/yafu/team_email_list.php?teamid=260&xml=1" -O .
 wget "http://www.rechenkraft.net/yoyo/team_email_list.php?teamid=1475&xml=1" -O ./XML/YOYO.xml
 wget "http://lhcathome2.cern.ch/vLHCathome/team_email_list.php?teamid=2429&xml=1" -O ./XML/vLHC.xml
 wget "http://szdg.lpds.sztaki.hu/szdg/team_email_list.php?teamid=3502&xml=1" -O ./XML/Sztaki.xml
+wget "http://wuprop.boinc-af.org/team_email_list.php?teamid=2243&xml=1" -O ./XML/Wuprop.xml
 #Lattice's xml is malformed, don't enable until fixed. Could maybe remove the html above the xml content?
 #wget "http://boinc.umiacs.umd.edu/team_email_list.php?teamid=3567&xml=1" -O ./XML/lattice2.xml
+wget "https://grcnode.co.uk/Stats/Reports/NNReport.json" -O ./XML/NNReport.json

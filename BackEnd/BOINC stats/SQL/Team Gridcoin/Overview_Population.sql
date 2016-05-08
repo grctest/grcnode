@@ -1,135 +1,148 @@
 #TEMPLATE:
-#INSERT into TeamOverview (TeamOverview._Mag)
-#SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM _user))*3382.352941176
-#FROM _user;
+#UPDATE TeamOverview, _user 
+#SET _Mag = (_user.expavg_credit/(SELECT SUM(_user.expavg_credit) AS Total_ExpAvg_Credit FROM _user))*3382.352941176
+#WHERE TeamOverview.cpid = _user.cpid;
 
-#WARNING: DUE TO NOT HANDLING PRIMARY KEYS/FOREIGN KEYS, ONLY ASTEROIDS WILL LOAD!
-#This will be fixed in the next day or two. Learning SQL as I go.
+UPDATE TeamOverview, Asteroids_user 
+SET Asteroids_Mag = (Asteroids_user.expavg_credit/(SELECT SUM(Asteroids_user.expavg_credit) AS Total_ExpAvg_Credit FROM Asteroids_user))*3382.352941176
+WHERE TeamOverview.cpid = Asteroids_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.Asteroids_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM Asteroids_user))*3382.352941176
-FROM Asteroids_user;
+UPDATE TeamOverview, ATLAS_user 
+SET ATLAS_Mag = (ATLAS_user.expavg_credit/(SELECT SUM(ATLAS_user.expavg_credit) AS Total_ExpAvg_Credit FROM ATLAS_user))*3382.352941176
+WHERE TeamOverview.cpid = ATLAS_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.ATLAS_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM ATLAS_user))*3382.352941176
-FROM ATLAS_user;
+UPDATE TeamOverview, BitcoinUtopia_user 
+SET BU_Mag = (BitcoinUtopia_user.expavg_credit/(SELECT SUM(BitcoinUtopia_user.expavg_credit) AS Total_ExpAvg_Credit FROM BitcoinUtopia_user))*3382.352941176
+WHERE TeamOverview.cpid = BitcoinUtopia_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.BU_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM BitcoinUtopia_user))*3382.352941176
-FROM BitcoinUtopia_user;
+UPDATE TeamOverview, BURP_user 
+SET BURP_Mag = (BURP_user.expavg_credit/(SELECT SUM(BURP_user.expavg_credit) AS Total_ExpAvg_Credit FROM BURP_user))*3382.352941176
+WHERE TeamOverview.cpid = BURP_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.BURP_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM BURP_user))*3382.352941176
-FROM BURP_user;
+UPDATE TeamOverview, CSG_user 
+SET CSG_Mag = (CSG_user.expavg_credit/(SELECT SUM(CSG_user.expavg_credit) AS Total_ExpAvg_Credit FROM CSG_user))*3382.352941176
+WHERE TeamOverview.cpid = CSG_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.CSG_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM CSG_user))*3382.352941176
-FROM CSG_user;
+UPDATE TeamOverview, Collatz_user 
+SET Collatz_Mag = (Collatz_user.expavg_credit/(SELECT SUM(Collatz_user.expavg_credit) AS Total_ExpAvg_Credit FROM Collatz_user))*3382.352941176
+WHERE TeamOverview.cpid = Collatz_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.Collatz_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM Collatz_user))*3382.352941176
-FROM Collatz_user;
+UPDATE TeamOverview, Cosmology_user 
+SET Cosmology_Mag = (Cosmology_user.expavg_credit/(SELECT SUM(Cosmology_user.expavg_credit) AS Total_ExpAvg_Credit FROM Cosmology_user))*3382.352941176
+WHERE TeamOverview.cpid = Cosmology_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.Cosmology_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM Cosmology_user))*3382.352941176
-FROM Cosmology_user;
+UPDATE TeamOverview, CPDN_user 
+SET CPDN_Mag = (CPDN_user.expavg_credit/(SELECT SUM(CPDN_user.expavg_credit) AS Total_ExpAvg_Credit FROM CPDN_user))*3382.352941176
+WHERE TeamOverview.cpid = CPDN_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.DDM_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM DDM_user))*3382.352941176
-FROM DDM_user;
+UPDATE TeamOverview, DDM_user
+SET DDM_Mag = (DDM_user.expavg_credit/(SELECT SUM(DDM_user.expavg_credit) AS Total_ExpAvg_Credit FROM DDM_user))*3382.352941176
+WHERE TeamOverview.cpid = DDM_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.Einstein_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM Einstein_user))*3382.352941176
-FROM Einstein_user;
+UPDATE TeamOverview, Denis_user
+SET Denis_Mag = (Denis_user.expavg_credit/(SELECT SUM(Denis_user.expavg_credit) AS Total_ExpAvg_Credit FROM Denis_user))*3382.352941176
+WHERE TeamOverview.cpid = Denis_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.Enigma_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM Enigma_user))*3382.352941176
-FROM Enigma_user;
+UPDATE TeamOverview, Einstein_user
+SET Einstein_Mag = (Einstein_user.expavg_credit/(SELECT SUM(Einstein_user.expavg_credit) AS Total_ExpAvg_Credit FROM Einstein_user))*3382.352941176
+WHERE TeamOverview.cpid = Einstein_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.FIND_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM FindAtHome_user))*3382.352941176
-FROM FindAtHome_user;
+UPDATE TeamOverview, Enigma_user 
+SET Enigma_Mag = (Enigma_user.expavg_credit/(SELECT SUM(Enigma_user.expavg_credit) AS Total_ExpAvg_Credit FROM Enigma_user))*3382.352941176
+WHERE TeamOverview.cpid = Enigma_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.GPUGRID_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM GPUGRID_user))*3382.352941176
-FROM GPUGRID_user;
+UPDATE TeamOverview, FindAtHome_user 
+SET FIND_Mag = (FindAtHome_user.expavg_credit/(SELECT SUM(FindAtHome_user.expavg_credit) AS Total_ExpAvg_Credit FROM FindAtHome_user))*3382.352941176
+WHERE TeamOverview.cpid = FindAtHome_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.GRCF_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM GridcoinFinance_user))*3382.352941176
-FROM GridcoinFinance_user;
+UPDATE TeamOverview, GPUGRID_user 
+SET GPUGRID_Mag = (GPUGRID_user.expavg_credit/(SELECT SUM(GPUGRID_user.expavg_credit) AS Total_ExpAvg_Credit FROM GPUGRID_user))*3382.352941176
+WHERE TeamOverview.cpid = GPUGRID_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.LHCatHome_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM LHCatHome_user))*3382.352941176
-FROM LHCatHome_user;
+UPDATE TeamOverview, GridcoinFinance_user 
+SET GRCF_Mag = (GridcoinFinance_user.expavg_credit/(SELECT SUM(GridcoinFinance_user.expavg_credit) AS Total_ExpAvg_Credit FROM GridcoinFinance_user))*3382.352941176
+WHERE TeamOverview.cpid = GridcoinFinance_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.LeidenClassic_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM Leiden_user))*3382.352941176
-FROM Leiden_user;
+UPDATE TeamOverview, LHCatHome_user 
+SET LHCatHome_Mag = (LHCatHome_user.expavg_credit/(SELECT SUM(LHCatHome_user.expavg_credit) AS Total_ExpAvg_Credit FROM LHCatHome_user))*3382.352941176
+WHERE TeamOverview.cpid = LHCatHome_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.MalariaControl_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM MalariaControl_user))*3382.352941176
-FROM MalariaControl_user;
+UPDATE TeamOverview, Leiden_user 
+SET LeidenClassic_Mag = (Leiden_user.expavg_credit/(SELECT SUM(Leiden_user.expavg_credit) AS Total_ExpAvg_Credit FROM Leiden_user))*3382.352941176
+WHERE TeamOverview.cpid = Leiden_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.Milkyway_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM Milkyway_user))*3382.352941176
-FROM Milkyway_user;
+UPDATE TeamOverview, MalariaControl_user 
+SET MalariaControl_Mag = (MalariaControl_user.expavg_credit/(SELECT SUM(MalariaControl_user.expavg_credit) AS Total_ExpAvg_Credit FROM MalariaControl_user))*3382.352941176
+WHERE TeamOverview.cpid = MalariaControl_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.MindModeling_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM MindModeling_user))*3382.352941176
-FROM MindModeling_user;
+UPDATE TeamOverview, Milkyway_user 
+SET Milkyway_Mag = (Milkyway_user.expavg_credit/(SELECT SUM(Milkyway_user.expavg_credit) AS Total_ExpAvg_Credit FROM Milkyway_user))*3382.352941176
+WHERE TeamOverview.cpid = Milkyway_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.MooWrap_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM MooWrap_user))*3382.352941176
-FROM MooWrap_user;
+UPDATE TeamOverview, MindModeling_user 
+SET MindModeling_Mag = (MindModeling_user.expavg_credit/(SELECT SUM(MindModeling_user.expavg_credit) AS Total_ExpAvg_Credit FROM MindModeling_user))*3382.352941176
+WHERE TeamOverview.cpid = MindModeling_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.NFS_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM NFS_user))*3382.352941176
-FROM NFS_user;
+UPDATE TeamOverview, MooWrap_user 
+SET MooWrap_Mag = (MooWrap_user.expavg_credit/(SELECT SUM(MooWrap_user.expavg_credit) AS Total_ExpAvg_Credit FROM MooWrap_user))*3382.352941176
+WHERE TeamOverview.cpid = MooWrap_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.NumbersField_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM NumbersField_user))*3382.352941176
-FROM NumbersField_user;
+UPDATE TeamOverview, NFS_user 
+SET NFS_Mag = (NFS_user.expavg_credit/(SELECT SUM(NFS_user.expavg_credit) AS Total_ExpAvg_Credit FROM NFS_user))*3382.352941176
+WHERE TeamOverview.cpid = NFS_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.POEM_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM POEM_user))*3382.352941176
-FROM POEM_user;
+UPDATE TeamOverview, NumbersField_user 
+SET NumbersField_Mag = (NumbersField_user.expavg_credit/(SELECT SUM(NumbersField_user.expavg_credit) AS Total_ExpAvg_Credit FROM NumbersField_user))*3382.352941176
+WHERE TeamOverview.cpid = NumbersField_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.PrimeGrid_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM PrimeGrid_user))*3382.352941176
-FROM PrimeGrid_user;
+UPDATE TeamOverview, POEM_user 
+SET POEM_Mag = (POEM_user.expavg_credit/(SELECT SUM(POEM_user.expavg_credit) AS Total_ExpAvg_Credit FROM POEM_user))*3382.352941176
+WHERE TeamOverview.cpid = POEM_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.Rosetta_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM Rosetta_user))*3382.352941176
-FROM Rosetta_user;
+UPDATE TeamOverview, PrimeGrid_user 
+SET PrimeGrid_Mag = (PrimeGrid_user.expavg_credit/(SELECT SUM(PrimeGrid_user.expavg_credit) AS Total_ExpAvg_Credit FROM PrimeGrid_user))*3382.352941176
+WHERE TeamOverview.cpid = PrimeGrid_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.SAT_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM SAT_user))*3382.352941176
-FROM SAT_user;
+UPDATE TeamOverview, Rosetta_user 
+SET Rosetta_Mag = (Rosetta_user.expavg_credit/(SELECT SUM(Rosetta_user.expavg_credit) AS Total_ExpAvg_Credit FROM Rosetta_user))*3382.352941176
+WHERE TeamOverview.cpid = Rosetta_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.SETI_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM SETI_user))*3382.352941176
-FROM SETI_user;
+UPDATE TeamOverview, SAT_user 
+SET SAT_Mag = (SAT_user.expavg_credit/(SELECT SUM(SAT_user.expavg_credit) AS Total_ExpAvg_Credit FROM SAT_user))*3382.352941176
+WHERE TeamOverview.cpid = SAT_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.Skynet_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM Skynet_user))*3382.352941176
-FROM Skynet_user;
+UPDATE TeamOverview, SETI_user 
+SET SETI_Mag = (SETI_user.expavg_credit/(SELECT SUM(SETI_user.expavg_credit) AS Total_ExpAvg_Credit FROM SETI_user))*3382.352941176
+WHERE TeamOverview.cpid = SETI_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.Sztaki_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM Sztaki_user))*3382.352941176
-FROM Sztaki_user;
+UPDATE TeamOverview, Skynet_user 
+SET Skynet_Mag = (Skynet_user.expavg_credit/(SELECT SUM(Skynet_user.expavg_credit) AS Total_ExpAvg_Credit FROM Skynet_user))*3382.352941176
+WHERE TeamOverview.cpid = Skynet_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.WCG_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM WCG_user))*3382.352941176
-FROM WCG_user;
+UPDATE TeamOverview, Sztaki_user 
+SET Sztaki_Mag = (Sztaki_user.expavg_credit/(SELECT SUM(Sztaki_user.expavg_credit) AS Total_ExpAvg_Credit FROM Sztaki_user))*3382.352941176
+WHERE TeamOverview.cpid = Sztaki_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.YAFU_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM YAFU_user))*3382.352941176
-FROM YAFU_user;
+UPDATE TeamOverview, WCG_user 
+SET WCG_Mag = (WCG_user.expavg_credit/(SELECT SUM(WCG_user.expavg_credit) AS Total_ExpAvg_Credit FROM WCG_user))*3382.352941176
+WHERE TeamOverview.cpid = WCG_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.YOYO_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM YOYO_user))*3382.352941176
-FROM YOYO_user;
+UPDATE TeamOverview, Wuprop_user 
+SET Wuprop_Mag = (Wuprop_user.expavg_credit/(SELECT SUM(Wuprop_user.expavg_credit) AS Total_ExpAvg_Credit FROM Wuprop_user))*3382.352941176
+WHERE TeamOverview.cpid = Wuprop_user.cpid;
 
-INSERT into TeamOverview (TeamOverview.vLHC_Mag)
-SELECT (expavg_credit/(SELECT SUM(expavg_credit) AS Total_ExpAvg_Credit FROM vLHC_user))*3382.352941176
-FROM vLHC_user;
+UPDATE TeamOverview, YAFU_user 
+SET YAFU_Mag = (YAFU_user.expavg_credit/(SELECT SUM(YAFU_user.expavg_credit) AS Total_ExpAvg_Credit FROM YAFU_user))*3382.352941176
+WHERE TeamOverview.cpid = YAFU_user.cpid;
+
+UPDATE TeamOverview, YOYO_user 
+SET YOYO_Mag = (YOYO_user.expavg_credit/(SELECT SUM(YOYO_user.expavg_credit) AS Total_ExpAvg_Credit FROM YOYO_user))*3382.352941176
+WHERE TeamOverview.cpid = YOYO_user.cpid;
+
+UPDATE TeamOverview, vLHC_user 
+SET vLHC_Mag = (vLHC_user.expavg_credit/(SELECT SUM(vLHC_user.expavg_credit) AS Total_ExpAvg_Credit FROM vLHC_user))*3382.352941176
+WHERE TeamOverview.cpid = vLHC_user.cpid;
+
+#Tallying each user's total magnitude across all whitelisted projects.
+UPDATE TeamOverview
+SET TotalMag = Asteroids_Mag + ATLAS_Mag + BU_Mag + BURP_Mag + CSG_Mag + Collatz_Mag + Cosmology_Mag + CPDN_Mag + DDM_Mag + Denis_Mag + Einstein_Mag + Enigma_Mag + FIND_Mag + GPUGRID_Mag + GRCF_Mag + LHCatHome_Mag + LeidenClassic_Mag + MalariaControl_Mag + Milkyway_Mag + MindModeling_Mag + MooWrap_Mag + NFS_Mag + NumbersField_Mag + POEM_Mag + PrimeGrid_Mag + Rosetta_Mag + SAT_Mag + SETI_Mag + Skynet_Mag + Sztaki_Mag + WCG_Mag + Wuprop_Mag + YAFU_Mag + YOYO_Mag + vLHC_Mag;
