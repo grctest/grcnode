@@ -21,6 +21,7 @@ create table Asteroids_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -34,6 +35,7 @@ create table ATLAS_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -47,6 +49,7 @@ create table BitcoinUtopia_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -60,6 +63,7 @@ create table BURP_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -73,6 +77,7 @@ create table ClimatePrediction_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -86,6 +91,7 @@ create table CPDN_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -99,6 +105,7 @@ create table CSG_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -112,6 +119,7 @@ create table Collatz_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -125,6 +133,7 @@ create table Cosmology_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -138,6 +147,7 @@ create table DDM_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -151,6 +161,7 @@ create table Denis_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -164,6 +175,7 @@ create table Einstein_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -177,6 +189,7 @@ create table Enigma_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -190,6 +203,7 @@ create table FindAtHome_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -203,6 +217,7 @@ create table GPUGRID_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -216,6 +231,7 @@ create table GridcoinFinance_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -229,6 +245,7 @@ create table lattice2_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -242,6 +259,7 @@ create table LHCatHome_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -255,6 +273,7 @@ create table Leiden_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -268,6 +287,7 @@ create table MalariaControl_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -281,6 +301,7 @@ create table Milkyway_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -294,6 +315,7 @@ create table MindModeling_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -307,6 +329,7 @@ create table MooWrap_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -320,6 +343,7 @@ create table NFS_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -333,6 +357,7 @@ create table NumbersField_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -346,6 +371,7 @@ create table POEM_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -359,6 +385,7 @@ create table PrimeGrid_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -372,6 +399,7 @@ create table Rosetta_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -385,6 +413,7 @@ create table SAT_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -398,6 +427,7 @@ create table SETI_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -411,6 +441,7 @@ create table Sztaki_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -424,6 +455,7 @@ create table Skynet_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -437,6 +469,7 @@ create table WCG_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -450,6 +483,7 @@ create table Wuprop_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -463,6 +497,7 @@ create table YAFU_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -476,6 +511,7 @@ create table YOYO_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;
@@ -489,6 +525,7 @@ create table vLHC_user (
     expavg_credit           double,
     expavg_time             double,
     has_profile             smallint,
+    Address                 varchar(35),
     cpid        varchar(254)         not null,
     primary key (cpid)
 ) engine=InnoDB;

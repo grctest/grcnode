@@ -133,6 +133,17 @@
     <has_profile>0</has_profile>
 </user>
 <user>
+    <id>5060</id>
+    <cpid>5c7ca6d651690c24fa3d937f182b194f</cpid>
+    <total_credit>198741.8579003997</total_credit>    <create_time>1170009029</create_time>
+    <name>Gerardo_Bottiglieri</name>
+    <country>Italy</country>
+    <expavg_credit>0.071606</expavg_credit>
+    <expavg_time></expavg_time>
+    <url></url>
+    <has_profile>0</has_profile>
+</user>
+<user>
     <id>5065</id>
     <cpid>95fe8443245d8d8ccd0341d2a3801802</cpid>
     <total_credit>193712.89036760593</total_credit>    <create_time>1170018454</create_time>
@@ -11379,6 +11390,28 @@
     <cpid>afb2d70642bc92804fa495895574d93e</cpid>
     <total_credit>0</total_credit>    <create_time>1462274843</create_time>
     <name>donioid</name>
+    <country>International</country>
+    <expavg_credit>0</expavg_credit>
+    <expavg_time></expavg_time>
+    <url></url>
+    <has_profile>0</has_profile>
+</user>
+<user>
+    <id>329178</id>
+    <cpid>e27aaf657905bd3fedc47c5570f2ee1d</cpid>
+    <total_credit>0</total_credit>    <create_time>1462574517</create_time>
+    <name>Casey Superczynski</name>
+    <country>United States</country>
+    <expavg_credit>0</expavg_credit>
+    <expavg_time></expavg_time>
+    <url></url>
+    <has_profile>0</has_profile>
+</user>
+<user>
+    <id>329181</id>
+    <cpid>f4ca8ce4cec09d0cfaf22e81f2bd6cd0</cpid>
+    <total_credit>0</total_credit>    <create_time>1462584346</create_time>
+    <name>slawik_krupin</name>
     <country>International</country>
     <expavg_credit>0</expavg_credit>
     <expavg_time></expavg_time>
