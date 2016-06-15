@@ -1,6 +1,6 @@
 wget "http://asteroidsathome.net/boinc/team_email_list.php?teamid=2218&xml=1" -O ./XML/Asteroids.xml
 wget "http://atlasathome.cern.ch/team_email_list.php?teamid=1869&xml=1" -O ./XML/Atlas.xml
-wget "http://www.bitcoinutopia.net/bitcoinutopia/team_email_list.php?teamid=1888&xml=1" -O ./XML/BU.xml
+#wget "http://www.bitcoinutopia.net/bitcoinutopia/team_email_list.php?teamid=1888&xml=1" -O ./XML/BU.xml
 wget "http://burp.renderfarming.net/team_email_list.php?teamid=1285&xml=1" -O ./XML/BURP.xml
 wget "http://csgrid.org/csg/team_email_list.php?teamid=154&xml=1" -O ./XML/CSG.xml
 wget "http://boinc.thesonntags.com/collatz/team_email_list.php?teamid=3029&xml=1" -O ./XML/Collatz.xml

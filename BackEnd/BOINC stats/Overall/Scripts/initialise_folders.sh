@@ -29,6 +29,5 @@ mkdir NFS
 mkdir NumbersFields
 mkdir Skynet
 mkdir YOYO
-mkdir BitcoinUtopia
 mkdir SAT
 mkdir ATLAS
