@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<server_status>
+  <update_time>1462112186</update_time>
+<software_version>25897</software_version>
+  <daemon_status>
+    <daemon>
+      <host>Risingson</host>
+      <command>data-driven web pages</command>
+      <status>running</status>
+    </daemon>
+<tr><td>work generator</td><td>Ravager</td><td class="running">Running</td></tr>    <daemon>
+      <host>Ravager</host>
+      <command>upload/download server</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>Ravager</host>
+      <command>scheduler</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>Ravager</host>
+      <command>feeder</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>Ravager</host>
+      <command>transitioner</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>Ravager</host>
+      <command>file_deleter</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>Ravager</host>
+      <command>db_purge</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>Ravager</host>
+      <command>s5_validator</command>
+      <status>running</status>
+    </daemon>
+  </daemon_status>
+  <database_file_states>
+<tr><td style="text-align: center" colspan=2><b>Available workunits:</b></td></tr><tr><td style="text-align: center" colspan=2>m4_vroln72_1</td></tr><tr><td># of workunits:</td><td>91104000</td></tr><tr><td>done </td><td>30119024</td></tr><tr><td>remaining </td><td>60804375</td></tr><tr><td>in progress </td><td>180601</td></tr><tr><td>Restarts: target/avg/min</td><td>2000/661/620</td></tr><tr><td style="text-align: center" colspan=2>m4_vroln72_3</td></tr><tr><td># of workunits:</td><td>91104000</td></tr><tr><td>done </td><td>72379969</td></tr><tr><td>remaining </td><td>18724031</td></tr><tr><td>in progress </td><td>0</td></tr><tr><td>Restarts: target/avg/min</td><td>2000/1588/1565</td></tr><tr><td style="text-align: center" colspan=2>m4_vroln72_4</td></tr><tr><td># of workunits:</td><td>45552000</td></tr><tr><td>done </td><td>36007827</td></tr><tr><td>remaining </td><td>9352953</td></tr><tr><td>in progress </td><td>191220</td></tr><tr><td>Restarts: target/avg/min</td><td>1000/790/759</td></tr><tr><td style="text-align: center" colspan=2><b>Server stats</b></td></tr><tr><td>Workunits validated last hour </td><td>7020</td></tr><tr><td>CPU hours/hour<sup>1</sup> </td><td>36839.08</td></tr><tr><td>Error rate<sup>2</sup></td><td>5.2%</td></tr><tr><td>Result average turnaround time (hours)<sup>3</sup></td><td>21.5</td></tr><tr><td style="text-align: center" colspan=2>Workunit state</td></tr><tr><td>Active blocks:<sup>4</sup> </td><td>136467</td></tr><tr><td>With no results in progress<sup>5</sup></td><td>89136</td></tr><tr><td style="text-align: center" colspan=2>Server state</td></tr>    <results_ready_to_send>180098</results_ready_to_send>
+    <high_priority_results>1</high_priority_results>
+    <results_sent_last_hour>8232</results_sent_last_hour>
+    <results_in_progress>192316</results_in_progress>
+    <workunits_waiting_for_validation>0</workunits_waiting_for_validation>
+    <workunits_waiting_for_assimilation>46</workunits_waiting_for_assimilation>
+    <workunits_waiting_for_deletion>0</workunits_waiting_for_deletion>
+    <results_waiting_for_deletion>2</results_waiting_for_deletion>
+    <transitioner_backlog_hours>0.0016666666666667</transitioner_backlog_hours>
+  </database_file_states>
+</server_status>

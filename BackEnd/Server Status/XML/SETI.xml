@@ -1,0 +1,585 @@
+<server_status>
+  <update_time>1462111806</update_time>
+  <daemon_status>
+    <daemon>
+      <host>oscar</host>
+      <command>BOINC&#160;master&#160;database</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>carolyn</host>
+      <command>BOINC&#160;replica&#160;database</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>paddym</host>
+      <command>SETI@home&#160;science&#160;database</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>marvin</host>
+      <command>Astropulse&#160;science&#160;database</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>muarae1</host>
+      <command>data-driven&#160;web&#160;pages</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>scheduling&#160;server</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>scheduler&#160;process</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>download&#160;server&#160;1</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>download&#160;server&#160;2</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>bruno</host>
+      <command>upload&#160;server</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>feeder</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>bruno</host>
+      <command>file deleter 1</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>bruno</host>
+      <command>file deleter 2</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>bruno</host>
+      <command>file deleter 3</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>file deleter 4</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>file deleter 5</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>file deleter 6</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>bruno</host>
+      <command>db purge</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>transitioner 1</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>transitioner 2</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>transitioner 3</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>transitioner 4</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>transitioner 5</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>transitioner 6</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>bruno</host>
+      <command>vote monitor</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>bruno</host>
+      <command>sah validate 1</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>sah validate 9 (v8)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>sah validate 5 (v7)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>bruno</host>
+      <command>sah validate 2</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>sah validate 10 (v8)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>sah validate 6 (v7)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>bruno</host>
+      <command>sah validate 3</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>sah validate 7 (v7)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>sah validate 11 (v8)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>bruno</host>
+      <command>sah validate 4</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>sah validate 12 (v8)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>sah validate 8 (v7)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>ap validate v6</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>ap validate v7</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>ap assimilator v6</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>ap assimilator 4</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>ap assimilator 5</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>ap assimilator 6</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>ap assimilator 7</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>synergy</host>
+      <command>fix ap assimilator 1</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>sah assimilator 1</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>sah assimilator 2</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>sah assimilator 3</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>sah assimilator 4</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>sah assimilator 5 (v7)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>sah assimilator 6 (v7)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>sah assimilator 7 (v7)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>sah assimilator 8 (v7)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>sah assimilator 9 (v7)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>sah assimilator 10 (v7)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>sah assimilator 11 (v8)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>sah assimilator 12 (v8)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>sah assimilator 13 (v8)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>sah assimilator 14 (v8)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>sah assimilator 15 (v8)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>sah assimilator 16 (v8)</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>ap splitter 1</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>ap splitter 7</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>lando</host>
+      <command>ap splitter 2</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>lando</host>
+      <command>ap splitter 3</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>ap splitter 4</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>ap splitter 5</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>georgem</host>
+      <command>ap splitter 6</command>
+      <status>not running</status>
+    </daemon>
+    <daemon>
+      <host>lando</host>
+      <command>pfb splitter 0</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae1</host>
+      <command>gbt splitter 1</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>muarae1</host>
+      <command>gbt splitter 2</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>muarae1</host>
+      <command>gbt splitter 3</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>muarae1</host>
+      <command>gbt splitter 4</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>muarae1</host>
+      <command>gbt splitter 5</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>muarae1</host>
+      <command>gbt splitter 6</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>muarae1</host>
+      <command>gbt splitter 7</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>lando</host>
+      <command>pfb splitter 6</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>lando</host>
+      <command>pfb splitter 7</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>pfb splitter 10</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>pfb splitter 11</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>vader</host>
+      <command>pfb splitter 12</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>lando</host>
+      <command>pfb splitter 14</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>lando</host>
+      <command>pfb splitter 15</command>
+      <status>running</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>ntpckr (small sig) 1</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>ntpckr (small sig) 2</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>ntpckr (small sig) 3</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>ntpckr (small sig) 4</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>ntpckr (small sig) 5</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>ntpckr (small sig) 6</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>ntpckr (small sig) 7</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>ntpckr (small sig) 8</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>ntpckr (small sig) 9</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>ntpckr (small sig) 10</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>ntpckr (small sig) 11</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>ntpckr (small sig) 12</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>rfi (small sig) 1</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>rfi (small sig) 2</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>rfi (small sig) 3</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>rfi (small sig) 4</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>rfi (small sig) 5</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>rfi (small sig) 6</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>rfi (small sig) 7</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>rfi (small sig) 8</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>rfi (small sig) 9</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>rfi (small sig) 10</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>rfi (small sig) 11</command>
+      <status>disabled</status>
+    </daemon>
+    <daemon>
+      <host>muarae4</host>
+      <command>rfi (small sig) 12</command>
+      <status>disabled</status>
+    </daemon>
+  </daemon_status>
+  <database_file_states>
+    <master_queries_per_second>1519</master_queries_per_second>
+    <replica_seconds_behind_master>0</replica_seconds_behind_master>
+    <sah_results_ready_to_send>0</sah_results_ready_to_send>
+    <ap_results_ready_to_send>0</ap_results_ready_to_send>
+    <sah_v8_results_ready_to_send>0</sah_v8_results_ready_to_send>
+    <sah_current_result_creation_rate>0/sec</sah_current_result_creation_rate>
+    <ap_current_result_creation_rate>0/sec</ap_current_result_creation_rate>
+    <sah_v8_current_result_creation_rate>0/sec</sah_v8_current_result_creation_rate>
+    <sah_results_in_progress>230</sah_results_in_progress>
+    <ap_results_in_progress>13213</ap_results_in_progress>
+    <sah_v8_results_in_progress>13213</sah_v8_results_in_progress>
+    <sah_results_received_last_hour>1</sah_results_received_last_hour>
+    <ap_results_received_last_hour>155</ap_results_received_last_hour>
+    <sah_v8_results_received_last_hour>155</sah_v8_results_received_last_hour>
+    <sah_result_average_turnaround>19.32 hours</sah_result_average_turnaround>
+    <ap_result_average_turnaround>82.11 hours</ap_result_average_turnaround>
+    <sah_v8_result_average_turnaround>82.11 hours</sah_v8_result_average_turnaround>
+    <sah_results_awaiting_validation>828</sah_results_awaiting_validation>
+    <ap_results_awaiting_validation>12950</ap_results_awaiting_validation>
+    <sah_v8_results_awaiting_validation>12950</sah_v8_results_awaiting_validation>
+    <sah_workunits_waiting_for_validation>0</sah_workunits_waiting_for_validation>
+    <ap_workunits_awaiting_validation>0</ap_workunits_awaiting_validation>
+    <sah_v8_workunits_waiting_for_validation>0</sah_v8_workunits_waiting_for_validation>
+    <sah_workunits_waiting_for_assimilation>0</sah_workunits_waiting_for_assimilation>
+    <ap_workunits_waiting_for_assimilation>0</ap_workunits_waiting_for_assimilation>
+    <sah_v8_workunits_waiting_for_assimilation>0</sah_v8_workunits_waiting_for_assimilation>
+    <sah_workunits_waiting_for_deletion>0</sah_workunits_waiting_for_deletion>
+    <ap_workunits_waiting_for_deletion>0</ap_workunits_waiting_for_deletion>
+    <sah_v8_workunits_waiting_for_deletion>0</sah_v8_workunits_waiting_for_deletion>
+    <sah_results_waiting_for_deletion>0</sah_results_waiting_for_deletion>
+    <ap_results_waiting_for_deletion>0</ap_results_waiting_for_deletion>
+    <sah_v8_results_waiting_for_deletion>0</sah_v8_results_waiting_for_deletion>
+    <sah_workunits_waiting_for_purging>17</sah_workunits_waiting_for_purging>
+    <ap_workunits_waiting_for_purging>3746</ap_workunits_waiting_for_purging>
+    <sah_v8_workunits_waiting_for_purging>3746</sah_v8_workunits_waiting_for_purging>
+    <sah_results_waiting_for_purging>129</sah_results_waiting_for_purging>
+    <ap_results_waiting_for_purging>8179</ap_results_waiting_for_purging>
+    <sah_v8_results_waiting_for_purging>8179</sah_v8_results_waiting_for_purging>
+    <transitioner_backlog_hours>0.00138888888888889</transitioner_backlog_hours>
+  </database_file_states>
+  <splitters>
+    <tapes_currently_being_split>
+<note>not implemented yet</note>    </tapes_currently_being_split>
+  </splitters>
+</server_status>

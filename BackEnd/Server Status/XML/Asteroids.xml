@@ -1,64 +1,4 @@
-<<<<<<< HEAD
-#DFS = database file states
-USE BOINC;
-create table Asteroids_ServerStatus_DFS (
-    id                                  integer         not null,
-    results_ready_to_send               integer,
-    results_in_progress                 integer,
-    workunits_waiting_for_validation    integer,
-    workunits_waiting_for_assimilation  integer,
-    workunits_waiting_for_deletion      integer,
-    results_waiting_for_deletion        integer,
-    transitioner_backlog_hours          double,
-    users_with_recent_credit            integer,
-    users_with_credit                   integer,
-    users_registered_in_past_24_hours   integer,
-    hosts_with_recent_credit            integer,
-    hosts_with_credit                   integer,
-    hosts_registered_in_past_24_hours   integer,
-    current_floating_point_speed        double,
-    primary key (id)
-) engine=InnoDB;
-
-create table ATLAS_ServerStatus_DFS (
-    id                                  integer         not null,
-    results_ready_to_send               integer,
-    results_in_progress                 integer,
-    workunits_waiting_for_validation    integer,
-    workunits_waiting_for_assimilation  integer,
-    workunits_waiting_for_deletion      integer,
-    results_waiting_for_deletion        integer,
-    transitioner_backlog_hours          double,
-    users_with_recent_credit            integer,
-    users_with_credit                   integer,
-    users_registered_in_past_24_hours   integer,
-    hosts_with_recent_credit            integer,
-    hosts_with_credit                   integer,
-    hosts_registered_in_past_24_hours   integer,
-    current_floating_point_speed        double,
-    primary key (id)
-) engine=InnoDB;
-
-#DFS = database file states
-USE BOINC;
-create table Asteroids_ServerStatus_DFS (
-    id                                  integer         not null,
-    results_ready_to_send               integer,
-    results_in_progress                 integer,
-    workunits_waiting_for_validation    integer,
-    workunits_waiting_for_assimilation  integer,
-    workunits_waiting_for_deletion      integer,
-    results_waiting_for_deletion        integer,
-    transitioner_backlog_hours          double,
-    users_with_recent_credit            integer,
-    users_with_credit                   integer,
-    users_registered_in_past_24_hours   integer,
-    hosts_with_recent_credit            integer,
-    hosts_with_credit                   integer,
-    hosts_registered_in_past_24_hours   integer,
-    current_floating_point_speed        double,
-=======
-/*
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <server_status>
 <daemon_status>
   <daemon>
@@ -167,19 +107,3 @@ create table Asteroids_ServerStatus_DFS (
 </tasks_by_app>
 </database_file_states>
 </server_status>
-*/
-USE BOINC;
-create table Asteroids_ServerStatus (
-    id                      integer         not null,
-    create_time             integer,
-    name                    varchar(254),
-    country                 varchar(254),
-    total_credit            double,
-    expavg_credit           double,
-    expavg_time             double,
-    teamid                  integer,
-    has_profile             smallint,
-    cpid        varchar(254)         not null,
->>>>>>> master
-    primary key (id)
-) engine=InnoDB;
