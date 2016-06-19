@@ -22,35 +22,7 @@ $(document).ready(function(){
 	$.getJSON('/Stats/Servers/Testnet/testnet-Blocks.json', function (data) {
   	    jdenticon.update("#Testnetidenticon", data);
 	});
-
-	$.getJSON('/Stats/Servers/GER/GER-Blocks.json', function (data) {
-  	    jdenticon.update("#GERidenticon", data);
-	});
-
-	$.getJSON('/Stats/Servers/AMS/AMS-Blocks.json', function (data) {
-  	    jdenticon.update("#AMSidenticon", data);
-	});
-
-	$.getJSON('/Stats/Servers/NYC/NYC-Blocks.json', function (data) {
-  	    jdenticon.update("#NYCidenticon", data);
-	});
-
-	$.getJSON('/Stats/Servers/SF/SF-Blocks.json', function (data) {
-  	    jdenticon.update("#SFidenticon", data);
-	});
 //other identicon end
-
-	$.getJSON('/Stats/Servers/Testnet/testnet-Blocks-Sub1.json', function (data) {
-  	    jdenticon.update("#Testnetidenticon-1", data);
-	});
-
-	$.getJSON('/Stats/Servers/Testnet/testnet-Blocks-Sub2.json', function (data) {
-  	    jdenticon.update("#Testnetidenticon-2", data);
-	});
-
-	$.getJSON('/Stats/Servers/Testnet/testnet-Blocks-Sub3.json', function (data) {
-  	    jdenticon.update("#Testnetidenticon-3", data);
-	});
 
 	$.getJSON('/Stats/Servers/Testnet/testnet-Peers.json', function (data) {
 		for ( var i in data) {

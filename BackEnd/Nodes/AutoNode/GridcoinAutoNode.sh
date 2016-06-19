@@ -23,15 +23,9 @@ echo "########### Creating config"
 cd ~gridcoin
 sudo -u gridcoin mkdir .GridcoinResearch
 cd /home/gridcoin/.GridcoinResearch/
-sudo -u gridcoin wget https://grcnode.co.uk/netdata/amsterdam/snapshot.tar.gz
-
-#http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip
-#https://grcnode.co.uk/netdata/frankfurt/snapshot.tar.gz
-#https://grcnode.co.uk/netdata/amsterdam/snapshot.tar.gz
-#https://grcnode.co.uk/netdata/nyc/snapshot.tar.gz
-#https://grcnode.co.uk/netdata/sf/snapshot.tar.gz
-
-sudo -u gridcoin tar -xvf snapshot.tar.gz
+sudo -u gridcoin wget http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip
+#sudo -u gridcoin tar -xvf snapshot.tar.gz
+sudo unzip snapshot.zip
 config="gridcoinresearch.conf"
 sudo -u gridcoin touch $config
 echo "server=1" > $config
@@ -45,6 +39,7 @@ echo "addnode=gridcoin.asia" >> $config
 echo "addnode=frankfurt.grcnode.co.uk" >> $config
 echo "addnode=sf.grcnode.co.uk" >> $config
 echo "addnode=nyc.grcnode.co.uk" >> $config
+echo "addnode=japan.grcnode.co.uk" >> $config
 echo "addnode=quebec.gridcoin.co.il" >> $config
 echo "addnode=ils.gridcoin.co.il" >> $config
 echo "addnode=node.gridcoinapp.xyz" >> $config

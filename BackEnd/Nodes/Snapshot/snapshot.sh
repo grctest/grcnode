@@ -64,10 +64,11 @@ fi
 
 # Copying to public facing location (netdata)
 echo "Moving snapshot to public location"
-rm -rf /usr/share/netdata/web/snapshot.tar.gz
-\cp snapshot.tar.gz /usr/share/netdata/web/
-cd /usr/share/netdata/web/
-chown netdata:netdata snapshot.tar.gz
+scp /home/gridcoin/.GridcoinResearch/snapshot.tar.gz username@server:/destination/location/
+echo "Snapshot moved."
+
+echo "Deleting local snapshot"
+rm -rf /home/gridcoin/.GridcoinResearch/snapshot.tar.gz
 cd ~
 
 # Starting client back up!
