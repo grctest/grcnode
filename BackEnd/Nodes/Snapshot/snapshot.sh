@@ -65,7 +65,7 @@ fi
 
 # Copying to public facing location (netdata)
 echo "Moving snapshot to public location"
-scp /home/gridcoin/.GridcoinResearch/snapshot.tar.gz username@server:/destination/location/
+scp /home/gridcoin/.GridcoinResearch/snapshot.tar.gz username@server:/destination/location/snapshot.tar.gz
 echo "Snapshot moved."
 
 echo "Deleting local snapshot"
