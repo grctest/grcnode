@@ -3,7 +3,8 @@ shopt -s expand_aliases
 source ~/.bashrc
 
 #stop gridcoin client
-grc stop
+#grc stop
+sudo ps aux | grep '[g]ridcoinresearchd' | awk '{print $2}' | xargs kill
 
 # Wait 90 seconds
 sleep 60s
@@ -47,11 +48,11 @@ function snapshot {
 }
 
 # Check if gedit is running
-if pgrep "gridcoin" > /dev/null
+if pidof "gridcoinresearchd" > /dev/null
 then
 	echo "Gridcoin is still running! Waiting another 120s"
 	sleep 120s
-		if pgrep "gridcoin" > /dev/null
+		if pidof "gridcoinresearchd" > /dev/null
 		then
 			echo "Gridcoin client is still running 3 mins after shutdown. Something's wrong."
 			exit 1			
