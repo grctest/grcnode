@@ -1,6 +1,7 @@
 //Code Starts
 $(document).ready(function(){
   table.PopulatePage();
+  table.init();
 });
 //Code Ends
 var table = {
@@ -19,6 +20,11 @@ var table = {
         var Address = data[i].Address;
         var NNLocalMag = data[i].LocalMagnitude;
         var NNMag = data[i].NeuralMagnitude;
+
+        if (NNMag == 0) {
+          continue;
+        }
+
         var CPIDValidity = data[i].CPID_Valid;
         var TotalRAC = data[i].TotalRAC;
         var SyncedTil = 'Synced Til';
@@ -30,11 +36,13 @@ var table = {
         //inserting addresses into cells
         $('#' + CPID + '_Address').text(Address);
       }
+
+      $("#myTable").tablesorter( {sortList: [[3,1]]} );
     });
   //End-of-Address
   },
 
   init: function() {
-    $("#myTable").tablesorter( {sortList: [[5,1]]} );
+    $("#myTable").tablesorter( {sortList: [[3,1]]} );
   }
 };

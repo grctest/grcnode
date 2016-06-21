@@ -31,7 +31,6 @@ Not in team Gridcoin, and want team stats for your team? Just replace the team I
 | [Rosetta](http://boinc.bakerlab.org/)  | [C](https://www.ssllabs.com/ssltest/analyze.html?d=boinc.bakerlab.org) | ✓ | ✕ (no xml) | [Team stats](http://boinc.bakerlab.org/rosetta/team_email_list.php?teamid=12575&xml=1) | [Server stats](http://boinc.bakerlab.org/rah_status.php) |
 | [TheSkynet Pogs](http://pogs.theskynet.org/)  | [C](https://www.ssllabs.com/ssltest/analyze.html?d=pogs.theskynet.org) | ✓ | ✓ | [Team stats](http://pogs.theskynet.org/pogs/team_email_list.php?teamid=2020&xml=1) | [Server stats](http://pogs.theskynet.org/pogs/server_status.php?xml=1) |
 | [YOYO@Home](http://www.rechenkraft.net/yoyo/)  | [A A](https://www.ssllabs.com/ssltest/analyze.html?d=www.rechenkraft.net) | ✓ | ✓ | [Team stats](http://www.rechenkraft.net/yoyo/team_email_list.php?teamid=1475&xml=1) | [Server stats](http://www.rechenkraft.net/yoyo/server_status.php?xml=1) |
-| [Bitcoin Utopia](http://www.bitcoinutopia.net/)  | [None](https://www.ssllabs.com/ssltest/analyze.html?d=www.bitcoinutopia.net) | ✓ | ✓ | [Team stats](http://www.bitcoinutopia.net/bitcoinutopia/team_email_list.php?teamid=1888&xml=1) | [Server stats](http://www.bitcoinutopia.net/bitcoinutopia/server_status.php?xml=1) |
 | [Moowrap](http://moowrap.net/) | [A](https://www.ssllabs.com/ssltest/analyze.html?d=moowrap.net) | ✓ | ✓ | [Team stats](http://moowrap.net/team_email_list.php?teamid=2190&xml=1) | [Server stats](http://moowrap.net/server_status.php?xml=1) |
 | [SAT@Home](http://sat.isa.ru/) | [None](https://www.ssllabs.com/ssltest/analyze.html?d=sat.isa.ru) | ✓ | ✓ | [Team stats](http://sat.isa.ru/pdsat/team_email_list.php?teamid=2059&xml=1) | [Server stats](http://sat.isa.ru/pdsat/server_status.php?xml=1) |
 | [Atlas@Home (Cern)](http://atlasathome.cern.ch/) | [T](https://www.ssllabs.com/ssltest/analyze.html?d=atlasathome.cern.ch) | ✓ | ✓ | [Team stats](http://atlasathome.cern.ch/team_email_list.php?teamid=1869&xml=1) | [Server stats](http://atlasathome.cern.ch/server_status.php?xml=1) |
@@ -65,7 +64,6 @@ Not in team Gridcoin, and want team stats for your team? Just replace the team I
 |3.6M| 1.2M  |  MindModeling |
 |129M| 3.5M  |  POEM |
 |271M| 47M   |  Rosetta |
-|1.2M| 176K  |  BitcoinUtopia |
 |13M| 2.7M  |  FindAtHome |
 |472K| 48K   |  GridcoinFinance |
 |8.0M| 1.3M  |  lattice2 |
