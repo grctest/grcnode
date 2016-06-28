@@ -495,22 +495,6 @@ create table YOYO_team (
     primary key (id)
 ) engine=MyISAM;
 
-create table BitcoinUtopia_team (
-    id                      integer         not null,
-    type                      integer,
-    name                    varchar(254),
-    userid                      integer,
-    total_credit            double,
-    expavg_credit           double,
-    expavg_time             double,
-    founder_name        varchar(254),
-    create_time             integer,
-    url                     varchar(254),
-    description        varchar(254),
-    country                 varchar(254),
-    primary key (id)
-) engine=MyISAM;
-
 create table SAT_team (
     id                      integer         not null,
     type                      integer,

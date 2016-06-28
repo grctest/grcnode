@@ -8,7 +8,6 @@ du -h
 337M	./Skynet
 79M	./GPUGRID
 43M	./SAT
-8.8M	./BitcoinUtopia
 154M	./YOYO
 2.9G	./WCG
 39M	./vLHC

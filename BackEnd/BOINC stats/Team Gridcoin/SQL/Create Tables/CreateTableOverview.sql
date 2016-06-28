@@ -6,8 +6,6 @@ create table TeamOverview (
     Asteroids_Mag_NN            double     DEFAULT 0,
     ATLAS_Mag_All             double     DEFAULT 0,
     ATLAS_Mag_NN            double     DEFAULT 0,
-    BU_Mag_All             double     DEFAULT 0,
-    BU_Mag_NN            double     DEFAULT 0,
     BURP_Mag_All              double     DEFAULT 0,
     BURP_Mag_NN             double     DEFAULT 0,
     #CAS_Mag_ALL            double     DEFAULT 0,

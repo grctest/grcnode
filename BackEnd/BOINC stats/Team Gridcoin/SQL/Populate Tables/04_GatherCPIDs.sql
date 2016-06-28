@@ -12,10 +12,6 @@ SELECT ATLAS_user.cpid
 FROM ATLAS_user;
 
 INSERT IGNORE into TeamOverview (cpid)
-SELECT BitcoinUtopia_user.cpid
-FROM BitcoinUtopia_user;
-
-INSERT IGNORE into TeamOverview (cpid)
 SELECT BURP_user.cpid
 FROM BURP_user;
 

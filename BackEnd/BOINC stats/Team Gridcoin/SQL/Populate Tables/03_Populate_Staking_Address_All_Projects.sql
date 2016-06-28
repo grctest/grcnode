@@ -9,11 +9,6 @@ SET ATLAS_user.Address = NNTable.Address
 WHERE ATLAS_user.cpid = NNTable.cpid;
 
 #Import staking addresses from NNReport table into project table
-UPDATE BitcoinUtopia_user, NNTable
-SET BitcoinUtopia_user.Address = NNTable.Address
-WHERE BitcoinUtopia_user.cpid = NNTable.cpid;
-
-#Import staking addresses from NNReport table into project table
 UPDATE BURP_user, NNTable
 SET BURP_user.Address = NNTable.Address
 WHERE BURP_user.cpid = NNTable.cpid;

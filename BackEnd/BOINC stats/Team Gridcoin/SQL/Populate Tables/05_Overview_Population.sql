@@ -37,23 +37,6 @@ UPDATE TeamOverview, ATLAS_user
 SET TeamOverview.country = ATLAS_user.country
 WHERE TeamOverview.cpid = ATLAS_user.cpid;
 
-#Bitcoin utopia
-UPDATE TeamOverview, BitcoinUtopia_user 
-SET BU_Mag_All = (BitcoinUtopia_user.expavg_credit/(SELECT SUM(BitcoinUtopia_user.expavg_credit) AS Total_ExpAvg_Credit FROM BitcoinUtopia_user))*3382.352941176
-WHERE TeamOverview.cpid = BitcoinUtopia_user.cpid;
-
-UPDATE TeamOverview, BitcoinUtopia_user 
-SET BU_Mag_NN = (BitcoinUtopia_user.expavg_credit/(SELECT SUM(BitcoinUtopia_user.expavg_credit) AS Total_ExpAvg_Credit FROM BitcoinUtopia_user WHERE BitcoinUtopia_user.Address IS NOT NULL))*3382.352941176
-WHERE TeamOverview.cpid = BitcoinUtopia_user.cpid;
-
-UPDATE TeamOverview, BitcoinUtopia_user 
-SET TeamOverview.name = BitcoinUtopia_user.name
-WHERE TeamOverview.cpid = BitcoinUtopia_user.cpid;
-
-UPDATE TeamOverview, BitcoinUtopia_user 
-SET TeamOverview.country = BitcoinUtopia_user.country
-WHERE TeamOverview.cpid = BitcoinUtopia_user.cpid;
-
 #BURP
 UPDATE TeamOverview, BURP_user 
 SET BURP_Mag_All = (BURP_user.expavg_credit/(SELECT SUM(BURP_user.expavg_credit) AS Total_ExpAvg_Credit FROM BURP_user))*3382.352941176
