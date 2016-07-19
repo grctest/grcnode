@@ -34,8 +34,8 @@ Not in team Gridcoin, and want team stats for your team? Just replace the team I
 | [Moowrap](http://moowrap.net/) | [A](https://www.ssllabs.com/ssltest/analyze.html?d=moowrap.net) | ✓ | ✓ | [Team stats](http://moowrap.net/team_email_list.php?teamid=2190&xml=1) | [Server stats](http://moowrap.net/server_status.php?xml=1) |
 | [SAT@Home](http://sat.isa.ru/) | [None](https://www.ssllabs.com/ssltest/analyze.html?d=sat.isa.ru) | ✓ | ✓ | [Team stats](http://sat.isa.ru/pdsat/team_email_list.php?teamid=2059&xml=1) | [Server stats](http://sat.isa.ru/pdsat/server_status.php?xml=1) |
 | [Atlas@Home (Cern)](http://atlasathome.cern.ch/) | [T](https://www.ssllabs.com/ssltest/analyze.html?d=atlasathome.cern.ch) | ✓ | ✓ | [Team stats](http://atlasathome.cern.ch/team_email_list.php?teamid=1869&xml=1) | [Server stats](http://atlasathome.cern.ch/server_status.php?xml=1) |
-| [Stzaki](http://szdg.lpds.sztaki.hu/szdg/server_status.php?xml=1) | [ssl](#) | ? | ? | [Team stats](http://szdg.lpds.sztaki.hu/szdg/team_email_list.php?teamid=3502&xml=1) | [Server Stats](http://szdg.lpds.sztaki.hu/szdg/server_status.php?xml=1) |
-| [lattice2]() | [ssl](#) | ? | ? | [Team Stats](http://boinc.umiacs.umd.edu/team_email_list.php?teamid=3567&xml=1) | [Server Stats](http://boinc.umiacs.umd.edu/server_status.php?xml=1) |
+| [Stzaki](http://szdg.lpds.sztaki.hu/szdg/server_status.php?xml=1) | [ssl](https://www.ssllabs.com/ssltest/analyze.html?d=https://szdg.lpds.sztaki.hu/szdg/) | ? | ? | [Team stats](http://szdg.lpds.sztaki.hu/szdg/team_email_list.php?teamid=3502&xml=1) | [Server Stats](http://szdg.lpds.sztaki.hu/szdg/server_status.php?xml=1) |
+| [Wuprop](wuprop.boinc-af.org) | [ssl](https://www.ssllabs.com/ssltest/analyze.html?d=wuprop.boinc-af.org) | ? | ? | [Team Stats](#) | [Server Stats]#) |
 
 
 |host.gz file size | User.gz file size | Project |
