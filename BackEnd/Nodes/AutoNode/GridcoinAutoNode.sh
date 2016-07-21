@@ -26,6 +26,7 @@ cd /home/gridcoin/.GridcoinResearch/
 sudo -u gridcoin wget http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip
 #sudo -u gridcoin tar -xvf snapshot.tar.gz
 sudo unzip snapshot.zip
+sudo chown -R gridcoin:gridcoin /home/gridcoin/.GridcoinResearch/*
 config="gridcoinresearch.conf"
 sudo -u gridcoin touch $config
 echo "server=1" > $config
