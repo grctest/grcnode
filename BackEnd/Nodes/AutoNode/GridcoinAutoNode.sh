@@ -80,7 +80,16 @@ rm tempcron
 sed -i '2a\
 sudo -u gridcoin /usr/local/bin/gridcoinresearchd' /etc/rc.local
 
-echo "############ Add an alias for easy use"
-echo "alias grc=\"sudo -u gridcoin gridcoinresearchd -datadir=/home/gridcoin/.GridcoinResearch\"" >> ~/.bashrc  # example use: btc getinfo
+#echo "############ Add an alias for easy use"
+#echo "alias grc=\"sudo -u gridcoin gridcoinresearchd -datadir=/home/gridcoin/.GridcoinResearch\"" >> ~/.bashrc  # example use: btc getinfo
+
+## Adding the following function to ~/.bashrc allows for 'grc' to be used in bash scripts! Asliases don't work in bash scripts.
+#function grc()
+#{
+# sudo -u gridcoin gridcoinresearchd -datadir=/home/gridcoin/.GridcoinResearch "$@"
+#}
+#export -f grc
+
+
 
 reboot
