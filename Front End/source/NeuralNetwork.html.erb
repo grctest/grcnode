@@ -22,16 +22,100 @@
 			</a>
 		</div>
 	</div>
+    <!--neuralnetwork calc section-->
+    <div class="row">
+        <div class="col-xs-12" style="text-align:center;">
+            <h3>Neural Rain (Wait until table loads!)</h3>
+            <div class="col-xs-4">
+                <input type="radio" name="RainType" id="MAG_Radio" value="MAG" style="margin-right:5px;" checked="checked"><label>Neural Mag distribution</label><br/>
+            </div>
+            <div class="col-xs-4">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <label>Quantity of coins:</label>
+                    </div>
+                    <div class="col-xs-6">
+                        <input type="text" id="coins_input" name="Coins">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <label>Account:</label>
+                    </div>
+                    <div class="col-xs-6">
+                        <input type="text" id="rain_account" name="Account">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <label>Message:</label>
+                    </div>
+                    <div class="col-xs-6">
+                        <input type="text" id="rain_message" name="Message">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <label>Required confirmations:</label>
+                    </div>
+                    <div class="col-xs-6">
+                        <input type="text" id="rain_confirmations" name="Confirmations">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <label>Run script: </label>
+                    </div>
+                    <div class="col-xs-6">
+                        <form>
+                            <button onclick="table.SendMany();return false;">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <label>Command output:</label>
+                    </div>
+                    <div class="col-xs-12">
+                        1: <textarea id="SendMany1"></textarea>
+                    </div>
+                    <div class="col-xs-12">
+                        2: <textarea id="SendMany2"></textarea>
+                    </div>
+                    <div class="col-xs-12">
+                        3: <textarea id="SendMany3"></textarea>
+                    </div>
+                    <div class="col-xs-12">
+                        4: <textarea id="SendMany4"></textarea>
+                    </div>
+                    <div class="col-xs-12">
+                        5: <textarea id="SendMany5"></textarea>
+                    </div>
+                    <div class="col-xs-12">
+                        6: <textarea id="SendMany6"></textarea>
+                    </div>
+                    <div class="col-xs-12">
+                        7: <textarea id="SendMany7"></textarea>
+                    </div>
+                    <div class="col-xs-12">
+                        8: <textarea id="SendMany8"></textarea>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of neuralnetwork calc section-->
 	<div class="row" style="padding-top:25px;">
 		<div class="col-xs-12" style="text-align:center;">
 			<h3>Neural Network Leaderboard</h3>
-            <h5>Synced until: <span id="synced_until"></span></h5>
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="col-xs-12">
+        <div class="col-xs-12" id="teamstats_table">
             <table id="myTable" class="table tablesorter table-bordered table-striped table-hover">
                 <thead>
                     <tr>
@@ -63,8 +147,6 @@
                 </thead>
                 <tbody id="Table_Tbody" style="text-align:center;">
                 </tbody>
-                <tfoot id="Table_Tfoot" style="text-align:center;">
-                </tfoot>
             </table>
 		</div>
 	</div>

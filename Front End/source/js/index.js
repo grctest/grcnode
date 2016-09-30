@@ -80,7 +80,7 @@ $(document).ready(function(){
 
 	//Start of Testnet
 
-	$.getJSON('/Stats/Servers/Testnet/testnet.json', function (data) {
+	$.getJSON('/netdata/testnet/getinfo.json', function (data) {
 	  $("#Testnetconnections").text(data.connections);  
 	  $("#Testnetversion").text(data.version);  
 	  $("#Testnetblocks").text(data.blocks);
@@ -88,7 +88,7 @@ $(document).ready(function(){
 	  $("#TestnetRobohash").attr("src", data.ip);
 	});
 
-	$.getJSON('/Stats/Servers/Testnet/testnet-Blocks.json', function (data) {
+	$.getJSON('/netdata/testnet/getbestblockhash.json', function (data) {
 	  $("#Testnetbestblockhash").text(data);
 	  jdenticon.update("#Testnetidenticon", data);
 	});

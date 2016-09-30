@@ -158,32 +158,32 @@
                         -->
                 	</tr>
                 	<!-- -->
-                	<tr>
-                		<td>
-                			SF.GRCNode.co.uk
-                		</td>
-                		<td>
-                			<span id='SFblocks'></span>
-                		</td>
-                		<td>
-							<canvas id="SFidenticon" width="40" height="40" />
-                		</td>
-                		<td>
-                			<span id='SFbestblockhash'></span>
-                		</td>
-                		<td>
-                			<span id='SFconnections'></span>
-                		</td>
-                		<td>
-                			<span id='SFversion'></span>
-                		</td>
-                		<td>
-							<a href="/netdata/sf/getinfo.json">Getinfo</a><br/>
-                		</td>
+                    <tr>
+                        <td>
+                            SF.GRCNode.co.uk
+                        </td>
+                        <td>
+                            <span id='SFblocks'></span>
+                        </td>
+                        <td>
+                            <canvas id="SFidenticon" width="40" height="40" />
+                        </td>
+                        <td>
+                            <span id='SFbestblockhash'></span>
+                        </td>
+                        <td>
+                            <span id='SFconnections'></span>
+                        </td>
+                        <td>
+                            <span id='SFversion'></span>
+                        </td>
+                        <td>
+                            <a href="/netdata/sf/getinfo.json">Getinfo</a><br/>
+                        </td>
                         <!--
-                		<td>
-							<a href="/Nodes/SF/SF.html">Details</a>
-                		</td>
+                        <td>
+                            <a href="/Nodes/SF/SF.html">Details</a>
+                        </td>
                         -->
                         <td>
                             <a href="/netdata/sf/">View stats</a>
@@ -193,7 +193,8 @@
                             <a href="/netdata/sf/snapshot.tar.gz">snapshot</a>
                         </td>
                         -->
-                	</tr>
+                    </tr>
+                    <!-- -->
                 </tbody>
             </table>
 		</div>
@@ -231,11 +232,9 @@
                         <th scope="col" style="text-align:center;">
                             Getinfo output
                         </th>
-                        <!--
                         <th scope="col" style="text-align:center;">
-                            More details
+                            Netdata
                         </th>
-                        -->
                     </tr>
                 </thead>
                 <tbody id="Table_Tbody" style="text-align:center;">
@@ -258,14 +257,12 @@
                 		<td>
                 			<span id='Testnetversion'></span>
                 		</td>
-                		<td>
-							<a href="/Stats/Servers/Testnet/testnet.json">Getinfo</a><br/>
-                		</td>
-                        <!--
-                		<td>
-							<a href="/Nodes/Testnet/testnet.html">Details</a>
-                		</td>
-                        -->
+                        <td>
+                            <a href="/netdata/testnet/getinfo.json">Getinfo</a><br/>
+                        </td>
+                        <td>
+                            <a href="/netdata/testnet/">Netdata</a><br/>
+                        </td>
                 	</tr>
                 </tbody>
             </table>
@@ -648,6 +645,13 @@
 								launch_date: "" 
 							} %>
                 </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td id="tfoot_date"></td>
+                    </tr>
+                </tfoot>
             </table>
 		</div>
 	</div>
