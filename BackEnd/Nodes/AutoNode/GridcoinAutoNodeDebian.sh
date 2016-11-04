@@ -62,9 +62,11 @@ sudo apt-get -y install ntp
 /etc/init.d/ntp start
 
 echo "-=-=-=- Setting up autostart on boot -=-=-=-"
-sudo echo 'grc' | sudo tee /etc/init.d/grcboot
-sudo chmod 755 /etc/init.d/grcboot
-sudo update-rc.d grcboot defaults
+sudo echo '#!/bin/sh' | sudo tee /etc/init.d/grcboot.sh
+sudo echo 'sudo -u gridcoin gridcoinresearchd -datadir=/home/gridcoin/.GridcoinResearch/' | sudo tee -a /etc/init.d/grcboot.sh
+sudo echo 'exit 0' | sudo tee -a /etc/init.d/grcboot.sh
+sudo chmod 755 /etc/init.d/grcboot.sh
+sudo update-rc.d grcboot.sh defaults
 
 echo "-=-=-=- Add an alias -=-=-=-"
 echo "alias grc='sudo -u gridcoin gridcoinresearchd -datadir=/home/gridcoin/.GridcoinResearch/'" | sudo tee -a ~/.bashrc
