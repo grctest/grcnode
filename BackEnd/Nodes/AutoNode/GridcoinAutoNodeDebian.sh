@@ -69,4 +69,4 @@ sudo update-rc.d grcboot defaults
 echo "-=-=-=- Add an alias -=-=-=-"
 echo "alias grc='sudo -u gridcoin gridcoinresearchd -datadir=/home/gridcoin/.GridcoinResearch/'" | sudo tee -a ~/.bashrc
 
-sudo reboot
+sudo reboot +5
