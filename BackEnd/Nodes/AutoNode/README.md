@@ -10,8 +10,10 @@ It has been tested on Ubuntu Server 14.04, 16.04, 16.10 and Debian 8 (Jessie). I
 One Liner
 ---------
 Ubuntu
+
     wget https://raw.githubusercontent.com/grctest/grcnode/master/BackEnd/Nodes/AutoNode/GridcoinAutoNode.sh ; sudo bash GridcoinAutoNode.sh
-Debian    
+Debian  
+
     wget https://raw.githubusercontent.com/NeuralMiner/grcnode/master/BackEnd/Nodes/AutoNode/GridcoinAutoNodeDebian.sh ; sudo bash GridcoinAutoNodeDebian.sh
 
 You should really check out the code before running that though.
