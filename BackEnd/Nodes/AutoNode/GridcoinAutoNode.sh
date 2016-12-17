@@ -6,17 +6,17 @@ cd ~
 echo "########### Adding Google DNS"
 echo "dns-nameservers 8.8.8.8 8.8.4.4" >> /etc/network/interface
 
-# echo "########### Disabling IPv6"
-# sed -i '$anet.ipv6.conf.all.disable_ipv6 = 1' /etc/sysctl.conf
-# sed -i '$anet.ipv6.conf.default.disable_ipv6 = 1' /etc/sysctl.conf
-# sed -i '$anet.ipv6.conf.lo.disable_ipv6 = 1' /etc/sysctl.conf
-# sudo sysctl -p
-
 echo "########### Installing necessary packages"
 apt-get -y dist-upgrade
 apt-get -y update && apt-get -y upgrade; apt-get install -y --no-install-recommends apt-utils && apt-get -y install dialog && apt-get -y install software-properties-common && apt-get -y install sudo && apt-get -y install git && apt-get -y install gcc && apt-get -y install make && apt-get -y install unzip
 add-apt-repository -y ppa:gridcoin/gridcoin-daily
 apt-get -y update && apt-get -y upgrade; apt-get -y install gridcoinresearchd
+
+# echo "########### Disabling IPv6"
+# sed -i '$anet.ipv6.conf.all.disable_ipv6 = 1' /etc/sysctl.conf
+# sed -i '$anet.ipv6.conf.default.disable_ipv6 = 1' /etc/sysctl.conf
+# sed -i '$anet.ipv6.conf.lo.disable_ipv6 = 1' /etc/sysctl.conf
+# sudo sysctl -p
 
 echo "########### Creating gridcoin user"
 useradd -m gridcoin
