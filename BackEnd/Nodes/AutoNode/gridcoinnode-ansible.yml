@@ -9,6 +9,7 @@
 #
 # Ansible Playbook to install gridcoin node on clean Ubuntu 16.04.
 # Minimal ubuntu server install is needed - no other requirements.
+# Provide instance_name as extra variable.
 
 - hosts: "{{ instance_name }}"
   become: yes
@@ -45,7 +46,7 @@
         group: gridcoin
 
     - unarchive:
-        src: "http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip"
+        src: "https://spideroak.com/share/N4YFAZLQOBSXEMDP/public/d%3A/Gridcoin.Tools/Share/bootstrap.zip"
         dest: "/home/gridcoin/.GridcoinResearch/"
         remote_src: yes
         owner: gridcoin
