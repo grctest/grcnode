@@ -1,0 +1,79 @@
+# Copyright 2017 Albert Mikaelyan <tahvok dot gmail dot com>
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+# 
+# The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+#
+#
+# Ansible Playbook to install gridcoin node on clean Ubuntu 16.04.
+# Minimal ubuntu server install is needed - no other requirements.
+
+- hosts: "{{ instance_name }}"
+  become: yes
+  gather_facts: no
+  pre_tasks:
+
+    - raw: |
+        sudo apt-get update
+        sudo apt-get -y install python-simplejson aptitude
+
+    - setup:
+    
+    - apt_repository:
+        repo: ppa:gridcoin/gridcoin-stable
+
+    - apt:
+        update_cache: yes
+        upgrade: yes
+
+    - apt:
+        name: "{{ item }}"
+      with_items:
+        - "unzip"
+        - "gridcoinresearchd"
+
+    - user:
+        name: "gridcoin"
+        state: present
+
+    - file:
+        path: "/home/gridcoin/.GridcoinResearch/"
+        state: directory
+        owner: gridcoin
+        group: gridcoin
+
+    - unarchive:
+        src: "http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip"
+        dest: "/home/gridcoin/.GridcoinResearch/"
+        remote_src: yes
+        owner: gridcoin
+        group: gridcoin
+
+    - shell: "< /dev/urandom tr -dc A-Za-z0-9 | head -c64"
+      register: rpcuser
+      become: no
+      delegate_to: localhost
+
+    - shell: "< /dev/urandom tr -dc A-Za-z0-9 | head -c64"
+      register: rpcpassword
+      become: no
+      delegate_to: localhost
+   
+    - template:
+        src: "../alik3-gridcoinresearch.conf"
+        dest: "/home/gridcoin/.GridcoinResearch/gridcoinresearch.conf"
+        owner: gridcoin
+        group: gridcoin
+
+    - timezone:
+        name: UTC
+
+    - service:
+        name: systemd-timesyncd
+        state: started
+
+    - shell: gridcoinresearchd
+      become: yes
+      become_user: gridcoin

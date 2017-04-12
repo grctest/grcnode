@@ -38,3 +38,12 @@ This script:
 - Configures NTP/chrony
 - Autostart on boot (Debian)
 - Attempts to clean up after itself by removing packages after install (bootstrap, git, gcc, unzip)
+
+Ansible Playbook
+----------------
+
+Alternatively you may use the Ansible Playbook ```gridcoinnode-ansible.yml```
+
+The playbook works with Ansible 2.2+ and been tested on Ubuntu 16.04 only. It should be possible to adjust it pretty easily to other distros (make sure to open PR with the work you did ;) ).
+
+There are no requirements as it installs all Ansible/Gridcoin requirements by itself.
